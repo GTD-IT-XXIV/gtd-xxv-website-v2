@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler {
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, transform;
+}
+
+.navbar-toggler:hover {
+  background-color: #115695;
+}
+
+@media (min-width: 992px) {
+  .active {
+    position: relative;
+  }
+
+  .active::after {
+    width: 100%;
+    background: #fff;
+    height: 3px;
+    content: "";
+    display: block;
+    position: absolute;
+    clear: both;
+  }
+}
