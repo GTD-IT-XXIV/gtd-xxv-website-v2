@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <div className="home">
         <div className="navigationContainer">
-          <p>Home</p>
+          <p className="text-6xl text-red-500">Home</p>
         </div>
       </div>
     </>
