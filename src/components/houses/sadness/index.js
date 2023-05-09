@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./home.css";
+import "./sadness.css";
 
-const Home = () => {
+const Sadness = () => {
   const [visible, setVisible] = useState(false);
 
   function handleClick() {
@@ -10,18 +10,13 @@ const Home = () => {
 
   return (
     <>
-      <div className="home">
+      <div className="sadness">
         <div className="navigationContainer">
-          <p
-            className="text-6xl text-red-500"
-            style={{ fontSize: "50px", fontFamily: "InsideOut" }}
-          >
-            Home
-          </p>
+          <p className="text-6xl text-red-500">sadness</p>
         </div>
       </div>
     </>
   );
 };
 
-export default Home;
+export default Sadness;
