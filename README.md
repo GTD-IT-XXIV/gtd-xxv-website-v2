@@ -1,6 +1,6 @@
 Initialize the repo:
-1. git clone https://github.com/GTD-IT-XXIV/gtd-xxv-website.git
-2. go to cloned directory (gtd-xxv-website)
+1. git clone https://github.com/GTD-IT-XXIV/gtd-xxv-website-v2.git
+2. go to cloned directory (gtd-xxv-website-v2)
 3. type npm install
 4. type npm run
 
