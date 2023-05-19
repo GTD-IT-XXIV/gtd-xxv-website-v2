@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "./anger.css";
+import House from "../House";
+import houses from "../houses";
 
 const Anger = () => {
   const [visible, setVisible] = useState(false);
@@ -9,13 +10,7 @@ const Anger = () => {
   }
 
   return (
-    <>
-      <div className="anger">
-        <div className="navigationContainer">
-          <p className="text-6xl text-red-500">Anger</p>
-        </div>
-      </div>
-    </>
+    <House house={ houses.anger } />
   );
 };
 
