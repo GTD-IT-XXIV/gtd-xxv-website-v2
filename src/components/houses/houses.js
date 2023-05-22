@@ -1,49 +1,89 @@
-import AngerImg from "./img/anger.png";
-import SadnessImg from "./img/sadness.png";
-import DisgustImg from "./img/disgust.png";
-import FearImg from "./img/fear.png";
+import angerImg from "./img/anger.png";
+import sadnessImg from "./img/sadness.png";
+import disgustImg from "./img/disgust.png";
+import fearImg from "./img/fear.png";
 
 const anger = {
   "name": "Anger",
-  "background": "linear-gradient(180deg, #8F181C 0%, #FB5A44 48.44%, #FB8144 97.4%)",
+  "twColorStops": ["from-[#8F181C]", "via-[#FB5A44]", "to-[#FB8144]"],
   "card": {
     "label": "id card",
-    "details": ["detail 1", "detail 2", "detail 3", "detail 4"],
-    "background": "radial-gradient(50% 50% at 50% 50%, #E93622 0%, #8E0000 96.35%)",
-    "image": AngerImg,
+    "details": [
+      "Character details #1",
+      "Character details #2",
+      "Character details #3",
+      "Character details #4"
+    ],
+    "twBackground": "bg-[radial-gradient(50%_50%_at_50%_50%,#E93622_0%,#8E0000_96.35%)]",
+    "image": angerImg,
+  },
+  "dresscode": {
+    1: "Anger T-Shirt 1",
+    2: "Anger T-Shirt 2",
+    3: "Anger T-Shirt 3",
   },
 };
 
 const sadness = {
   "name": "Sadness",
-  "background": "linear-gradient(180deg, #091F5F 0%, #6BC9F5 48.44%, #7DACBB 97.4%)",
+  "twColorStops": ["from-[#091F5F]", "via-[#6BC9F5]", "to-[#7DACBB]"],
   "card": {
     "label": "id card",
-    "details": ["detail 1", "detail 2", "detail 3", "detail 4"],
-    "background": "radial-gradient(50% 50% at 50% 50%, #72CFEF 0%, #2D4685 96.35%)",
-    "image": SadnessImg,
+    "details": [
+      "Character details #1",
+      "Character details #2",
+      "Character details #3",
+      "Character details #4"
+    ],
+    "twBackground": `bg-[radial-gradient(50%_50%_at_50%_50%,#72CFEF_0%,#2D4685_96.35%)]`,
+    "image": sadnessImg,
+  },
+  "dresscode": {
+    1: "Sadness T-Shirt 1",
+    2: "Sadness T-Shirt 2",
+    3: "Sadness T-Shirt 3",
   },
 };
 
 const disgust = {
   "name": "Disgust",
-  "background": "linear-gradient(180deg, #2C702E 0%, #62AF35 25.27%, #E5E59A 76.22%)",
+  "twColorStops": ["from-[#2C702E]", "via-[#62AF35]", "to-[#E5E59A]"],
   "card": {
     "label": "id card",
-    "details": ["detail 1", "detail 2", "detail 3", "detail 4"],
-    "background": "radial-gradient(50% 50% at 50% 50%, #E3EA9B 0%, #20610B 96.35%)",
-    "image": DisgustImg,
+    "details": [
+      "Character details #1",
+      "Character details #2",
+      "Character details #3",
+      "Character details #4"
+    ],
+    "twBackground": `bg-[radial-gradient(50%_50%_at_50%_50%,#E3EA9B_0%,#20610B_96.35%)]`,
+    "image": disgustImg,
+  },
+  "dresscode": {
+    1: "Disgust T-Shirt 1",
+    2: "Disgust T-Shirt 2",
+    3: "Disgust T-Shirt 3",
   },
 };
 
 const fear = {
   "name": "Fear",
-  "background": "linear-gradient(180deg, #5E3781 0%, #A484B9 25.27%, #DDB9E3 76.22%)",
+  "twColorStops": ["from-[#5E3781]", "via-[#A484B9]", "to-[#DDB9E3]"],
   "card": {
     "label": "id card",
-    "details": ["detail 1", "detail 2", "detail 3", "detail 4"],
-    "background": "radial-gradient(50% 50% at 50% 50%, #DEC4E0 0%, #5F2D8B 96.35%)",
-    "image": FearImg,
+    "details": [
+      "Character details #1",
+      "Character details #2",
+      "Character details #3",
+      "Character details #4"
+    ],
+    "twBackground": `bg-[radial-gradient(50%_50%_at_50%_50%,#DEC4E0_0%,#5F2D8B_96.35%)]`,
+    "image": fearImg,
+  },
+  "dresscode": {
+    1: "Fear T-Shirt 1",
+    2: "Fear T-Shirt 2",
+    3: "Fear T-Shirt 3",
   },
 };
 
