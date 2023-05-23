@@ -13,25 +13,25 @@ const HouseCard = ({ house }) => {
         src={ CardBg }
         alt="GTD logo as card background"
       />
-      <div className="flex flex-col items-center">
+      <section className="flex flex-col items-center">
         <h2 className="text-2xl sm:text-3xl md:text-5xl mb-2 sm:mb-3">
           { house.card.label }
         </h2>
         <img
-          className="w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[200px] 
-                     md:h-[200px] max-w-[200px] max-h-[200px]"
+          className="-z-10 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px]
+                     md:w-[200px] md:h-[200px] max-w-[200px] max-h-[200px]"
           src={ house.card.image }
           alt={ house.card.alt }
         />
-      </div>
-      <dl className="
-        flex flex-col grow justify-center mt-[40px] sm:mt-[50px] md:mt-[64px]
-        font-['Lato-Regular'] font-semibold italic text-base sm:text-xl
-        md:text-2xl
+      </section>
+      <ol className="
+        z-0 flex flex-col grow justify-center mt-[40px] sm:mt-[50px]
+        md:mt-[64px] font-['Lato-Regular'] font-semibold italic text-base
+        sm:text-xl md:text-2xl
       ">
         { house.card.details.map((entry, id) => 
-          <dt key={ id }>{ entry }</dt>) }
-      </dl>
+          <li key={ id }>{ entry }</li>) }
+      </ol>
     </section>
   )
 };
