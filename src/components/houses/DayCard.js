@@ -3,15 +3,28 @@ import DayModal from "./DayModal";
 
 const DayCard = ({ house, day }) => {
   const dialogRef = useRef(null);
+  const timing = { duration: 150 };
 
   const handleOpen = () => {
     const dialog = dialogRef.current;
+    const fadeIn = [
+      { opacity: 0 },
+      { opacity: 1 },
+    ];
+
     dialog.showModal();
+    dialog.animate(fadeIn, timing);
   };
 
   const handleClose = () => {
     const dialog = dialogRef.current;
-    dialog.close();
+    const fadeOut = [
+      { opacity: 1 },
+      { opacity: 0 },
+    ];
+
+    dialog.animate(fadeOut, timing);
+    setTimeout(() => dialog.close(), timing.duration);
   }
   
   return (
