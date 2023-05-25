@@ -1,3 +1,13 @@
 .home {
   flex: 1;
 }
+
+.screen-bg {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 65%, rgba(137,132,157,1) 100%);
+}
+
+.chair-bg {
+    background: rgb(111,15,43);
+    background: linear-gradient(90deg, rgba(111,15,43,1) 0%, rgba(21,1,7,1) 100%);
+}
