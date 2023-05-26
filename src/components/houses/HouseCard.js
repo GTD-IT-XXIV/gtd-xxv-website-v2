@@ -5,7 +5,7 @@ const HouseCard = ({ house }) => {
     <section className={
       `${house.card.twBackground} min-w-[335px] md:w-[700px] md:h-[400px]
        rounded-[25px] drop-shadow-[10px_15px_10px_rgba(0,0,0,0.25)] relative
-       flex justify-between gap-x-5 sm:gap-x-14 md:gap-x-20 px-[2rem]
+       flex justify-between gap-x-2 sm:gap-x-6 md:gap-x-20 px-[2rem]
        py-[1.5rem] sm:px-12 sm:py-10 md:px-16 md:py-14`
     }>
       <img

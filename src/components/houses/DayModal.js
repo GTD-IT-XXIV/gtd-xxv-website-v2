@@ -2,13 +2,15 @@ import { forwardRef } from "react";
 import CloseIcon from '@mui/icons-material/Close';
 
 const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
+  const twAlign = "w-full h-full flex items-center justify-center"
+
   return (
     <dialog 
       ref={ ref } align="center"
       aria-label={ `${ house.name } OG - ${ day.card.title }` }
-      // gtw cara align center horizontally & vertically dialog
-      // element
-      className="backdrop:bg-black/75 mx-auto my-10 bg-transparent"
+      className={
+        `backdrop:bg-black/75 ${ visible && twAlign } mx-auto bg-transparent`
+      }
     >
       <div className={
         `${ day.popup.twBackground } sm:w-[480px] sm:h-[600px] rounded-[25px]

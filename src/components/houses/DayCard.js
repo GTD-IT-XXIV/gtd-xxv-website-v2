@@ -1,11 +1,13 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import DayModal from "./DayModal";
 
 const DayCard = ({ house, day }) => {
   const dialogRef = useRef(null);
+  const [visible, setVisible] = useState(false);
   const timing = { duration: 150 };
 
   const handleOpen = () => {
+    setVisible(true);
     const dialog = dialogRef.current;
     const fadeIn = [
       { opacity: 0 },
@@ -22,15 +24,18 @@ const DayCard = ({ house, day }) => {
       { opacity: 1 },
       { opacity: 0 },
     ];
-
+    
     dialog.animate(fadeOut, timing);
-    setTimeout(() => dialog.close(), timing.duration);
+    setTimeout(() => {
+      dialog.close();
+      setVisible(false);
+    }, timing.duration);
   }
   
   return (
     <>
       <DayModal house={ house } day={ day } onClick={ handleClose } 
-                ref={ dialogRef } />
+                visible={ visible } ref={ dialogRef } />
       <button
         aria-label={ day.card.title }
         className="w-full sm:h-[160px] md:h-[254px] lg:h-[267px] flex grow
