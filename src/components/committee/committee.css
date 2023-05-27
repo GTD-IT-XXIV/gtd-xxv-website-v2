@@ -1,3 +1,9 @@
 .committee {
-  flex: 1;
+	flex: 1;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, #190F3E 8.13%, #2E2059 28.23%, #7E4081 100%);
 }
