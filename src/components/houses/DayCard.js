@@ -1,89 +1,129 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState, Fragment } from "react";
 import DayModal from "./DayModal";
+import overlay from "./img/overlay.svg";
+
+const timing = { duration: 150 };
 
 const DayCard = ({ house, day }) => {
   const dialogRef = useRef(null);
   const [visible, setVisible] = useState(false);
-  const timing = { duration: 150 };
+  const [available, setAvailable] = useState(false);
 
   const handleOpen = () => {
-    setVisible(true);
-    const dialog = dialogRef.current;
-    const fadeIn = [
-      { opacity: 0 },
-      { opacity: 1 },
-    ];
+    if (available) {
+      setVisible(true);
+      const dialog = dialogRef.current;
+      const fadeIn = [{ opacity: 0 }, { opacity: 1 }];
 
-    dialog.showModal();
-    dialog.animate(fadeIn, timing);
+      dialog.showModal();
+      dialog.animate(fadeIn, timing);
+    }
   };
 
   const handleClose = () => {
     const dialog = dialogRef.current;
-    const fadeOut = [
-      { opacity: 1 },
-      { opacity: 0 },
-    ];
-    
+    const fadeOut = [{ opacity: 1 }, { opacity: 0 }];
+
     dialog.animate(fadeOut, timing);
     setTimeout(() => {
       dialog.close();
       setVisible(false);
     }, timing.duration);
-  }
-  
+  };
+
+  useEffect(() => {
+    let releaseDate = new Date(`${day.card.date.datetime}T00:00+08:00`);
+    console.log(releaseDate);
+    releaseDate.setUTCHours(releaseDate.getUTCHours() - 6);
+
+    if (Date.now() >= releaseDate.valueOf()) {
+      setAvailable(true);
+    }
+  }, [day]);
+
   return (
     <>
-      <DayModal house={ house } day={ day } onClick={ handleClose } 
-                visible={ visible } ref={ dialogRef } />
+      <DayModal
+        house={house}
+        day={day}
+        onClick={handleClose}
+        visible={visible}
+        ref={dialogRef}
+      />
       <button
-        aria-label={ day.card.title }
-        className="w-full sm:h-[160px] md:h-[254px] lg:h-[267px] flex grow
-                   relative items-center drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
-        onClick={ handleOpen }
+        aria-label={day.card.title}
+        className={`relative flex w-full grow items-center font-['InsideOut']
+                    drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] sm:h-[160px]
+                    md:h-[254px] lg:h-[267px]`}
+        onClick={handleOpen}
       >
         <img
-          className="absolute -z-30"
-          src={ day.card.background }
+          className="absolute -z-30 w-full"
+          src={day.card.background}
           alt="Card graphics and background"
         />
-        <div className="
-          flex grow relative items-center px-3 md:px-6 gap-x-6 md:gap-x-12
-          font-['InsideOut']
-        ">
-          <h2 className={
-            `w-[38%] text-white ${ day.card.twBorder }
-             [text-shadow:_0_4px_4px_rgb(0,0,0,40%)] text-4xl sm:text-5xl
-             md:text-8xl text-center`
-          }>
-            { day.card.title }
-          </h2>
-          <div className="w-[62%] flex flex-col translate-y-2">
-            <div className={
-              `relative -z-10 text-transparent text-4xl sm:text-5xl md:text-8xl
-               text-center whitespace-nowrap ${ day.card.label.twRotate }`
-            }>
-              <p className={
-                `bg-clip-text ${ day.card.label.twBackground }
-                 ${ day.card.twBorder } m-0 p-0`
-              }>
-                { day.card.label.text }
+        {!available && (
+          <>
+            <img
+              className="absolute -z-20 w-full"
+              src={overlay}
+              alt="Card unavailable overlay"
+            />
+            <div
+              className="absolute right-0 z-20 flex w-[62%] rotate-[-9.19deg]
+                         items-center justify-center text-3xl text-white
+                         sm:text-5xl md:text-[5rem]"
+            >
+              <p className="m-0 p-0 [-webkit-text-stroke:_1px_#86371E]">
+                Coming Soon
               </p>
-              {/* dipisah shadownya gr2 kalo digabung, shadownya jadi 
-                  di atas textnya */}
-              <span className={
-                `absolute -z-20 inset-0 ${ day.card.label.twShadow } m-0 p-0`
-              }>
-                { day.card.label.text }
+              <span className="absolute inset-0 z-10 [text-shadow:_3px_3px_0_#86371E]">
+                Coming Soon
               </span>
             </div>
-            <p className="z-0 flex justify-center m-0 p-0">
-              <time dateTime={ day.card.date.datetime } className={
-                `text-center text-2xl sm:text-3xl md:text-5xl text-white
-                 first-line:[text-shadow:_0_4px_4px_rgba(0,0,0,0.25)]
-                 -translate-y-5 first-line:${ day.card.date.twRotate }`
-              }>
-                { day.card.date.text }
+          </>
+        )}
+        <div
+          className={`${
+            !available && "brightness-[30%]"
+          } relative flex grow items-center`}
+        >
+          <h2
+            className={`w-[38%] text-white ${day.card.twBorder} m-0
+                        whitespace-nowrap p-0 px-4 text-center text-3xl
+                        [text-shadow:_0_4px_4px_rgb(0,0,0,40%)] sm:text-5xl
+                        md:text-[5rem]`}
+          >
+            {day.card.title}
+          </h2>
+          <div className="flex grow translate-y-2 flex-col gap-y-1 px-4">
+            <div
+              className={`relative -z-10 whitespace-nowrap text-center text-3xl
+                          text-transparent sm:text-5xl md:text-[5rem]
+                          ${day.card.label.twRotate}`}
+            >
+              <p
+                className={`bg-clip-text ${day.card.label.twBackground}
+                            ${day.card.twBorder} m-0 p-0`}
+              >
+                {day.card.label.text}
+              </p>
+              {/* dipisah shadownya gr2 kalo digabung, shadownya 
+                  jadi di atas textnya */}
+              <span
+                className={`absolute inset-0 -z-20 ${day.card.label.twShadow}`}
+              >
+                {day.card.label.text}
+              </span>
+            </div>
+            <p className="z-0 m-0 flex justify-center p-0">
+              <time
+                dateTime={day.card.date.datetime}
+                className={`-translate-y-5 text-center text-lg text-white
+                            first-line:[text-shadow:_0_4px_4px_rgba(0,0,0,0.25)]
+                            sm:text-3xl md:text-5xl ${day.card.date.twRotate}`}
+              >
+                {day.card.date.text}
               </time>
             </p>
           </div>
