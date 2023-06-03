@@ -27,7 +27,7 @@ const HouseCard = ({ house }) => {
       </section>
       <ol
         className="z-0 mt-[40px] flex grow flex-col justify-center
-                   font-['Lato-Regular'] text-base font-semibold italic
+                   font-['Lato-Regular'] text-sm font-semibold italic
                    sm:mt-[50px] sm:text-xl  md:mt-[64px] md:text-2xl"
       >
         {house.card.details.map((entry, id) => (
