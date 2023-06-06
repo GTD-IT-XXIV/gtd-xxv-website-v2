@@ -19,8 +19,8 @@ const HouseCard = ({ house }) => {
           {house.card.label}
         </h2>
         <img
-          className="-z-10 h-[100px] max-h-[200px] w-[100px] max-w-[200px]
-                     sm:h-[150px] sm:w-[150px] md:h-[200px] md:w-[200px]"
+          className="-z-10 aspect-square w-[100px] max-w-[200px] sm:w-[150px]
+                     md:w-[200px]"
           src={house.card.image}
           alt={house.card.alt}
         />
