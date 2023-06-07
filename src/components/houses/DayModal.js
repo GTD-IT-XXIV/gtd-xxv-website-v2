@@ -24,18 +24,18 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
                      bg-[#190F3E] px-[0.75rem] py-2 text-base sm:h-[52px]
                        sm:px-[30px] sm:text-lg"
           >
-            <h3 className="m-0 p-0 text-base sm:text-lg">
+            <h3 className="my-0 ms-[0.5rem] p-0 text-base sm:ms-0 sm:text-lg">
               {house.name} OG - {day.card.title}
             </h3>
             <button aria-label="Close" onClick={onClick}>
-              {/* x-mark icon from heroicons.com */}
               <svg
+                // x-mark icon from heroicons.com
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="h-6 w-6"
+                className="me-[0.5rem] h-6 w-6 sm:me-0"
               >
                 <path
                   strokeLinecap="round"
@@ -103,6 +103,7 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
                   className="mb-[0.75rem] text-lg text-white no-underline
                              sm:mb-6 sm:text-2xl"
                   href={day.popup.subOGLink}
+                  // open in new page or not?
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -16,7 +16,8 @@ const days = [
       },
       date: {
         text: "6 Aug",
-        datetime: "2023-08-06",
+        // datetime: "2023-08-06",
+        datetime: "2023-06-07", // demo
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
