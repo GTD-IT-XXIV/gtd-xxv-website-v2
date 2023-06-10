@@ -1,3 +1,9 @@
-.leaderboard {
-  flex: 1;
+@import url(../../index.css);
+
+.container{
+  font-family: InsideOut;
+}
+h1{
+  text-shadow: 2px 2px 0px #C13E3E; 
+  -webkit-text-stroke: 1px #C13E3E;
 }
