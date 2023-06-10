@@ -1,5 +1,7 @@
 .home {
   flex: 1;
+  background: rgb(25,15,62);
+    background: linear-gradient(180deg, rgba(25,15,62,1) 0%, rgba(126,64,129,1) 50%, rgba(25,15,62,1) 100%);
 }
 
 .screen-bg {
@@ -10,4 +12,8 @@
 .chair-bg {
     background: rgb(111,15,43);
     background: linear-gradient(90deg, rgba(111,15,43,1) 0%, rgba(21,1,7,1) 100%);
+}
+
+.opacity-trans {
+    transition: opacity 0.2s ease;
 }
