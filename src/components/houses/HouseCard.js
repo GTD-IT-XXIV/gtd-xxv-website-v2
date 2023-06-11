@@ -3,11 +3,12 @@ import CardBg from "./img/card_bg.png";
 const HouseCard = ({ house }) => {
   return (
     <section
-      className={`${house.card.twBackground} relative flex min-w-[335px] 
-                  justify-between gap-x-2 rounded-[25px] px-[2rem] py-[1.5rem]
-                  drop-shadow-[10px_15px_10px_rgba(0,0,0,0.25)] sm:gap-x-6
-                  sm:px-12 sm:py-10 md:h-[400px] md:w-[700px] md:gap-x-20
-                  md:px-16 md:py-14`}
+      className={`${house.card.twBackground} relative flex aspect-[7/4] 
+                  min-w-[335px] max-w-[700px] items-center justify-start
+                  gap-x-5 rounded-[25px] py-[1.5rem]
+                  ps-[2rem] drop-shadow-[10px_15px_10px_rgba(0,0,0,0.25)]
+                  sm:gap-x-10 sm:py-10 sm:ps-11 md:gap-x-20 md:py-14
+                  md:ps-16`}
     >
       <img
         className="max-w-2/3 absolute right-0 top-0 h-5/6 rounded-[25px]"
@@ -19,21 +20,30 @@ const HouseCard = ({ house }) => {
           {house.card.label}
         </h2>
         <img
-          className="-z-10 aspect-square w-[100px] max-w-[200px] sm:w-[150px]
-                     md:w-[200px]"
+          className="-z-10 aspect-square w-[100px] sm:w-[150px] md:w-[200px]"
           src={house.card.image}
           alt={house.card.alt}
         />
       </section>
-      <ol
-        className="z-0 mt-[40px] flex grow flex-col justify-center
-                   font-['Lato-Regular'] text-sm font-semibold italic
-                   sm:mt-[50px] sm:text-xl  md:mt-[64px] md:text-2xl"
-      >
-        {house.card.details.map((entry, id) => (
-          <li key={id}>{entry}</li>
-        ))}
-      </ol>
+      <section className="flex flex-col">
+        <div className="invisible mb-2 text-2xl sm:mb-3 sm:text-3xl md:text-5xl">
+          I
+        </div>
+        <div className="flex h-[100px] flex-col justify-center sm:h-[150px] md:h-[200px]">
+          <ol
+            className="z-0 m-0 max-h-[100px] overflow-scroll pe-[2rem] ps-0
+                       font-['Lato-Regular'] text-sm font-semibold italic
+                       sm:max-h-[150px] sm:pe-11 sm:text-xl md:max-h-[200px]
+                       md:pe-16 md:text-2xl"
+          >
+            {house.card.details.map((entry, id) => (
+              <li key={id} className="me-2">
+                {entry}
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
     </section>
   );
 };

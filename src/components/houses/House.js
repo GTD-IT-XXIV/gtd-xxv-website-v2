@@ -11,15 +11,15 @@ const House = ({ house }) => {
                   sm:gap-y-16 sm:py-16 md:gap-y-20 md:py-20`}
     >
       <div
-        className="mx-3 flex grow flex-col items-center gap-y-8
-                   font-['InsideOut'] text-white sm:gap-y-10"
+        className="mx-[1.25rem] flex grow flex-col items-center gap-y-8 font-['InsideOut']
+                   text-white sm:mx-10 sm:gap-y-10 md:mx-20"
       >
         <h1 className="mt-5 text-4xl sm:text-5xl md:text-7xl">{house.name}</h1>
         <HouseCard house={house} />
       </div>
       <div
-        className="mx-3 flex grow flex-col items-center gap-y-4 sm:w-[470px]
-                   sm:gap-y-8 md:w-[745px] lg:w-[784px]"
+        className="mx-5 flex grow flex-col items-center gap-y-4
+                   sm:w-[470px] sm:gap-y-8 md:w-[745px] lg:w-[784px]"
       >
         {days.map((day, i) => (
           <DayCard key={i} house={house} day={day} />
