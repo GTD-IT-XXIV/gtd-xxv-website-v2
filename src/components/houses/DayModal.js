@@ -14,17 +14,17 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
     >
       {visible && (
         <div
-          className={`${day.popup.twBackground} flex flex-col items-center
-                      rounded-[25px] font-['InsideOut'] text-white
-                      sm:h-[600px] sm:w-[480px]`}
+          className={`${day.popup.twBackground} flex aspect-[4/5] w-10/12 max-w-xs
+                      flex-col items-center rounded-[25px] pb-[0.75rem]
+                      font-['InsideOut'] text-white sm:w-9/12 sm:max-w-md sm:pb-5
+                      md:max-w-lg lg:max-w-xl`}
           onClick={(e) => e.stopPropagation()}
         >
           <header
             className="flex w-full items-center justify-between rounded-t-[25px]
-                     bg-[#190F3E] px-[0.75rem] py-2 text-base sm:h-[52px]
-                       sm:px-[30px] sm:text-lg"
+                     bg-[#190F3E] px-[0.75rem] py-2 sm:h-[52px] sm:px-[30px]"
           >
-            <h3 className="my-0 ms-[0.5rem] p-0 text-base sm:ms-0 sm:text-lg">
+            <h3 className="my-0 ms-[0.5rem] text-base sm:ms-0 sm:text-xl md:text-2xl">
               {house.name} OG - {day.card.title}
             </h3>
             <button aria-label="Close" onClick={onClick}>
@@ -46,72 +46,73 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
             </button>
           </header>
           <iframe
-            className="mx-[2rem] mb-[0.5rem] mt-[1rem] h-[185px] w-[230px]
-                       sm:mb-4 sm:mt-9 sm:h-[246px] sm:w-[328px]"
+            className="mx-[2rem] mb-[0.75rem] mt-[1rem] aspect-[4/3]
+                       w-9/12 sm:mb-4 sm:mt-9"
             src={day.popup.video}
             title="YouTube video player"
             allowFullScreen
           />
-          <dl
-            className="relative mb-4 flex w-full items-center justify-center
-                       gap-6 sm:gap-12"
-          >
-            <div className="ps-2s flex w-1/2 flex-col items-end md:ps-6">
-              <dt
-                className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
-                           font-normal sm:mt-6 sm:text-base"
-              >
-                location
-              </dt>
-              <dd className="m-0 p-0 text-lg sm:text-2xl">
-                {day.popup.location}
-              </dd>
-              <dt
-                className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm 
-                           font-normal sm:mt-6 sm:text-base"
-              >
-                time
-              </dt>
-              <dd>
-                <time className="mb-[0.75rem] text-lg sm:mb-6 sm:text-2xl">
-                  {day.popup.time}
-                </time>
-              </dd>
-            </div>
-            <div
-              className="absolute h-full rounded-sm border-2 border-solid 
-                       border-white md:rounded-[2.5px] md:border-[2.5px]"
-            />
-            <div className="flex w-1/2 flex-col items-start pe-2 md:pe-6">
-              <dt
-                className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
-                           font-normal sm:mt-6 sm:text-base"
-              >
-                dresscode
-              </dt>
-              <dd className="m-0 p-0 text-lg sm:text-2xl">
-                {house.dresscode[day.card.title]}
-              </dd>
-              <dt
-                className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
-                           font-normal sm:mt-6 sm:text-base"
-              >
-                sub-OG allocation
-              </dt>
-              <dd>
-                <a
-                  className="mb-[0.75rem] text-lg text-white no-underline
-                             sm:mb-6 sm:text-2xl"
-                  href={day.popup.subOGLink}
-                  // open in new page or not?
-                  target="_blank"
-                  rel="noreferrer"
+          <div className="flex w-full grow items-center justify-center">
+            <dl
+              className="relative mb-0 flex w-full items-center justify-center
+                         gap-6 sm:gap-12 lg:gap-16"
+            >
+              <div className="flex w-1/2 flex-col items-end ps-[0.5rem] md:ps-6">
+                <dt
+                  className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
+                             font-normal sm:mt-6 sm:text-base md:text-lg"
                 >
-                  Click to open
-                </a>
-              </dd>
-            </div>
-          </dl>
+                  location
+                </dt>
+                <dd className="mb-0 text-lg sm:text-2xl md:text-3xl">
+                  {day.popup.location}
+                </dd>
+                <dt
+                  className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm 
+                font-normal sm:mt-6 sm:text-base md:text-lg"
+                >
+                  time
+                </dt>
+                <dd className="mb-[0.75rem] sm:mb-6">
+                  <time className="text-lg sm:text-2xl md:text-3xl">
+                    {day.popup.time}
+                  </time>
+                </dd>
+              </div>
+              <div
+                className="absolute h-full rounded-sm border-2 border-solid 
+                         border-white md:rounded-[2.5px] md:border-[2.5px]"
+              />
+              <div className="flex w-1/2 flex-col items-start pe-2 md:pe-6">
+                <dt
+                  className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
+                             font-normal sm:mt-6 sm:text-base md:text-lg"
+                >
+                  dresscode
+                </dt>
+                <dd className="mb-0 text-lg sm:text-2xl md:text-3xl">
+                  {house.dresscode[day.card.title]}
+                </dd>
+                <dt
+                  className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
+                             font-normal sm:mt-6 sm:text-base md:text-lg"
+                >
+                  sub-OG allocation
+                </dt>
+                <dd className="mb-[0.75rem] sm:mb-6">
+                  <a
+                    className="text-lg text-white no-underline sm:text-2xl
+                               md:text-3xl"
+                    href={day.popup.subOGLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Click to open
+                  </a>
+                </dd>
+              </div>
+            </dl>
+          </div>
         </div>
       )}
     </dialog>

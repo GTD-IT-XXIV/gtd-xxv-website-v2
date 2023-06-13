@@ -15,7 +15,7 @@ const Overlay = ({ src }) => {
       <div
         className="absolute right-0 z-30 flex w-[62%] rotate-[-9.19deg]
                    items-center justify-center text-4xl text-white sm:text-6xl
-                   md:text-7xl"
+                   md:text-7xl lg:text-8xl"
       >
         <p className="mb-0 [-webkit-text-stroke:_1px_#86371E]">Coming Soon</p>
         <span
@@ -89,14 +89,14 @@ const DayCard = ({ house, day }) => {
         <h2
           className={`mb-0 w-[38%] whitespace-nowrap text-center text-4xl
                     text-white [text-shadow:_0_4px_4px_rgb(0,0,0,40%)]
-                      sm:text-6xl md:text-7xl ${day.card.twBorder}`}
+                      sm:text-6xl md:text-7xl lg:text-8xl ${day.card.twBorder}`}
         >
           {day.card.title}
         </h2>
         <div className="flex grow translate-y-2 flex-col gap-y-1">
           <div
             className={`relative -z-10 whitespace-nowrap text-center text-4xl
-                        text-transparent sm:text-6xl md:text-7xl
+                        text-transparent sm:text-6xl md:text-7xl lg:text-8xl
                         ${day.card.label.twRotate}`}
           >
             <p
@@ -118,7 +118,8 @@ const DayCard = ({ house, day }) => {
               dateTime={day.card.date.datetime}
               className={`-translate-y-5 text-center text-lg text-white
                           [text-shadow:_0_4px_4px_rgba(0,0,0,0.25)]
-                          sm:text-3xl md:text-4xl ${day.card.date.twRotate}`}
+                          sm:text-3xl md:text-4xl lg:text-5xl
+                          ${day.card.date.twRotate}`}
             >
               {day.card.date.text}
             </time>

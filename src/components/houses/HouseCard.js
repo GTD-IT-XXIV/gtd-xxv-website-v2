@@ -15,18 +15,24 @@ const HouseCard = ({ house }) => {
         src={CardBg}
         alt="GTD logo as card background"
       />
-      <section className="flex w-1/3 flex-col items-center gap-y-2 sm:gap-y-3">
-        <h2 className="mb-0 text-2xl sm:text-3xl md:text-5xl">
+      <section
+        className="flex w-1/3 flex-col items-center gap-y-2 sm:gap-y-3
+                   md:gap-y-4"
+      >
+        <h2
+          className="mb-0 text-center text-2xl sm:text-4xl md:text-5xl
+                     lg:text-6xl"
+        >
           {house.card.label}
         </h2>
         <img
-          className="aspect-square"
+          className="aspect-square w-full"
           src={house.card.image}
           alt={house.card.alt}
         />
       </section>
       <section className="flex grow flex-col items-center">
-        <div className="invisible mb-2 text-2xl sm:mb-3 sm:text-3xl md:text-5xl">
+        <div className="invisible mb-2 text-2xl sm:mb-3 sm:text-4xl md:text-5xl">
           I{/* for spacing */}
         </div>
         <div
@@ -36,7 +42,8 @@ const HouseCard = ({ house }) => {
           <ol
             className="z-0 mb-0 max-h-[100px] overflow-scroll px-2
                        font-['Lato-Regular'] text-base font-semibold italic
-                       sm:max-h-[150px] sm:text-xl md:max-h-[200px] md:text-2xl"
+                       sm:max-h-[150px] sm:text-xl/8 md:max-h-[200px]
+                       md:text-2xl/10 lg:text-3xl/[3rem]"
           >
             {house.card.details.map((entry, id) => (
               <li key={id} className="me-2">
