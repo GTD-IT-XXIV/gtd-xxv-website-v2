@@ -40,7 +40,7 @@ const HouseCard = ({ house }) => {
                      md:h-[200px]"
         >
           <ol
-            className="z-0 mb-0 max-h-[100px] overflow-scroll px-2
+            className="z-0 mb-0 max-h-[100px] overflow-hidden px-2
                        font-['Lato-Regular'] text-base font-semibold italic
                        sm:max-h-[150px] sm:text-xl/8 md:max-h-[200px]
                        md:text-2xl/10 lg:text-3xl/[3rem]"
