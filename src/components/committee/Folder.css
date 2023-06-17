@@ -1,0 +1,30 @@
+.folder {
+    color: #38255E;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./img/folder_extended.png');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    height: auto;
+    width: 80vw;
+    border-radius: 0 20px 20px 20px;
+}
+
+.border-line {
+    border: 1px dashed #ACA98F;
+    width: 80vw;
+}
+
+.heading {
+    font-family: 'InsideOut';
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #38255E;
+}
+
+@media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+}

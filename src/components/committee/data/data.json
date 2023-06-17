@@ -1,0 +1,290 @@
+[
+    {
+        "role" : "Tops",
+        "team" : "-",
+        "name" : "Tops 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love AI"
+    },
+    {
+        "role" : "Tops",
+        "team" : "-",
+        "name" : "Tops 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love AI"
+    },
+    {
+        "role" : "Tops",
+        "team" : "-",
+        "name" : "Tops 3",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love AI"
+    },
+    {
+        "role" : "Tops",
+        "team" : "-",
+        "name" : "Tops 4",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love AI"
+    },
+    {
+        "role" : "Main",
+        "team" : "POLOG",
+        "name" : "Maincom POLOG 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Main",
+        "team" : "POLOG",
+        "name" : "Maincom POLOG 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 3",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 4",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 5",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 6",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 7",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 8",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 9",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "POLOG",
+        "name" : "Subcom POLOG 10",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Main",
+        "team" : "PPIT",
+        "name" : "Maincom PPIT 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Main",
+        "team" : "PPIT",
+        "name" : "Maincom PPIT 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Sub",
+        "team" : "PPIT",
+        "name" : "Subcom PPIT 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "PPIT",
+        "name" : "Subcom PPIT 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Main",
+        "team" : "BFM",
+        "name" : "Maincom BFM 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Main",
+        "team" : "BFM",
+        "name" : "Maincom BFM 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Sub",
+        "team" : "BFM",
+        "name" : "Subcom BFM 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "BFM",
+        "name" : "Subcom BFM 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Main",
+        "team" : "WELFARE",
+        "name" : "Maincom WELFARE 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Main",
+        "team" : "WELFARE",
+        "name" : "Maincom WELFARE 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Sub",
+        "team" : "WELFARE",
+        "name" : "Subcom WELFARE 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "WELFARE",
+        "name" : "Subcom WELFARE 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Main",
+        "team" : "GL",
+        "name" : "Maincom GL 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Main",
+        "team" : "GL",
+        "name" : "Maincom GL 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "EEE",
+        "quote": "I love Coding"
+    },
+    {
+        "role" : "Sub",
+        "team" : "GL",
+        "name" : "Subcom GL 1",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    },
+    {
+        "role" : "Sub",
+        "team" : "GL",
+        "name" : "Subcom GL 2",
+        "image": "sample_pic.png",
+        "year" : "1",
+        "major": "Computer Science",
+        "quote": "I love Nyemak"
+    }
+]
