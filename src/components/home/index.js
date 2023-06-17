@@ -8,6 +8,7 @@ import Chair from "./components/chair";
 import "./home.css";
 import Television from "./components/television";
 import Carousel from "./components/carousel";
+import OrientationGroups from './components/orientationGroups';
 
 const screenPosition = "top-1/3 left-2/4 -translate-x-[50%] -translate-y-[50%]";
 const screenFormat = "w-5/6 aspect-[2] lg:aspect-[3.5] rounded-[30px]";
@@ -67,15 +68,26 @@ const Home = () => {
           </div>
           {/* Third section */}
           <div className="w-full h-screen relative flex flex-column items-center justify-center">
-            <div
+            <h1
               className="text-center text-white text-5xl mb-5"
               style={{ fontFamily: "InsideOut" }}
             >
               Storyline
-            </div>
+            </h1>
             <Carousel />
           </div>
-          <div className="w-full h-screen relative"></div>
+          <div className="w-full h-screen relative">
+            <h1
+              className="text-center text-white text-5xl mb-5"
+              style={{ fontFamily: "InsideOut" }}
+            >
+              Orientation Groups
+            </h1>
+            <div className="flex flex-column w-full items-center">
+                <OrientationGroups/>
+            </div>
+            
+          </div>
         </div>
       </div>
     </>

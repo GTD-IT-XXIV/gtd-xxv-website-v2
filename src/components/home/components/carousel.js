@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import movieReel from "../../../assets/img/home/movieReel.svg";
 import inside_out from "../../../assets/img/home/inside_out.png";
 
+import { IconButton } from "@mui/material";
+import { ChevronLeft, ChevronRight } from "@mui/icons-material";
+
 import "./carousel.css";
 
 const images = [
@@ -34,33 +37,80 @@ const images = [
 
 const Carousel = () => {
   const [page, setPage] = useState(0);
-  const [renderedImages, setRenderedImages] = useState([]);
+  const [curImages, setCurImages] = useState([]);
   const [enableButton, setEnableButton] = useState(true);
 
   useEffect(() => {
     var renderedImagesTmp = [];
-    for (let i = -3; i <= 3; i++) {
-      let curIndex = (i + images.length) % images.length;
-      renderedImagesTmp.push({ ...images[curIndex], index: curIndex });
+    for (let i = 0; i < images.length; i++) {
+      renderedImagesTmp.push({ ...images[i] });
     }
-    setRenderedImages(renderedImagesTmp);
+    setCurImages(renderedImagesTmp);
   }, []);
 
   const test = () => {
-    console.log('heheahawd')
-  }
+    console.log("heheahawd");
+  };
 
   const nextPage = () => {
-    if (!enableButton) return;
-    setEnableButton(false);
-    setPage((page + 1) % images.length);
-    setRenderedImages([
-      ...renderedImages.slice(1),
-      {
-        ...images[(page + 4) % images.length],
-        index: (page + 4) % images.length,
-      },
-    ]);
+    if (page === images.length - 1) return;
+    setPage(page + 1);
+  };
+
+  const prevPage = () => {
+    if (page === 0) return;
+    setPage(page - 1);
+  };
+
+  const renderHandler = () => {
+    const imageWidth = 420;
+    // 10% 20% 20% 20% 20% 10%
+    // 10% 80% 10%
+    // 100%
+    return (
+      <div className="relative h-full">
+        <div className="absolute h-full flex w-screen">
+          <div
+            className="h-full z-10 carousel-border flex-1"
+          />
+          <div
+            className="h-full z-10 flex-none"
+            style={{ width: imageWidth }}
+          />
+          <div
+            className="h-full z-10 carousel-border flex-1"
+            style={{ transform: "rotate(180deg)"}}
+          />
+        </div>
+        <div
+          className="absolute bg-white h-full flex carousel"
+          style={{
+            left: `calc(50vw - ${imageWidth / 2}px)`,
+            transform: `translateX(-${(page * 100) / images.length}%)`,
+            width: `${images.length * imageWidth}px`,
+          }}
+        >
+          {images.map((element, index) => {
+            return (
+              <div
+                key={index}
+                className="absolute h-full"
+                style={{
+                  width: `${100 / images.length}%`,
+                  left: `${(index * 100) / images.length}%`,
+                }}
+              >
+                <img
+                  className="object-cover w-full h-full"
+                  src={element.image}
+                  alt="image"
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
   };
 
   const animationEndHandler = () => {
@@ -68,32 +118,56 @@ const Carousel = () => {
   };
 
   return (
-    <div
-      className="w-full h-96 flex bg-no-repeat bg-repeat-x bg-[length:auto_24rem] py-16"
-      style={{
-        backgroundImage: `url(${movieReel})`,
-      }}
-      onClick={nextPage}
-    >
-      <div className="bg-black flex-auto flex flex-row relative">
+    <div className="w-full relative">
+      <div
+        className="w-full h-96 flex bg-no-repeat bg-repeat-x bg-[length:auto_24rem] py-16 overflow-hidden"
+        style={{
+          backgroundImage: `url(${movieReel})`,
+        }}
+      >
         <div
-          className="relative w-full absolute carousel-container"
-          
+          className="bg-black relative"
+          onAnimationEnd={() => {
+            console.log("hehe");
+          }}
         >
-          {renderedImages.map((element, index) => {
-            return (
-              <div
-                key={element.index}
-                className="absolute h-full w-1/5 carouselimg"
-                style={{ left: `${(index - 1) * 20}%` }}
-                onAnimationEnd={index===3?animationEndHandler:null}
-              >
-                <img src={element.image} className="w-full h-full" />
-              </div>
-            );
-          })}
+          <div className="relative w-full h-full absolute carousel-container">
+            {renderHandler()}
+          </div>
         </div>
       </div>
+      <IconButton
+        sx={{
+          position: "absolute",
+          zIndex: 20,
+          left: 0,
+          top: "50%",
+        }}
+        style={{
+          transform: "translate(0,-50%)",
+        }}
+        aria-label="delete"
+        size="large"
+        onClick={prevPage}
+      >
+        <ChevronLeft style={{ color: "#FECA91" }} fontSize="inherit" />
+      </IconButton>
+      <IconButton
+        sx={{
+          position: "absolute",
+          zIndex: 20,
+          right: 0,
+          top: "50%",
+        }}
+        style={{
+          transform: "translate(0,-50%)",
+        }}
+        aria-label="delete"
+        size="large"
+        onClick={nextPage}
+      >
+        <ChevronRight style={{ color: "#FECA91" }} fontSize="inherit" />
+      </IconButton>
     </div>
   );
 };

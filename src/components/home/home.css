@@ -1,3 +1,14 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 .home {
   flex: 1;
   background: rgb(25,15,62);
@@ -9,10 +20,7 @@
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 65%, rgba(137,132,157,1) 100%);
 }
 
-.chair-bg {
-    background: rgb(111,15,43);
-    background: linear-gradient(90deg, rgba(111,15,43,1) 0%, rgba(21,1,7,1) 100%);
-}
+
 
 .opacity-trans {
     transition: opacity 0.2s ease;

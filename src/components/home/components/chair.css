@@ -1,0 +1,13 @@
+.chair-bg {
+    background: rgb(111,15,43);
+    background: linear-gradient(90deg, rgba(111,15,43,1) 0%, rgba(21,1,7,1) 100%);
+}
+
+.chair-group .hover-effect {
+    background: rgb(111,15,43);
+    background: linear-gradient(90deg, rgba(111,15,43,1) 0%, rgba(21,1,7,1) 100%);
+}
+
+.chair-group:hover .hover-effect {
+    background:rgb(55,6,21);
+}
