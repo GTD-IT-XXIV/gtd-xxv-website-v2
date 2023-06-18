@@ -7,10 +7,10 @@ import disgust from "../../../assets/img/home/disgust.webp";
 import sadness from "../../../assets/img/home/sadness.webp";
 
 const routes = {
-  anger: "/houses/anger",
-  sadness: "/houses/sadness",
-  disgust: "/houses/disgust",
-  fear: "/houses/fear",
+  anger: "/anger",
+  sadness: "/sadness",
+  disgust: "/disgust",
+  fear: "/fear",
 };
 
 const ButtonClass =
