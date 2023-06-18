@@ -6,51 +6,38 @@ import { IconButton } from "@mui/material";
 import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 
 import "./carousel.css";
+import { param } from "jquery";
 
-const images = [
-  { image: inside_out, text: "lol1" },
-  {
-    image: `https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQsDh35wh7euaPF9tfVLQHA-gNXAKfgz4DzzhTzapMUZkoX5epVGC7fZa_TGsB_DE5844xDPV_Vo10tp_Q`,
-    text: "lol2",
-  },
-  { image: inside_out, text: "lol3" },
-  {
-    image: `https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQsDh35wh7euaPF9tfVLQHA-gNXAKfgz4DzzhTzapMUZkoX5epVGC7fZa_TGsB_DE5844xDPV_Vo10tp_Q`,
-    text: "lol4",
-  },
-  { image: inside_out, text: "lol5" },
-  {
-    image: `https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQsDh35wh7euaPF9tfVLQHA-gNXAKfgz4DzzhTzapMUZkoX5epVGC7fZa_TGsB_DE5844xDPV_Vo10tp_Q`,
-    text: "lol6",
-  },
-  { image: inside_out, text: "lol7" },
-  {
-    image: `https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQsDh35wh7euaPF9tfVLQHA-gNXAKfgz4DzzhTzapMUZkoX5epVGC7fZa_TGsB_DE5844xDPV_Vo10tp_Q`,
-    text: "lol8",
-  },
-  { image: inside_out, text: "lol9" },
-  {
-    image: `https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQsDh35wh7euaPF9tfVLQHA-gNXAKfgz4DzzhTzapMUZkoX5epVGC7fZa_TGsB_DE5844xDPV_Vo10tp_Q`,
-    text: "lol10",
-  },
-];
+const imageWidth = 420;
 
-const Carousel = () => {
+const PageIndicator = ({ page, className, maxPage, setPage }) => {
+  return (
+    <div className={`flex flex-row justify-center items-center ${className}`}>
+      {Array.from(Array(maxPage).keys()).map((element, index) => {
+        return (
+          <div
+            key={index}
+            className={`w-3 h-1 rounded-full mx-1 cursor-pointer ${
+              page === index ? "current-page" : "bg-white"
+            }`}
+            onClick={() => setPage(index)}
+          />
+        );
+      })}
+    </div>
+  );
+};
+
+const Text = ({ text, ...props }) => {
+  return (
+    <div className="w-full flex flex-row items-center justify-center" {...props}>
+      <p className="w-5/6 md:w-3/6 font-white text-center">{text}</p>
+    </div>
+  );
+};
+
+const Carousel = ({ images }) => {
   const [page, setPage] = useState(0);
-  const [curImages, setCurImages] = useState([]);
-  const [enableButton, setEnableButton] = useState(true);
-
-  useEffect(() => {
-    var renderedImagesTmp = [];
-    for (let i = 0; i < images.length; i++) {
-      renderedImagesTmp.push({ ...images[i] });
-    }
-    setCurImages(renderedImagesTmp);
-  }, []);
-
-  const test = () => {
-    console.log("heheahawd");
-  };
 
   const nextPage = () => {
     if (page === images.length - 1) return;
@@ -62,28 +49,26 @@ const Carousel = () => {
     setPage(page - 1);
   };
 
+  const goToPage = (page) => {
+    setPage(page);
+  };
+
   const renderHandler = () => {
-    const imageWidth = 420;
-    // 10% 20% 20% 20% 20% 10%
-    // 10% 80% 10%
-    // 100%
     return (
       <div className="relative h-full">
         <div className="absolute h-full flex w-screen">
-          <div
-            className="h-full z-10 carousel-border flex-1"
-          />
+          <div className="h-full z-10 carousel-border flex-1" />
           <div
             className="h-full z-10 flex-none"
             style={{ width: imageWidth }}
           />
           <div
             className="h-full z-10 carousel-border flex-1"
-            style={{ transform: "rotate(180deg)"}}
+            style={{ transform: "rotate(180deg)" }}
           />
         </div>
         <div
-          className="absolute bg-white h-full flex carousel"
+          className="absolute h-full flex carousel"
           style={{
             left: `calc(50vw - ${imageWidth / 2}px)`,
             transform: `translateX(-${(page * 100) / images.length}%)`,
@@ -94,14 +79,14 @@ const Carousel = () => {
             return (
               <div
                 key={index}
-                className="absolute h-full"
+                className="absolute h-full flex flex-row justify-center"
                 style={{
                   width: `${100 / images.length}%`,
                   left: `${(index * 100) / images.length}%`,
                 }}
               >
                 <img
-                  className="object-cover w-full h-full"
+                  className="object-cover h-full"
                   src={element.image}
                   alt="image"
                 />
@@ -113,61 +98,54 @@ const Carousel = () => {
     );
   };
 
-  const animationEndHandler = () => {
-    setEnableButton(true);
-  };
-
   return (
     <div className="w-full relative">
       <div
-        className="w-full h-96 flex bg-no-repeat bg-repeat-x bg-[length:auto_24rem] py-16 overflow-hidden"
+        className="w-full h-96 relative flex bg-no-repeat bg-repeat-x bg-[length:auto_24rem] py-16 overflow-hidden"
         style={{
           backgroundImage: `url(${movieReel})`,
         }}
       >
-        <div
-          className="bg-black relative"
-          onAnimationEnd={() => {
-            console.log("hehe");
+        <IconButton
+          sx={{
+            position: "absolute",
+            zIndex: 20,
+            left: 0,
+            top: "50%",
           }}
+          className="-translate-y-2/4"
+          size="large"
+          onClick={prevPage}
         >
+          <ChevronLeft style={{ color: "#FECA91" }} fontSize="inherit" />
+        </IconButton>
+        <IconButton
+          sx={{
+            position: "absolute",
+            zIndex: 20,
+            right: 0,
+            top: "50%",
+          }}
+          className="-translate-y-2/4"
+          size="large"
+          onClick={nextPage}
+        >
+          <ChevronRight style={{ color: "#FECA91" }} fontSize="inherit" />
+        </IconButton>
+        <div className="bg-black relative">
           <div className="relative w-full h-full absolute carousel-container">
             {renderHandler()}
           </div>
         </div>
       </div>
-      <IconButton
-        sx={{
-          position: "absolute",
-          zIndex: 20,
-          left: 0,
-          top: "50%",
-        }}
-        style={{
-          transform: "translate(0,-50%)",
-        }}
-        aria-label="delete"
-        size="large"
-        onClick={prevPage}
-      >
-        <ChevronLeft style={{ color: "#FECA91" }} fontSize="inherit" />
-      </IconButton>
-      <IconButton
-        sx={{
-          position: "absolute",
-          zIndex: 20,
-          right: 0,
-          top: "50%",
-        }}
-        style={{
-          transform: "translate(0,-50%)",
-        }}
-        aria-label="delete"
-        size="large"
-        onClick={nextPage}
-      >
-        <ChevronRight style={{ color: "#FECA91" }} fontSize="inherit" />
-      </IconButton>
+
+      <PageIndicator
+        page={page}
+        maxPage={images.length}
+        className="my-3"
+        setPage={setPage}
+      />
+      <Text text={images[page].text} />
     </div>
   );
 };

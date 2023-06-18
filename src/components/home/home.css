@@ -9,6 +9,10 @@ body {
     scrollbar-width: none;  /* Firefox */
   }
 
+
+p {
+    font-family: 'Lato', sans-serif;
+}
 .home {
   flex: 1;
   background: rgb(25,15,62);

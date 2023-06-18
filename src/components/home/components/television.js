@@ -4,7 +4,7 @@ const Television = ({ videoLink }) => {
   return (
     <div
       style={{ backgroundImage: `url(${television})` }}
-      className="max-w-screen-md w-4/6 aspect-[calc(610/475)] bg-no-repeat bg-contain relative"
+      className="max-w-screen-md w-5/6 md:w-4/6 aspect-[calc(610/475)] bg-no-repeat bg-contain relative"
     >
       <div className="absolute left-[8%] top-[30%] w-4/6 h-3/5 bg-black rounded-xl overflow-hidden">
         <iframe

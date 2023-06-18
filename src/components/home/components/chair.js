@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./chair.css";
+import { Link } from "react-router-dom";
 
-const Chair = ({ text, orientation, topClassName, middleClassName }) => {
+const Chair = ({ text, orientation, topClassName, middleClassName, route }) => {
   return (
-    <div className="chair-group relative w-4/12">
+    <a href={route} className="chair-group relative w-4/12">
       <div
         className={`absolute chair-bg rounded-t-[25px] lg:rounded-t-[50px] w-10/12 lg:w-4/6 h-[200px] bottom-0 ${orientation} ${topClassName}`}
       />
@@ -18,7 +19,7 @@ const Chair = ({ text, orientation, topClassName, middleClassName }) => {
       <div
         className={`absolute chair-bg rounded-t-[25px] lg:rounded-t-[50px] w-full h-[90px] z-20 bottom-0 ${orientation}`}
       />
-    </div>
+    </a>
   );
 };
 
