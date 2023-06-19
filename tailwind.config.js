@@ -40,7 +40,7 @@ module.exports = {
       
       'ssmed': '520px',
 
-      'smed': '700px',
+      'smed': '650px',
 
       'md': '840px',
       // => @media (min-width: 1024px) { ... }
