@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           <div class="mx-auto py-2 md:w-[750px]">
-            <p style={{fontFamily: "Lato-Regular"}} class="text-md text-white p-3 text-center md:text-lg ">
+            <p style={{fontFamily: "Lato-Regular"}} class="p-4 text-sm text-white md:p-3 text-center md:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 
@@ -52,13 +52,13 @@ const About = () => {
             // Insert anthem here
             </div>
             <div class="mx-auto">
-              <p style={{fontFamily: "Lato-Regular"}} class="text-md text-white p-3 pt-4 pb-2 text-center md:text-lg">
+              <p style={{fontFamily: "Lato-Regular"}} class="text-sm text-white p-4 md:p-3 pt-4 pb-2 text-center md:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipsicing elit.<br></br>
               Integer et magna in orchi placerat aliquam sit amet a lacus.<br></br>
               Vestibulum dapibus nisi sit amet mattis dapibus.<br></br>
               </p>
 
-              <p style={{fontFamily: "Lato-Regular"}} class="text-md text-white p-3 pt-0 text-center md:text-lg">
+              <p style={{fontFamily: "Lato-Regular"}} class="text-sm text-white p-4 md:p-3 pt-0 text-center md:text-lg">
               Proin a metus scelerisque, malesuada neque id, ultricies mi.<br></br>
               Nunc pharetra velit sit amet dui vehicula, et pellentesque nibh rutrum.<br></br>
               Ut luctus metus sit amet felis aliquam, quis varius tortor elementum.<br></br>
