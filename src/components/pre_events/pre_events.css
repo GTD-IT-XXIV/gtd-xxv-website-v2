@@ -1,3 +1,30 @@
-.pre_events {
+.events {
   flex: 1;
+}
+
+h1, h2, h3, p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.375rem;
+}
+.home {
+  flex: 1;
+  background: rgb(25,15,62);
+    background: linear-gradient(0deg, #7E4081 0%, #2E2059 75%, #190F3E 100%);
+}
+
+.font-inside-out {
+    font-family: "InsideOut";
+}
+
+.text-modal {
+    color: #6F0F2B
+}
+
+.image-cover {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+
+.image-cover:hover {
+    opacity: 1;
 }
