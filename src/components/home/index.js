@@ -76,7 +76,7 @@ const Home = () => {
           {/* Third section */}
           <div className="w-full h-screen relative flex flex-column items-center justify-center" id="storyline">
             <h1
-              className="text-center text-white text-5xl mb-5"
+              className="text-center text-white text-4xl md:text-5xl md:text-5xl mb-5"
               style={{ fontFamily: "InsideOut" }}
             >
               Storyline
@@ -86,7 +86,7 @@ const Home = () => {
 
           <div className="w-full h-screen relative flex flex-column items-center justify-center" id="og">
             <h1
-              className="text-center text-white text-5xl mb-5"
+              className="text-center text-white text-4xl md:text-5xl mb-5"
               style={{ fontFamily: "InsideOut" }}
             >
               Orientation Groups
