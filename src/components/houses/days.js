@@ -1,22 +1,39 @@
+import DayCardLabel from "./DayCardLabel";
 import bg1 from "./img/day_1.svg";
 import bg2 from "./img/day_2.svg";
 import bg3 from "./img/day_3.svg";
+import bg4 from "./img/day_4.svg";
 
 const days = [
   {
     card: {
       background: bg1,
       title: "Day 1",
-      label: {
-        text: "Night Game",
-        twBackground: "bg-gradient-to-b from-[#FFF4CF] to-[#FF4D00]",
-        twShadow:
-          "[text-shadow:_2px_2px_0_#86371E] md:[text-shadow:_3px_3px_0_#86371E]",
-        twRotate: "rotate-[-9.19deg]",
+      get label() {
+        const text = "Night Game";
+
+        return (
+          <DayCardLabel className="rotate-[-9.19deg]">
+            <p
+              className={`mb-0 bg-gradient-to-b from-[#FFF4CF] to-[#FF4D00]
+                          bg-clip-text ${this.twBorder}`}
+            >
+              {text}
+            </p>
+            <span
+              // Text shadow
+              className={`absolute inset-0 -z-20 select-none
+                          [text-shadow:_2px_2px_0_#86371E]
+                          md:[text-shadow:_3px_3px_0_#86371E]`}
+            >
+              {text}
+            </span>
+          </DayCardLabel>
+        );
       },
       date: {
-        text: "6 Aug",
-        datetime: "2023-08-06",
+        text: "4 Aug",
+        datetime: "2023-08-04",
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
@@ -35,16 +52,31 @@ const days = [
     card: {
       background: bg2,
       title: "Day 2",
-      label: {
-        text: "Beach Day",
-        twBackground: "bg-gradient-to-b from-[#FFEEB1] to-[#B55F2F]",
-        twShadow:
-          "[text-shadow:_2px_2px_0_#B86635] md:[text-shadow:_5px_5px_0_#B86635]",
-        twRotate: "rotate-[10.07deg]",
+      get label() {
+        const text = "Beach Day";
+
+        return (
+          <DayCardLabel className="rotate-[10.07deg]">
+            <p
+              className={`mb-0 bg-gradient-to-b from-[#FFEEB1] from-50% to-[#B55F2F]
+                          bg-clip-text ${this.twBorder}`}
+            >
+              {text}
+            </p>
+            <span
+              // Text shadow
+              className={`absolute inset-0 -z-20 select-none
+                          [text-shadow:_2px_2px_0_#B86635]
+                          md:[text-shadow:_3px_3px_0_#B86635]`}
+            >
+              {text}
+            </span>
+          </DayCardLabel>
+        );
       },
       date: {
-        text: "7 Aug",
-        datetime: "2023-08-07",
+        text: "5 Aug",
+        datetime: "2023-08-05",
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
@@ -63,20 +95,35 @@ const days = [
     card: {
       background: bg3,
       title: "Day 3",
-      label: {
-        text: "Field Day",
-        twBackground: "bg-gradient-to-b from-[#DBFFD6] to-[#5F7603]",
-        twShadow:
-          "[text-shadow:_2px_2px_0px_#484F2D] md:[text-shadow:_4px_4px_0px_#484F2D]",
-        twRotate: "rotate-[-9.19deg]",
+      get label() {
+        const text = "Field Day";
+
+        return (
+          <DayCardLabel className="rotate-[-9.19deg]">
+            <p
+              className={`mb-0 bg-gradient-to-b from-[#DBFFD6] from-30% to-[#5F7603]
+                          bg-clip-text ${this.twBorder}`}
+            >
+              {text}
+            </p>
+            <span
+              // Text shadow
+              className={`absolute inset-0 -z-20 select-none
+                          [text-shadow:_2px_2px_0_#484F2D]
+                          md:[text-shadow:_3px_3px_0_#484F2D]`}
+            >
+              {text}
+            </span>
+          </DayCardLabel>
+        );
       },
       date: {
-        text: "8 Aug",
-        datetime: "2023-08-08",
+        text: "6 Aug",
+        datetime: "2023-08-06",
         twRotate: "rotate-[0deg]",
       },
       twBorder:
-        "[-webkit-text-stroke:_1px_#B86635] md:[-webkit-text-stroke:_2px_#484F2D]",
+        "[-webkit-text-stroke:_1px_#484F2D] md:[-webkit-text-stroke:_2px_#484F2D]",
     },
     popup: {
       twBackground:
@@ -84,6 +131,76 @@ const days = [
       video: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
       location: "Field",
       time: "9AM - 6PM",
+      subOGLink: "https://www.google.com/",
+    },
+  },
+  {
+    card: {
+      background: bg4,
+      title: "Day 4",
+      get label() {
+        const text = ["Awards", "Night"];
+
+        return (
+          <div className="translate-y-3 sm:translate-y-4 md:translate-y-6">
+            <DayCardLabel
+              className="-translate-x-8 translate-y-1 rotate-[10.98deg]
+                         sm:-translate-x-14 md:-translate-x-16
+                         lg:-translate-x-[5.5rem] lg:translate-y-2"
+            >
+              <p
+                className={`mb-0 bg-gradient-to-b from-white from-40% to-[#BC8700]
+                            bg-clip-text ${this.twBorder}`}
+              >
+                {text[0]}
+              </p>
+              <span
+                // Text shadow
+                className={`absolute inset-0 -z-20 select-none
+                            [text-shadow:_2px_2px_0_#877101]
+                            md:[text-shadow:_3px_3px_0_#877101]`}
+              >
+                {text[0]}
+              </span>
+            </DayCardLabel>
+            <DayCardLabel
+              className="-translate-y-1 translate-x-11 rotate-[10.98deg]
+                         sm:translate-x-[4.75rem] md:translate-x-[5.75rem]
+                         lg:translate-x-[7.5rem]"
+            >
+              <p
+                className={`mb-0 bg-gradient-to-b from-white from-40% to-[#BC8700]
+                            bg-clip-text ${this.twBorder}`}
+              >
+                {text[1]}
+              </p>
+              <span
+                // Text shadow
+                className={`absolute inset-0 -z-20 select-none
+                            [text-shadow:_2px_2px_0_#877101]
+                            md:[text-shadow:_3px_3px_0_#877101]`}
+              >
+                {text[1]}
+              </span>
+            </DayCardLabel>
+          </div>
+        );
+      },
+      date: {
+        text: "7 Aug",
+        datetime: "2023-08-07",
+        twRotate:
+          "rotate-[-15.85deg] -translate-x-4 -translate-y-9 sm:-translate-x-7 sm:-translate-y-14 md:-translate-x-8 md:-translate-y-[3.75rem] lg:-translate-x-11 lg:-translate-y-20",
+      },
+      twBorder:
+        "[-webkit-text-stroke:_1px_#877101] md:[-webkit-text-stroke:_2px_#877101]",
+    },
+    popup: {
+      twBackground:
+        "bg-gradient-to-b from-black from-[0.39%] to-[#674A00] to-[92.62%]",
+      video: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      location: "TBA",
+      time: "TBA",
       subOGLink: "https://www.google.com/",
     },
   },

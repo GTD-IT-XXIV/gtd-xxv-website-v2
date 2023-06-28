@@ -101,8 +101,8 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
                 </dt>
                 <dd className="mb-[0.75rem] sm:mb-6">
                   <a
-                    className="text-lg text-white no-underline sm:text-2xl
-                               md:text-3xl"
+                    className="text-lg text-stone-400 no-underline
+                             hover:text-stone-400 sm:text-2xl md:text-3xl"
                     href={day.popup.subOGLink}
                     target="_blank"
                     rel="noreferrer"

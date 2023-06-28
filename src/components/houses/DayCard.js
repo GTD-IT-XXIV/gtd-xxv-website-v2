@@ -94,25 +94,7 @@ const DayCard = ({ house, day }) => {
           {day.card.title}
         </h2>
         <div className="flex grow translate-y-2 flex-col gap-y-1">
-          <div
-            className={`relative -z-10 whitespace-nowrap text-center text-4xl
-                        text-transparent sm:text-6xl md:text-7xl lg:text-8xl
-                        ${day.card.label.twRotate}`}
-          >
-            <p
-              className={`mb-0 bg-clip-text ${day.card.label.twBackground}
-                          ${day.card.twBorder}`}
-            >
-              {day.card.label.text}
-            </p>
-            <span
-              // Text shadow
-              className={`absolute inset-0 -z-20 select-none
-                          ${day.card.label.twShadow}`}
-            >
-              {day.card.label.text}
-            </span>
-          </div>
+          {day.card.label}
           <p className="z-0 mb-0 flex justify-center">
             <time
               dateTime={day.card.date.datetime}

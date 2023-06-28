@@ -23,6 +23,7 @@ const anger = {
     "Day 1": "Anger T-Shirt 1",
     "Day 2": "Anger T-Shirt 2",
     "Day 3": "Anger T-Shirt 3",
+    "Day 4": "Anger T-Shirt 4",
   },
 };
 
@@ -45,6 +46,7 @@ const sadness = {
     "Day 1": "Sadness T-Shirt 1",
     "Day 2": "Sadness T-Shirt 2",
     "Day 3": "Sadness T-Shirt 3",
+    "Day 4": "Sadness T-Shirt 4",
   },
 };
 
@@ -67,6 +69,7 @@ const disgust = {
     "Day 1": "Disgust T-Shirt 1",
     "Day 2": "Disgust T-Shirt 2",
     "Day 3": "Disgust T-Shirt 3",
+    "Day 4": "Disgust T-Shirt 4",
   },
 };
 
@@ -89,6 +92,7 @@ const fear = {
     "Day 1": "Fear T-Shirt 1",
     "Day 2": "Fear T-Shirt 2",
     "Day 3": "Fear T-Shirt 3",
+    "Day 4": "Fear T-Shirt 4",
   },
 };
 
