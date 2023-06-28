@@ -1,7 +1,6 @@
 import "./pre_events.css";
 import Television from "./components/television";
 import { useState } from "react";
-import ExampleImage from "../../assets/img/pre_events/exampleimage.png";
 import PedalBikeIcon from "@mui/icons-material/PedalBike";
 import { Button } from "@mui/material";
 
@@ -29,10 +28,10 @@ const PreEvents = () => {
         />
 
         <div className="p-5 flex flex-column items-center gap-4">
-          <h1 className="font-inside-out text-white">Pre-Event</h1>
+          <h1 className="font-inside-out text-white text-4xl md:text-5xl">Pre-Event</h1>
           {images.map((image, index) => {
             return (
-              <Television className="w-1/2 flex">
+              <Television className="w-4/6 md:w-[40%] max-w-md flex">
                 <div className="flex flex-column items-center justify-center absolute z-10 image-cover bg-black w-full h-full gap-8">
                   <PedalBikeIcon
                     sx={{ width: 0.5, height: 0.5, color: "yellow" }}
