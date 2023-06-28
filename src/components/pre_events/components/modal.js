@@ -1,16 +1,9 @@
-import { useState, useEffect } from "react";
 import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 
 import Carousel from "./carousel";
 
-const Modal = ({images, title, date, open = false, onClickClose}) => {
-  const imageArray = images.map((element) => element.image)
-  const textArray = images.map((element) => element.text)
-
-  const [page, setPage] = useState(0);
-useEffect(() => {setPage(0)}, [open])
-
+const Modal = ({images, title, description, date, open = false, onClickClose}) => {
   return (
     <div className="fixed w-full h-full z-20 left-0 top-0" style={{display: (open?'block':'none')}}>
       <div className="relative w-full h-full">
@@ -30,8 +23,8 @@ useEffect(() => {setPage(0)}, [open])
         </IconButton>
           <h1 className="font-inside-out text-modal">{title}</h1>
           <p className="text-modal font-bold">{date}</p>
-          <Carousel images={imageArray} className="w-[calc(100%+4rem)] -mx-8 min-h-64 h-64" style={{minHeight:'16rem'}} onPageChange={(x) => setPage(x)} open={open} />
-          <p className="text-modal">{textArray[page]}</p>
+          <Carousel images={images} className="w-[calc(100%+4rem)] -mx-8 min-h-64 h-64" style={{minHeight:'16rem'}}  open={open} />
+          <p className="text-modal">{description}</p>
         </div>
 
       </div>

@@ -21,6 +21,7 @@ const PreEvents = () => {
       <div className={`navigationContainer`}>
         <Modal
           images={modalIndex !== null ? images[modalIndex].images : []}
+          description={modalIndex !==null ? images[modalIndex].description: []}
           open={modalIndex !== null}
           onClickClose={() => setModalIndex(null)}
           title={modalIndex !== null ? images[modalIndex].title : ""}
@@ -31,15 +32,16 @@ const PreEvents = () => {
           <h1 className="font-inside-out text-white text-4xl md:text-5xl">Pre-Event</h1>
           {images.map((image, index) => {
             return (
-              <Television className="w-4/6 md:w-[40%] max-w-md flex">
-                <div className="flex flex-column items-center justify-center absolute z-10 image-cover bg-black w-full h-full gap-8">
+              <Television className="w-5/6 md:w-[40%] max-w-md flex">
+                <div className="flex flex-column items-center justify-center absolute z-10 image-cover bg-black w-full h-full gap-2 md:gap-8">
                   <PedalBikeIcon
                     sx={{ width: 0.5, height: 0.5, color: "yellow" }}
-                  />
+                  /> 
+                  {/*^^^ To be replace later ^^^*/}
                   <Button
                     variant="outlined"
                     sx={{
-                      width: 0.5,
+                      width: 0.8,
                       height: 0.1,
                       color: "white",
                       borderColor: "white",
@@ -50,7 +52,7 @@ const PreEvents = () => {
                     }}
                     onClick={() => setModalIndex(index)}
                   >
-                    More info
+                    <p className="text-xs m-0">More info</p>
                   </Button>
                 </div>
                 <div

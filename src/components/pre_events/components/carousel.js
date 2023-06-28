@@ -10,13 +10,13 @@ const Carousel = ({ className, images, onPageChange, style, open }) => {
     switch (action.type) {
       case "next":
         if (state.currentAction === 0) {
-          onPageChange((state.currentPage + 1) % images.length);
+        if(onPageChange)onPageChange((state.currentPage + 1) % images.length);
           return { ...state, currentAction: 1 };
         }
         break;
       case "prev":
         if (state.currentAction === 0) {
-          onPageChange((state.currentPage - 1 + images.length) % images.length);
+          if(onPageChange)onPageChange((state.currentPage - 1 + images.length) % images.length);
           return { ...state, currentAction: -1 };
         }
         break;
