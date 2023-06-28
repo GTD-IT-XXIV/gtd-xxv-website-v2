@@ -1,12 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import movieReel from "../../../assets/img/home/movieReel.svg";
-import inside_out from "../../../assets/img/home/inside_out.png";
 
 import { IconButton } from "@mui/material";
 import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 
 import "./carousel.css";
-import { param } from "jquery";
 
 const imageWidth = 420;
 
@@ -88,7 +86,7 @@ const Carousel = ({ images }) => {
                 <img
                   className="object-cover h-full"
                   src={element.image}
-                  alt="image"
+                  alt="storyline"
                 />
               </div>
             );
@@ -101,7 +99,7 @@ const Carousel = ({ images }) => {
   return (
     <div className="w-full relative">
       <div
-        className="w-full h-96 relative flex bg-no-repeat bg-repeat-x bg-[length:auto_24rem] py-16 overflow-hidden"
+        className="w-full h-72 md:h-96 relative flex bg-no-repeat bg-repeat-x bg-[length:auto_18rem] md:bg-[length:auto_24rem] py-12 md:py-16 overflow-hidden"
         style={{
           backgroundImage: `url(${movieReel})`,
         }}
@@ -143,7 +141,7 @@ const Carousel = ({ images }) => {
         page={page}
         maxPage={images.length}
         className="my-3"
-        setPage={setPage}
+        setPage={goToPage}
       />
       <Text text={images[page].text} />
     </div>

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 import "./groups.css";
-import fear from "../../../assets/img/home/fear.webp";
-import anger from "../../../assets/img/home/anger.webp";
-import disgust from "../../../assets/img/home/disgust.webp";
-import sadness from "../../../assets/img/home/sadness.webp";
+import fear from "../../../assets/img/home/fear.png";
+import anger from "../../../assets/img/home/anger.png";
+import disgust from "../../../assets/img/home/disgust.png";
+import sadness from "../../../assets/img/home/sadness.png";
 
 const routes = {
   anger: "/anger",
