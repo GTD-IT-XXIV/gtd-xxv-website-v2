@@ -88,7 +88,7 @@ const LeaderboardTable = ({ data }) => {
               <img class="w-full object-scale-down h-12 mb-2 mt-[8px] absolute left-[90px]" src={rightStar} alt="star"/>
             </div>
 
-            <div className="filter-container flex justify-center mb-[24px]">
+            <div className="filter-container flex justify-center">
                 <label class="bg-[#FFF2D0] rounded-full border-[3px] border-[#C13E3E] ring ring-[#FEE794] ring-[3px] px-2 pb-1 text-[#C13E3E]">
                 <label class="pr-4 pl-2 text-[10px]">Filter by:</label>
                 <select class="text-[10px] border-[0.5px] border-[#C13E3E] rounded-full py-1 px-2 bg-[#FFF2D0]" value={filterType} onChange={handleFilterChange}>
@@ -97,12 +97,12 @@ const LeaderboardTable = ({ data }) => {
                 </select>
                 </label>
             </div>
-              <img class="object-fill h-16 -z-10 absolute top-[206px] left-[240px]" src={redLineDisctrict} alt="garis"/>
-              <div className="buttons-container text-[10px] flex justify-center mb-[20px]">
-                <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Overall')}>Overall</button>
-                <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Day 1')}>Day 1</button>
-                <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Day 2')}>Day 2</button>
-                <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Day 3')}>Day 3</button>
+            <img class="object-fill justify-center h-16 -z-10 m-auto" src={redLineDisctrict} alt="garis"/>
+            <div className="buttons-container text-[10px] flex justify-center mb-[20px]">
+              <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Overall')}>Overall</button>
+              <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Day 1')}>Day 1</button>
+              <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Day 2')}>Day 2</button>
+              <button class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg" onClick={() => setSelectedDay('Day 3')}>Day 3</button>
             </div>
             <div class="table-container flex items-center justify-center">
             {/* border-table border-y-[30px] border-x-[20px] border-[#C13E3E] rounded-[30px] ring-[8px] ring-[#FEE794] bg-[#C13E3E] flex-center */}
