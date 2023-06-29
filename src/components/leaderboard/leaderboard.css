@@ -2,8 +2,23 @@
 
 .container{
   font-family: InsideOut;
+  /* background: linear-gradient(#23174A, #743C7C);
+  background-attachment: fixed; */
 }
-h1{
-  text-shadow: 2px 2px 0px #C13E3E; 
+.container-full{
+  background: linear-gradient(#23174A, #743C7C);
+  background-attachment: fixed;
+  z-index: -50;
+}
+
+h1 {
+  text-shadow: 3px 3px 0px #C13E3E; 
   -webkit-text-stroke: 1px #C13E3E;
 }
+
+/* .table-container{
+  background-image: url(Figma/tabelnya.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+} */
