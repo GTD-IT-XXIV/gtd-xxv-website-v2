@@ -74,38 +74,38 @@ const LeaderboardTable = ({ data }) => {
 	});
 
 	return (
-		<div class="container-full">
+		<div className="container-full">
 			<div className="container w-screen h-full mx-auto py-20">
 				{/* <h1 class="text-center text-4xl text-[#FFF2D0] py-2">Leaderboard</h1> */}
 
 				<img
-					class="leadeboard_image w-full object-scale-down h-16 absolute top-20 left-0 right-0 z-40"
+					className="leadeboard_image w-full object-scale-down h-16 absolute top-20 left-0 right-0 z-40"
 					src={leaderBoardText}
 					alt="Leaderboard"
 				/>
-				<div class="w-full flex justify-center mb-[66px]">
+				<div className="w-full flex justify-center mb-[66px]">
 					<img
-						class="w-full object-scale-down h-12 mb-2 mt-[12px] absolute right-[90px] z-10"
+						className="w-full object-scale-down h-12 mb-2 mt-[12px] absolute right-[90px] z-10"
 						src={leftStar}
 						alt="star"
 					/>
 					<img
-						class="w-full object-scale-down h-12 mb-2 absolute top-[100px]"
+						className="w-full object-scale-down h-12 mb-2 absolute top-[100px]"
 						src={midStar}
 						alt="star"
 					/>
 					<img
-						class="w-full object-scale-down h-12 mb-2 mt-[8px] absolute left-[90px]"
+						className="w-full object-scale-down h-12 mb-2 mt-[8px] absolute left-[90px]"
 						src={rightStar}
 						alt="star"
 					/>
 				</div>
 
 				<div className="filter-container flex justify-center">
-					<label class="bg-[#FFF2D0] rounded-full border-[3px] border-[#C13E3E] ring ring-[#FEE794] ring-[3px] px-2 pb-1 text-[#C13E3E]">
-						<label class="pr-4 pl-2 text-[10px]">Filter by:</label>
+					<label className="bg-[#FFF2D0] rounded-full border-[3px] border-[#C13E3E] ring ring-[#FEE794] ring-[3px] px-2 pb-1 text-[#C13E3E]">
+						<label className="pr-4 pl-2 text-[10px]">Filter by:</label>
 						<select
-							class="text-[10px] border-[0.5px] border-[#C13E3E] rounded-full py-1 px-2 bg-[#FFF2D0]"
+							className="text-[10px] border-[0.5px] border-[#C13E3E] rounded-full py-1 px-2 bg-[#FFF2D0]"
 							value={filterType}
 							onChange={handleFilterChange}
 						>
@@ -115,49 +115,49 @@ const LeaderboardTable = ({ data }) => {
 					</label>
 				</div>
 				<img
-					class="object-fill justify-center h-16 -z-10 m-auto"
+					className="object-fill justify-center h-16 -z-10 m-auto"
 					src={redLineDisctrict}
 					alt="garis"
 				/>
 				<div className="buttons-container text-[10px] flex justify-center mb-[20px]">
 					<button
-						class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Overall")}
 					>
 						Overall
 					</button>
 					<button
-						class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Day 1")}
 					>
 						Day 1
 					</button>
 					<button
-						class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Day 2")}
 					>
 						Day 2
 					</button>
 					<button
-						class="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Day 3")}
 					>
 						Day 3
 					</button>
 				</div>
-				<div class="table-container flex items-center justify-center">
+				<div className="table-container flex items-center justify-center">
 					{/* border-table border-y-[30px] border-x-[20px] border-[#C13E3E] rounded-[30px] ring-[8px] ring-[#FEE794] bg-[#C13E3E] flex-center */}
-					<div class="border-table border-y-[30px] border-x-[20px] border-[#C13E3E] rounded-[30px] ring-[8px] ring-[#FEE794] bg-[#C13E3E] flex-center">
-						<table class="text-[#474747] text-center text-[10px] border-4 border-[#B17A7A] rounded-[10px] w-full">
+					<div className="border-table border-y-[30px] border-x-[20px] border-[#C13E3E] rounded-[30px] ring-[8px] ring-[#FEE794] bg-[#C13E3E] flex-center">
+						<table className="text-[#474747] text-center text-[10px] border-4 border-[#B17A7A] rounded-[10px] w-full">
 							<thead>
-								<tr class="border-b-2 border-[#745E5E]">
-									<th class="bg-[#F4F4F4] font-bold px-4 py-1.5 text-[#C13E3E]">
+								<tr className="border-b-2 border-[#745E5E]">
+									<th className="bg-[#F4F4F4] font-bold px-4 py-1.5 text-[#C13E3E]">
 										Rank
 									</th>
-									<th class="bg-[#F4F4F4] font-bold px-5 py-1.5 text-[#C13E3E]">
+									<th className="bg-[#F4F4F4] font-bold px-5 py-1.5 text-[#C13E3E]">
 										{filterType}
 									</th>
-									<th class="bg-[#F4F4F4] font-bold px-2.5 py-1.5 text-[#C13E3E]">
+									<th className="bg-[#F4F4F4] font-bold px-2.5 py-1.5 text-[#C13E3E]">
 										{
 											selectedDay === "Overall"
 												? "Total Point"
@@ -167,7 +167,7 @@ const LeaderboardTable = ({ data }) => {
 								</tr>
 							</thead>
 							<tbody
-								class="[&>*:nth-child(1)]:bg-[#F7D7C9]
+								className="[&>*:nth-child(1)]:bg-[#F7D7C9]
                                     [&>*:nth-child(2)]:bg-[#D9EDF6]
                                     [&>*:nth-child(3)]:bg-[#F7D7C9]
                                     [&>*:nth-child(4)]:bg-[#E2EDBA]
@@ -178,21 +178,14 @@ const LeaderboardTable = ({ data }) => {
 							>
 								{displayedData.map((item, idx) => (
 									<tr
-										class="border-b-2 border-[#D2C2BB]"
 										key={`${item.day1Point} ${item.day2Point} ${item.day3Point} ${item.house}`}
-										className={
-											["House A", "House B", "House C", "House D"].includes(
-												item.house
-											)
-												? "house-row"
-												: "og-row"
-										}
+                    className={`border-b-2 border-[#D2C2BB] ${["House A", "House B", "House C", "House D"].includes(item.house) ? "house-row": "og-row"}`}
 									>
-										<td class="py-2">{idx + 1}</td>
-										<td class="py-2">
+										<td className="py-2">{idx + 1}</td>
+										<td className="py-2">
 											{filterType === "House" ? item.house : item.group}
 										</td>
-										<td class="py-2">
+										<td className="py-2">
 											{selectedDay === "Overall"
 												? item.day1Point + item.day2Point + item.day3Point
 												: item[`day${selectedDay.slice(-1)}Point`]}
