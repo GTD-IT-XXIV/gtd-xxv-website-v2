@@ -2,10 +2,10 @@ import { useState } from "react";
 
 import insideOutImage from "../../../assets/img/home/gtdlogo.png";
 import lightImage from "../../../assets/img/home/light.svg";
-import '../home.css'
+import "../home.css";
 
 const Screen = () => {
-    const [screen, setScreen] = useState(false);
+  const [screen, setScreen] = useState(false);
 
   const screenPosition =
     "top-1/3 left-2/4 -translate-x-[50%] -translate-y-[50%]";
@@ -23,14 +23,14 @@ const Screen = () => {
         <div
           className={`absolute w-3/6 top-2/4 left-2/4 -translate-x-[50%] -translate-y-[45%]`}
         >
-          <p
+          {/* <p
             className="-rotate-[17deg] text-center text-5xl sm:text-6xl md:text-8xl text-white"
             style={{ fontFamily: "InsideOut" }}
           >
             GTD
             <br />
             Inside out
-          </p>
+          </p> */}
         </div>
       </div>
       <div
@@ -46,7 +46,6 @@ const Screen = () => {
         onMouseEnter={() => setScreen(true)}
         onMouseLeave={() => setScreen(false)}
       />
-      
     </>
   );
 };
