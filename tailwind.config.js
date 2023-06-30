@@ -33,6 +33,7 @@ module.exports = {
       }],
       '4xl': '2.441rem',
       '5xl': '3.052rem',
+      '6xl': '3.5rem',
     },
     screens: {
       'sm': '0px',
