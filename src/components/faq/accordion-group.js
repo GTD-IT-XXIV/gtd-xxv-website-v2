@@ -33,7 +33,7 @@ const AccordionGroup = () => {
                         }}
                         onClick={() => handleItemClick(index)}
                     >
-                        <p className="m-0 font-bold text-xl">Question {index + 1}</p>
+                        <p className="m-0 font-bold lg:text-xl">Question {index + 1}</p>
                         
                         <ExpandMoreIcon className="accordion-icon" />
                     </div>
