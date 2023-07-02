@@ -31,11 +31,11 @@ const Home = () => {
         <div className="navigationContainer">
           {/* First section */}
           <div
-            className="w-full h-screen relative bg-[#190F3E] rounded-br-[150px] md:rounded-br-[300px] overflow-hidden"
+            className="w-full h-[85vh] md:h-screen relative bg-[#190F3E] rounded-br-[150px] md:rounded-br-[300px] overflow-hidden"
             style={{ boxShadow: "0px 0px 100px rgba(255,255,255,0.30)" }}
           >
             <Screen />
-            <div className={`absolute w-full flex flex-row bottom-0`}>
+            <div className="absolute w-full flex flex-row bottom-0">
               <Chair
                 orientation={"right-0 text-center"}
                 text={"Trailer"}

@@ -9,13 +9,13 @@ const Screen = () => {
 
   const screenPosition =
     "top-1/3 left-2/4 -translate-x-[50%] -translate-y-[50%]";
-  const screenFormat = "w-5/6 aspect-[2] lg:aspect-[3.5] rounded-[30px]";
+  const screenFormat = "w-5/6 aspect-[2] md:aspect-[3.5] rounded-[30px]";
 
   return (
     <>
       <div className={`absolute screen-bg ${screenPosition} ${screenFormat}`}>
         <div
-          className="w-3/6 lg:w-2/6 absolute bottom-0 left-2/4 -translate-x-[50%] aspect-[calc(388/262)] bg-no-repeat bg-contain"
+          className="w-4/6 md:w-3/6 absolute bottom-0 left-2/4 -translate-x-2/4 translate-y-[20%] md:translate-y-1/4 aspect-[calc(388/262)] bg-no-repeat bg-contain"
           style={{
             backgroundImage: `url(${insideOutImage})`,
           }}
