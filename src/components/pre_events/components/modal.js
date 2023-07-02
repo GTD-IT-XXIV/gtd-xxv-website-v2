@@ -8,7 +8,7 @@ const Modal = ({images, title, description, date, open = false, onClickClose}) =
     <div className="fixed w-full h-full z-20 left-0 top-0" style={{display: (open?'block':'none')}}>
       <div className="relative w-full h-full">
         <div className="w-full h-full absolute bg-black z-40 opacity-80" onClick={onClickClose}/>
-        <div className="absolute relative top-2/4 left-2/4 bg-[#FFC5C0] w-[300px] sm:w-[400px] h-[600px] flex z-50 p-8 -translate-x-2/4 -translate-y-2/4 rounded-3xl flex flex-column gap-2">
+        <div className="absolute relative top-2/4 left-2/4 bg-[#FFC5C0] w-[300px] sm:w-[400px] h-[600px] flex z-50 p-8 -translate-x-2/4 -translate-y-2/4 rounded-2xl sm:rounded-3xl flex flex-column gap-2">
         <IconButton
           sx={{
             position: "absolute",
