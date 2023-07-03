@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./chair.css";
-import { Link } from "react-router-dom";
 
 const Chair = ({ text, orientation, topClassName, middleClassName, route }) => {
   return (

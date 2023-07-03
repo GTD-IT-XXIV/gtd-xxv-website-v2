@@ -1,7 +1,3 @@
-import { useState } from "react";
-import insideOutImage from "../../assets/img/home/inside_out.png";
-import lightImage from "../../assets/img/home/light.svg";
-
 import "./home.css";
 
 import Screen from "./components/screen";
@@ -12,18 +8,9 @@ import Groups from './components/groups';
 
 import carouselImages from './carouseImages.json'
 
-const screenPosition = "top-1/3 left-2/4 -translate-x-[50%] -translate-y-[50%]";
-const screenFormat = "w-5/6 aspect-[2] lg:aspect-[3.5] rounded-[30px]";
-
 
 
 const Home = () => {
-  const [visible, setVisible] = useState(false);
-  const [screen, setScreen] = useState(false);
-
-  function handleClick() {
-    setVisible(visible ? false : true);
-  }
 
   return (
     <>
