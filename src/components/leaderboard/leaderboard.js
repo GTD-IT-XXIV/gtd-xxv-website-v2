@@ -3,7 +3,7 @@ import leaderBoardText from "./leaderboard_text.png";
 import leftStar from "./star_kiri.png";
 import midStar from "./star_tengah.png";
 import rightStar from "./star_kanan.png";
-import redLineDisctrict from "./garisnya.png";
+import redLine from "./garisnya.png";
 
 const LeaderboardTable = ({ data }) => {
 	const [selectedDay, setSelectedDay] = useState("Overall");
@@ -115,11 +115,11 @@ const LeaderboardTable = ({ data }) => {
 					</label>
 				</div>
 				<img
-					className="object-fill justify-center h-16 -z-10 m-auto"
-					src={redLineDisctrict}
+					className="redLine object-fill justify-center h-16 m-auto"
+					src={redLine}
 					alt="garis"
 				/>
-				<div className="buttons-container text-[10px] flex justify-center mb-[20px]">
+				<div className="buttons-container text-[10px] flex justify-center">
 					<button
 						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Overall")}

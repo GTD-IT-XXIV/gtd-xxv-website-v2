@@ -1,16 +1,28 @@
 @import url(../../index.css);
 
-.leaderboard{
+.leaderboard {
   flex: 1;
 }
-.container{
+.container {
   font-family: InsideOut;
   /* background: linear-gradient(#23174A, #743C7C);
   background-attachment: fixed; */
 }
-.container-full{
+.container-full {
   background: linear-gradient(#23174A, #743C7C);
   background-attachment: fixed;
+}
+.redLine {
+  position: relative;
+  top: 3px;
+}
+.buttons-container {
+  position: relative;
+  top: -40px;
+}
+.table-container {
+  position: relative;
+  top:-22px;
 }
 
 h1 {
@@ -27,3 +39,5 @@ select {
   z-index: 100;
   position: relative;
 }
+
+

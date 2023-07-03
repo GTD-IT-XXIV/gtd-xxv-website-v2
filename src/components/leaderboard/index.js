@@ -1,5 +1,7 @@
 import "./leaderboard.css";
 import LeaderboardTable from './leaderboard';
+import { useState, useEffect } from "react";
+
 
 // Sample data for leaderboard
 const leaderboardData = [
@@ -13,7 +15,25 @@ const leaderboardData = [
   { group: 'OG8', house: 'House D', day1Point: 40, day2Point: 50, day3Point: 60 },
 ];
 
+
 const Leaderboard = () => {
+//   const [users, setUsers] = useState([])
+//   const fetchUserData = () => {
+//     fetch("https://dummyjson.com/products/1")
+//     .then(response => {
+//       return response.json()
+//     })
+//     // .then(data => {
+//     //   setUsers(data)
+//     // })
+//     .then(json => console.log(json))
+//   }
+
+//   useEffect(() => {
+//     fetchUserData()
+//   }, [])
+
+
   return (
     <div className="faq">
       <div className="navigationContainer">
