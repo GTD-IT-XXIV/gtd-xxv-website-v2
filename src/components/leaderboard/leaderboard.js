@@ -75,7 +75,7 @@ const LeaderboardTable = ({ data }) => {
 
 	return (
 		<div className="container-full">
-			<div className="container w-screen h-full mx-auto py-20">
+			<div className="container w-screen min-h-screen h-full mx-auto py-20">
 				{/* <h1 class="text-center text-4xl text-[#FFF2D0] py-2">Leaderboard</h1> */}
 
 				<img
