@@ -12,18 +12,6 @@
   background: linear-gradient(#23174A, #743C7C);
   background-attachment: fixed;
 }
-.redLine {
-  position: relative;
-  top: 3px;
-}
-.buttons-container {
-  position: relative;
-  top: -40px;
-}
-.table-container {
-  position: relative;
-  top:-22px;
-}
 
 h1 {
   text-shadow: 3px 3px 0px #C13E3E; 

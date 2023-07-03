@@ -75,37 +75,37 @@ const LeaderboardTable = ({ data }) => {
 
 	return (
 		<div className="container-full">
-			<div className="container w-screen min-h-screen h-full mx-auto py-20">
+			<div className="container w-full min-h-screen mx-auto py-20">
 				{/* <h1 class="text-center text-4xl text-[#FFF2D0] py-2">Leaderboard</h1> */}
 
 				<img
-					className="leadeboard_image w-full object-scale-down h-16 absolute top-20 left-0 right-0 z-40"
+					className="leadeboard_image w-full object-scale-down h-20 relative z-40"
 					src={leaderBoardText}
 					alt="Leaderboard"
 				/>
-				<div className="w-full flex justify-center mb-[66px]">
+				<div className="w-auto flex justify-center">
 					<img
-						className="w-full object-scale-down h-12 mb-2 mt-[12px] absolute right-[90px] z-10"
+						className="w-full object-scale-down h-14 mt-[24px] absolute right-[114px] top-32"
 						src={leftStar}
 						alt="star"
 					/>
 					<img
-						className="w-full object-scale-down h-12 mb-2 absolute top-[100px]"
+						className="w-full object-scale-down h-14 absolute top-32"
 						src={midStar}
 						alt="star"
 					/>
 					<img
-						className="w-full object-scale-down h-12 mb-2 mt-[8px] absolute left-[90px]"
+						className="w-auto object-scale-down h-[58px] mt-[28px] relative bottom-16 left-28"
 						src={rightStar}
 						alt="star"
 					/>
 				</div>
 
-				<div className="filter-container flex justify-center">
-					<label className="bg-[#FFF2D0] rounded-full border-[3px] border-[#C13E3E] ring ring-[#FEE794] ring-[3px] px-2 pb-1 text-[#C13E3E]">
-						<label className="pr-4 pl-2 text-[10px]">Filter by:</label>
+				<div className="filter-container flex justify-center relative bottom-20">
+					<label className="bg-[#FFF2D0] rounded-full border-[3px] border-[#C13E3E] ring ring-[#FEE794] ring-[3px] pl-8 pr-4 py-0.5 text-[#C13E3E]">
+						<label className="mr-14 text-[14px]">Filter by:</label>
 						<select
-							className="text-[10px] border-[0.5px] border-[#C13E3E] rounded-full py-1 px-2 bg-[#FFF2D0]"
+							className="text-[14px] border-[0.5px] border-[#C13E3E] rounded-full py-1 px-4 bg-[#FFF2D0]"
 							value={filterType}
 							onChange={handleFilterChange}
 						>
@@ -115,49 +115,49 @@ const LeaderboardTable = ({ data }) => {
 					</label>
 				</div>
 				<img
-					className="redLine object-fill justify-center h-16 m-auto"
+					className="redLine object-fill justify-center h-20 w-72 m-auto relative bottom-[77px]"
 					src={redLine}
 					alt="garis"
 				/>
-				<div className="buttons-container text-[10px] flex justify-center">
+				<div className="buttons-container flex justify-center relative bottom-[126px]">
 					<button
-						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2.5 px-[12px] py-0.5 text-[#C13E3E] text-[12px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Overall")}
 					>
 						Overall
 					</button>
 					<button
-						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2.5 px-3 py-0.5 text-[#C13E3E] text-[12px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Day 1")}
 					>
 						Day 1
 					</button>
 					<button
-						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2.5 px-3 py-0.5 text-[#C13E3E] text-[12px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Day 2")}
 					>
 						Day 2
 					</button>
 					<button
-						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2 px-3 py-0.5 text-[#C13E3E] text-[10px] hover:drop-shadow-lg"
+						className="bg-[#FFF2D0] rounded-full border-2 border-[#C13E3E] border-[2px] ring ring-[#FEE794] ring-[2px] mx-2.5 px-3 py-0.5 text-[#C13E3E] text-[12px] hover:drop-shadow-lg"
 						onClick={() => setSelectedDay("Day 3")}
 					>
 						Day 3
 					</button>
 				</div>
-				<div className="table-container flex items-center justify-center">
+				<div className="table-container flex items-center justify-center relative bottom-[104px]">
 					{/* border-table border-y-[30px] border-x-[20px] border-[#C13E3E] rounded-[30px] ring-[8px] ring-[#FEE794] bg-[#C13E3E] flex-center */}
 					<div className="border-table border-y-[30px] border-x-[20px] border-[#C13E3E] rounded-[30px] ring-[8px] ring-[#FEE794] bg-[#C13E3E] flex-center">
-						<table className="text-[#474747] text-center text-[10px] border-4 border-[#B17A7A] rounded-[10px] w-full">
+						<table className="text-[#474747] text-center text-[14px] border-4 border-[#B17A7A] rounded-[10px] w-auto">
 							<thead>
 								<tr className="border-b-2 border-[#745E5E]">
-									<th className="bg-[#F4F4F4] font-bold px-4 py-1.5 text-[#C13E3E]">
+									<th className="bg-[#F4F4F4] font-bold px-8 py-1.5 text-[#C13E3E]">
 										Rank
 									</th>
-									<th className="bg-[#F4F4F4] font-bold px-5 py-1.5 text-[#C13E3E]">
+									<th className="bg-[#F4F4F4] font-bold px-10 py-1.5 text-[#C13E3E]">
 										{filterType}
 									</th>
-									<th className="bg-[#F4F4F4] font-bold px-2.5 py-1.5 text-[#C13E3E]">
+									<th className="bg-[#F4F4F4] font-bold px-3 py-1.5 text-[#C13E3E]">
 										{
 											selectedDay === "Overall"
 												? "Total Point"
