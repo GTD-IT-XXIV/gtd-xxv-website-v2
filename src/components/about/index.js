@@ -1,7 +1,7 @@
 import "../../index.css";
 import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
-
+import "./about.css";
 const About = () => {
   return (
     <div class="bg-gradient-to-b from-[#3F2E7C] to-[#7E4081]">
@@ -86,22 +86,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* <div class="mx-auto py-10">
-            <p
-              style={{ fontFamily: "InsideOut" }}
-              class="text-3xl md:text-5xl text-white text-center"
-            >
-              Check out our sponsor
-            </p>
-            <div class="mx-auto mb-10 flex sm:max-md:w-[80%] sm:max-md:h-[130px] md:w-[550px] md:h-[170px] bg-gray-300 rounded-xl">
-              // Insert sponsor logo here
-            </div>
-
-            <div class="mx-auto mb-10 flex sm:max-md:w-[80%] sm:max-md:h-[130px] md:w-[550px] md:h-[170px] bg-gray-300 rounded-xl">
-              // Insert sponsor logo here
-            </div>
-          </div> */}
-
           <div class="mx-auto py-20">
             <p
               style={{ fontFamily: "InsideOut" }}
@@ -153,6 +137,15 @@ const About = () => {
                 No once we’ll forget this great day we have
                 <br></br>
               </p>
+            </div>
+            <div class="center">
+              <iframe
+                width="80%"
+                height="166"
+                frameborder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455672094&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+              ></iframe>
             </div>
           </div>
         </div>
