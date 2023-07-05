@@ -1,290 +1,896 @@
 [
-    {
-        "role" : "Tops",
-        "team" : "-",
-        "name" : "Tops 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love AI"
-    },
-    {
-        "role" : "Tops",
-        "team" : "-",
-        "name" : "Tops 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love AI"
-    },
-    {
-        "role" : "Tops",
-        "team" : "-",
-        "name" : "Tops 3",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love AI"
-    },
-    {
-        "role" : "Tops",
-        "team" : "-",
-        "name" : "Tops 4",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love AI"
-    },
-    {
-        "role" : "Main",
-        "team" : "POLOG",
-        "name" : "Maincom POLOG 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Main",
-        "team" : "POLOG",
-        "name" : "Maincom POLOG 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 3",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 4",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 5",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 6",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 7",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 8",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 9",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "POLOG",
-        "name" : "Subcom POLOG 10",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Main",
-        "team" : "PPIT",
-        "name" : "Maincom PPIT 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Main",
-        "team" : "PPIT",
-        "name" : "Maincom PPIT 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Sub",
-        "team" : "PPIT",
-        "name" : "Subcom PPIT 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "PPIT",
-        "name" : "Subcom PPIT 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Main",
-        "team" : "BFM",
-        "name" : "Maincom BFM 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Main",
-        "team" : "BFM",
-        "name" : "Maincom BFM 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Sub",
-        "team" : "BFM",
-        "name" : "Subcom BFM 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "BFM",
-        "name" : "Subcom BFM 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Main",
-        "team" : "WELFARE",
-        "name" : "Maincom WELFARE 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Main",
-        "team" : "WELFARE",
-        "name" : "Maincom WELFARE 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Sub",
-        "team" : "WELFARE",
-        "name" : "Subcom WELFARE 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "WELFARE",
-        "name" : "Subcom WELFARE 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Main",
-        "team" : "GL",
-        "name" : "Maincom GL 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Main",
-        "team" : "GL",
-        "name" : "Maincom GL 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "EEE",
-        "quote": "I love Coding"
-    },
-    {
-        "role" : "Sub",
-        "team" : "GL",
-        "name" : "Subcom GL 1",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    },
-    {
-        "role" : "Sub",
-        "team" : "GL",
-        "name" : "Subcom GL 2",
-        "image": "sample_pic.png",
-        "year" : "1",
-        "major": "Computer Science",
-        "quote": "I love Nyemak"
-    }
+  {
+    "role": "Tops",
+    "team": "-",
+    "nickname": "Kenzhi - President",
+    "name": "Kenzhi Iskandar Wong",
+    "image": "sample_pic.png",
+    "major": "MAE/4"
+  },
+  {
+    "role": "Tops",
+    "team": "-",
+    "nickname": "Jokel - VP POLOG",
+    "name": "Jonathan Kelvin Santoso",
+    "image": "sample_pic.png",
+    "major": "EEE/4"
+  },
+  {
+    "role": "Tops",
+    "team": "-",
+    "nickname": "Leo - VP BFM & WELF",
+    "name": "Leonard Darmawan",
+    "image": "sample_pic.png",
+    "major": "CBE/4"
+  },
+  {
+    "role": "Tops",
+    "team": "-",
+    "nickname": "Dodo - VP CGL & PPIT",
+    "name": "Rivaldo Billy",
+    "image": "sample_pic.png",
+    "major": "MAS/4"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Hartawan",
+    "name": "Hartawan Surya Santoso",
+    "image": "sample_pic.png",
+    "major": "CEE/4"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "WCP",
+    "name": "Wilsen Chandra Putra",
+    "image": "sample_pic.png",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Elbert",
+    "name": "Elbert Osvaldo Yen",
+    "image": "sample_pic.png",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Bernard",
+    "name": "Bernard Lesley Efendy",
+    "image": "sample_pic.png",
+    "major": "CSC/3"
+  },
+
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Celine",
+    "name": "Celine Wijaya",
+    "image": "sample_pic.png",
+    "major": "BUS/3"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Pascal",
+    "name": "Pascal Theodore Surya",
+    "image": "sample_pic.png",
+    "major": "CBE/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Holy",
+    "name": "Holy Kristanti",
+    "image": "sample_pic.png",
+    "major": "BIE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Brytista",
+    "name": "Bryan Atista Kiely",
+    "image": "sample_pic.png",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Alvinsen",
+    "name": "Alvinsen Japutra",
+    "image": "sample_pic.png",
+    "major": "BIE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Marcel",
+    "name": "Marcelino Sutanto",
+    "image": "sample_pic.png",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Rafie",
+    "name": "Rafie Hanania",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Richard",
+    "name": "Richard Fernando",
+    "image": "sample_pic.png",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Marco",
+    "name": "Marco Louis Rudyanto",
+    "image": "sample_pic.png",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Theonie",
+    "name": "Theonie Wijaya",
+    "image": "sample_pic.png",
+    "major": "ECPS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Neo",
+    "name": "Neo Hwang",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Daniel",
+    "name": "Daniel Paniroy Situmoran",
+    "image": "sample_pic.png",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Elvin",
+    "name": "Elvin Sugianto",
+    "image": "sample_pic.png",
+    "major": "IEM/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Samson",
+    "name": "Yves Samson Li",
+    "image": "sample_pic.png",
+    "major": "CE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Ruben",
+    "name": "Ruben Manuel Sitorus",
+    "image": "sample_pic.png",
+    "major": "AE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Rena",
+    "name": "Verena Regina Tirtajasa",
+    "image": "sample_pic.png",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Geoff",
+    "name": "Geoffvinc Ng",
+    "image": "sample_pic.png",
+    "major": "PHY/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Matdin",
+    "name": "Matthew Dinata",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Gaby",
+    "name": "Gabrielle Nicole Suharjono",
+    "image": "sample_pic.png",
+    "major": "IEM/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Kevin",
+    "name": "Kevin Lee Gunawan",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Karina",
+    "name": "Verena Karina Suharman",
+    "image": "sample_pic.png",
+    "major": "BIE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Okky",
+    "name": "Herbian Hokky Prabowo",
+    "image": "sample_pic.png",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Jeen",
+    "name": "Jason Nicholas",
+    "image": "sample_pic.png",
+    "major": "CBE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Stephanie",
+    "name": "Stephanie Eliana Janong",
+    "image": "sample_pic.png",
+    "major": "MSE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Daniel",
+    "name": "Daniel Rahmatcipta",
+    "image": "sample_pic.png",
+    "major": "CEE/4"
+  },
+
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Abo",
+    "name": "Rajendra Muhammad Alfarrel",
+    "image": "sample_pic.png",
+    "major": "CEE/4"
+  },
+
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "Aji",
+    "name": "Muhammad Rafi Adzikra Sujai",
+    "image": "sample_pic.png",
+    "major": "CSC/3"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "Priscilla",
+    "name": "Priscilla Celine Setiawan",
+    "image": "sample_pic.png",
+    "major": "CSC/3"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "Seve",
+    "name": "Severiano Steinar Rivandi",
+    "image": "sample_pic.png",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "George",
+    "name": "Gregorius George Bunjamin",
+    "image": "sample_pic.png",
+    "major": "ECPP/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kai",
+    "name": "Muhammad Mikail Rais",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Joshua Adrian",
+    "name": "Joshua Adrian Cahyono",
+    "image": "sample_pic.png",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Gillbert",
+    "name": "Gillbert Susilo Wong",
+    "image": "sample_pic.png",
+    "major": "CSC/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Juan",
+    "name": "Juan Frederick",
+    "image": "sample_pic.png",
+    "major": "CSC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kim",
+    "name": "Kimberly Atmadja",
+    "image": "sample_pic.png",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kenneth",
+    "name": "Kenneth Tanudjaja",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Devlin",
+    "name": "Karl Devlin Chau",
+    "image": "sample_pic.png",
+    "major": "CSC/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": " Joshua James",
+    "name": "Joshua James",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Karin",
+    "name": "Katarina Koesoemo",
+    "image": "sample_pic.png",
+    "major": "BSPY/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Clayton",
+    "name": "Clayton Fernalo",
+    "image": "sample_pic.png",
+    "major": "CSC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kristian",
+    "name": "Kristian Hadinata Achwan",
+    "image": "sample_pic.png",
+    "major": "MACS/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Billy",
+    "name": "Billy Muliorahardjo",
+    "image": "sample_pic.png",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Joanne",
+    "name": "Joanne Christina Salimin",
+    "image": "sample_pic.png",
+    "major": "CSC/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kenny",
+    "name": "Kenny Lius",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Issac",
+    "name": "Gregory Isaac Koesno",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Fiona",
+    "name": "Fiona Valentin Wironoto Susilo",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Ardi",
+    "name": "Ardi Syahda Ahmad Hakim",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Alvin",
+    "name": "Alvin Putera Budiman",
+    "image": "sample_pic.png",
+    "major": "EEE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Wesley",
+    "name": "Wesley Susanto",
+    "image": "sample_pic.png",
+    "major": "IEM/4"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Joce",
+    "name": "Jocelyn Valencia Yoswara",
+    "image": "sample_pic.png",
+    "major": "IEM/4"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Vece",
+    "name": "Vanessa Christy Chandra",
+    "image": "sample_pic.png",
+    "major": "IEM/4"
+  },
+
+  {
+    "role": "Main",
+    "team": "BFM",
+    "nickname": "Rafpang",
+    "name": "Rafi Bintang Pagi Pangestu",
+    "image": "sample_pic.png",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Main",
+    "team": "BFM",
+    "nickname": "James",
+    "name": "James Ryan Hendarto",
+    "image": "sample_pic.png",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Main",
+    "team": "BFM",
+    "nickname": "Jennifer",
+    "name": "Josephine Jennifer Susanto",
+    "image": "sample_pic.png",
+    "major": "BUS/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Keiko",
+    "name": "Keiko Renata Santoso",
+    "image": "sample_pic.png",
+    "major": "ACC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Wildan",
+    "name": "Muhammad Wildan Tamami",
+    "image": "sample_pic.png",
+    "major": "ENG/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Cindy",
+    "name": "Cindy Octavia",
+    "image": "sample_pic.png",
+    "major": "BUS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Jennifer",
+    "name": "Jennifer Chenni Yoshuara",
+    "image": "sample_pic.png",
+    "major": "BUS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Bryan",
+    "name": "Bryan Wijaya",
+    "image": "sample_pic.png",
+    "major": "CBE/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Juan",
+    "name": "Juannisa Putri Sunarya",
+    "image": "sample_pic.png",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Hogan",
+    "name": "Hogan Chang",
+    "image": "sample_pic.png",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Vanessa",
+    "name": "Vanessa Victoria Setiawan",
+    "image": "sample_pic.png",
+    "major": "NBS/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Andrew (Ano)",
+    "name": "Andrew Nycholas Ormand",
+    "image": "sample_pic.png",
+    "major": "CEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Rizky",
+    "name": "Achmad Rizky Maulana",
+    "image": "sample_pic.png",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Edmerson",
+    "name": "Edmerson Low Soon Xiang",
+    "image": "sample_pic.png",
+    "major": "IEM/3"
+  },
+  {
+    "role": "Main",
+    "team": "WELFARE",
+    "nickname": "Hanson",
+    "name": "Frederik Hanson",
+    "image": "sample_pic.png",
+    "major": ""
+  },
+  {
+    "role": "Main",
+    "team": "WELFARE",
+    "nickname": "Bryno",
+    "name": "Bryan Noel Salindeho",
+    "image": "sample_pic.png",
+    "major": ""
+  },
+  {
+    "role": "Main",
+    "team": "WELFARE",
+    "nickname": "Jessica",
+    "name": "Jessica Martin",
+    "image": "sample_pic.png",
+    "major": ""
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Calista",
+    "name": "Calista Priscilia Destyne",
+    "image": "sample_pic.png",
+    "major": "ENE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Abigail",
+    "name": "Abigail Antonia Wijaya",
+    "image": "sample_pic.png",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Afifuddin",
+    "name": "Afifuddin Yunior",
+    "image": "sample_pic.png",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Gregor",
+    "name": "Gregorian Kusumah",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Puti",
+    "name": "Puti Kinanti Nayla Rahmania",
+    "image": "sample_pic.png",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Nadia",
+    "name": "Nadia Donita",
+    "image": "sample_pic.png",
+    "major": "MAS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Adam",
+    "name": "Muhammad Adam Nurkholis",
+    "image": "sample_pic.png",
+    "major": "CEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Andrea",
+    "name": "Andrea Adriana Prawono",
+    "image": "sample_pic.png",
+    "major": "CBC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Rachel",
+    "name": "Rachel Evelyn",
+    "image": "sample_pic.png",
+    "major": "CBC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Elicia",
+    "name": "Elicia Tanputraman",
+    "image": "sample_pic.png",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Kemas",
+    "name": "Kemas Muhammad Fatahillah",
+    "image": "sample_pic.png",
+    "major": "IEM/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Raja",
+    "name": "Muhammad Raja Dzulhijjah",
+    "image": "sample_pic.png",
+    "major": "BIE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Mingkai",
+    "name": "Gao Mingkai",
+    "image": "sample_pic.png",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Anson",
+    "name": "Anson Douglas Hakim",
+    "image": "sample_pic.png",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Stephen",
+    "name": "Stephen Edbert",
+    "image": "sample_pic.png",
+    "major": "CEE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Fernando",
+    "name": "Fernando",
+    "image": "sample_pic.png",
+    "major": "ASE/4"
+  },
+  {
+    "role": "Main",
+    "team": "GL",
+    "nickname": "Boi",
+    "name": "Aurelius Bryan",
+    "image": "sample_pic.png",
+    "major": "BUS/3"
+  },
+  {
+    "role": "Main",
+    "team": "GL",
+    "nickname": "Christine",
+    "name": "Christine Theresia",
+    "image": "sample_pic.png",
+    "major": "ACC/3"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Leonrich",
+    "name": "Leonrich Chandra",
+    "image": "sample_pic.png",
+    "major": "ENG/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Dea",
+    "name": "Deandra Devi Aravinda",
+    "image": "sample_pic.png",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Metkep",
+    "name": "Matthew Kevin Hardjopranoto",
+    "image": "sample_pic.png",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Cynthia",
+    "name": "Cynthia Oktaviani Pantoro",
+    "image": "sample_pic.png",
+    "major": "CEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Hansen",
+    "name": "Hansen Nathaniel Wijaya",
+    "image": "sample_pic.png",
+    "major": "ENG/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Kezia",
+    "name": "Kezia Aprilia Sanjaya",
+    "image": "sample_pic.png",
+    "major": "ECDS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Kenneth",
+    "name": "Kenneth Anthony Wijaya",
+    "image": "sample_pic.png",
+    "major": "ENG/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Rachel",
+    "name": "Rachel Sherafin Korompis",
+    "image": "sample_pic.png",
+    "major": "BIE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Alex",
+    "name": "Alexander Sebastian Christianto",
+    "image": "sample_pic.png",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Maggie",
+    "name": "Margaretha Exaudi Siahaan",
+    "image": "sample_pic.png",
+    "major": "CEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Wisnu",
+    "name": "Muhammad Wisnu Darmawan",
+    "image": "sample_pic.png",
+    "major": "BCE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Joanka",
+    "name": "Joanka Devi Kalynda",
+    "image": "sample_pic.png",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Vanness",
+    "name": "Vanness Valentino",
+    "image": "sample_pic.png",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Shella",
+    "name": "Marshella Angelin",
+    "image": "sample_pic.png",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Wilfred",
+    "name": "Wilfred Alexander Lee",
+    "image": "sample_pic.png",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Miranda",
+    "name": "Miranda Averina Razali",
+    "image": "sample_pic.png",
+    "major": "PSY/2"
+  }
 ]
