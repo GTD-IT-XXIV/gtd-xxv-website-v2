@@ -9,13 +9,13 @@
   background-attachment: fixed; */
 }
 .container-full {
-  background: linear-gradient(#23174A, #743C7C);
+  background: linear-gradient(#23174a, #743c7c);
   background-attachment: fixed;
 }
 
 h1 {
-  text-shadow: 3px 3px 0px #C13E3E; 
-  -webkit-text-stroke: 1px #C13E3E;
+  text-shadow: 3px 3px 0px #c13e3e;
+  -webkit-text-stroke: 1px #c13e3e;
 }
 
 button {
@@ -27,5 +27,3 @@ select {
   z-index: 100;
   position: relative;
 }
-
-
