@@ -1,38 +1,83 @@
 import "./leaderboard.css";
-import LeaderboardTable from './leaderboard';
+import LeaderboardTable from "./leaderboard";
 import { useState, useEffect } from "react";
-
 
 // Sample data for leaderboard
 const leaderboardData = [
-  { group: 'OG1', house: 'House A', day1Point: 50, day2Point: 60, day3Point: 70 },
-  { group: 'OG2', house: 'House A', day1Point: 40, day2Point: 50, day3Point: 60 },
-  { group: 'OG3', house: 'House B', day1Point: 30, day2Point: 40, day3Point: 50 },
-  { group: 'OG4', house: 'House B', day1Point: 20, day2Point: 30, day3Point: 40},
-  { group: 'OG5', house: 'House C', day1Point: 10, day2Point: 20, day3Point: 30},
-  { group: 'OG6', house: 'House C', day1Point: 20, day2Point: 30, day3Point: 40},
-  { group: 'OG7', house: 'House D', day1Point: 30, day2Point: 40, day3Point: 50 },
-  { group: 'OG8', house: 'House D', day1Point: 40, day2Point: 50, day3Point: 60 },
+  {
+    group: "Indiana JONES",
+    house: "Sadness",
+    day1Point: 50,
+    day2Point: 60,
+    day3Point: 70,
+  },
+  {
+    group: "LARA Croft",
+    house: "Sadness",
+    day1Point: 40,
+    day2Point: 50,
+    day3Point: 60,
+  },
+  {
+    group: "FEARaun",
+    house: "Fear",
+    day1Point: 30,
+    day2Point: 40,
+    day3Point: 50,
+  },
+  {
+    group: "FEARamid",
+    house: "Fear",
+    day1Point: 20,
+    day2Point: 30,
+    day3Point: 40,
+  },
+  {
+    group: "GOTbusters",
+    house: "Disgust",
+    day1Point: 10,
+    day2Point: 20,
+    day3Point: 30,
+  },
+  {
+    group: " TRASHformers",
+    house: "Disgust",
+    day1Point: 20,
+    day2Point: 30,
+    day3Point: 40,
+  },
+  {
+    group: "seriGALAK",
+    house: "Anger",
+    day1Point: 30,
+    day2Point: 40,
+    day3Point: 50,
+  },
+  {
+    group: "capyMARAH",
+    house: "Anger",
+    day1Point: 40,
+    day2Point: 50,
+    day3Point: 60,
+  },
 ];
 
-
 const Leaderboard = () => {
-//   const [users, setUsers] = useState([])
-//   const fetchUserData = () => {
-//     fetch("https://dummyjson.com/products/1")
-//     .then(response => {
-//       return response.json()
-//     })
-//     // .then(data => {
-//     //   setUsers(data)
-//     // })
-//     .then(json => console.log(json))
-//   }
+  //   const [users, setUsers] = useState([])
+  //   const fetchUserData = () => {
+  //     fetch("https://dummyjson.com/products/1")
+  //     .then(response => {
+  //       return response.json()
+  //     })
+  //     // .then(data => {
+  //     //   setUsers(data)
+  //     // })
+  //     .then(json => console.log(json))
+  //   }
 
-//   useEffect(() => {
-//     fetchUserData()
-//   }, [])
-
+  //   useEffect(() => {
+  //     fetchUserData()
+  //   }, [])
 
   return (
     <div className="faq">
