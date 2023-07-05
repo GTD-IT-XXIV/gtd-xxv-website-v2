@@ -1,6 +1,6 @@
 import "./Polaroid.css";
 
-const Polaroid = ({ image, nickname, name, major, isLeft, setCardState }) => {
+const Polaroid = ({ image, nickname, name, major, isLeft, isLast, setCardState }) => {
   const handleClick = () => {
     setCardState({
       visible: true,
@@ -12,7 +12,12 @@ const Polaroid = ({ image, nickname, name, major, isLeft, setCardState }) => {
   };
 
   const polaroidStyle = {};
-  if (isLeft) polaroidStyle.marginLeft = "auto";
+  if (isLast) 
+  {
+    polaroidStyle.marginLeft = "auto";
+    polaroidStyle.marginRight = "auto";
+  }
+  else if (isLeft) polaroidStyle.marginLeft = "auto";
   else polaroidStyle.marginRight = "auto";
 
   return (
