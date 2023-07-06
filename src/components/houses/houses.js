@@ -20,9 +20,9 @@ const anger = {
     alt: "Anger from Inside Out",
   },
   dresscode: {
-    "Day 1": "Anger T-Shirt 1",
-    "Day 2": "Anger T-Shirt 2",
-    "Day 3": "Anger T-Shirt 3",
+    "Day 1": "Free Colour Shirt",
+    "Day 2": "Red Shirt & Sandal",
+    "Day 3": "Black & White shirt & Shoes",
     "Day 4": "Anger T-Shirt 4",
   },
 };
@@ -43,9 +43,9 @@ const sadness = {
     alt: "Sadness from Inside Out",
   },
   dresscode: {
-    "Day 1": "Sadness T-Shirt 1",
-    "Day 2": "Sadness T-Shirt 2",
-    "Day 3": "Sadness T-Shirt 3",
+    "Day 1": "Free Colour Shirt",
+    "Day 2": "Blue Shirt & Sandal",
+    "Day 3": "Pastel Tones Shirt & Shoes",
     "Day 4": "Sadness T-Shirt 4",
   },
 };
@@ -66,9 +66,9 @@ const disgust = {
     alt: "Disgust from Inside Out",
   },
   dresscode: {
-    "Day 1": "Disgust T-Shirt 1",
-    "Day 2": "Disgust T-Shirt 2",
-    "Day 3": "Disgust T-Shirt 3",
+    "Day 1": "Free Colour Shirt",
+    "Day 2": "Green Shirt & Sandal",
+    "Day 3": "Earth Tones Shirt & Shoes",
     "Day 4": "Disgust T-Shirt 4",
   },
 };
@@ -89,9 +89,9 @@ const fear = {
     alt: "Fear from Inside Out",
   },
   dresscode: {
-    "Day 1": "Fear T-Shirt 1",
-    "Day 2": "Fear T-Shirt 2",
-    "Day 3": "Fear T-Shirt 3",
+    "Day 1": "Free Colour Shirt",
+    "Day 2": "Purple Shirt & Sandal",
+    "Day 3": "Neutral Tones Shirt & Shoes",
     "Day 4": "Fear T-Shirt 4",
   },
 };

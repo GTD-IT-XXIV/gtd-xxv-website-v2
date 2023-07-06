@@ -78,12 +78,6 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
                     {day.popup.time}
                   </time>
                 </dd>
-              </div>
-              <div
-                className="absolute h-full rounded-sm border-2 border-solid 
-                         border-white md:rounded-[2.5px] md:border-[2.5px]"
-              />
-              <div className="flex w-1/2 flex-col items-start pe-2 md:pe-6">
                 <dt
                   className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
                              font-normal sm:mt-6 sm:text-base md:text-lg"
@@ -93,6 +87,12 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
                 <dd className="mb-0 text-lg sm:text-2xl md:text-3xl">
                   {house.dresscode[day.card.title]}
                 </dd>
+              </div>
+              <div
+                className="absolute h-full rounded-sm border-2 border-solid 
+                         border-white md:rounded-[2.5px] md:border-[2.5px]"
+              />
+              <div className="flex w-1/2 flex-col items-start pe-2 md:pe-6">
                 <dt
                   className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
                              font-normal sm:mt-6 sm:text-base md:text-lg"
@@ -104,6 +104,23 @@ const DayModal = forwardRef(({ house, day, visible, onClick }, ref) => {
                     className="text-lg text-stone-400 no-underline
                              hover:text-stone-400 sm:text-2xl md:text-3xl"
                     href={day.popup.subOGLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Click to open
+                  </a>
+                </dd>
+                <dt
+                  className="mb-0 mt-[0.75rem] font-['Lato-Regular'] text-sm
+                             font-normal sm:mt-6 sm:text-base md:text-lg"
+                >
+                  Game Flow
+                </dt>
+                <dd className="mb-[0.75rem] sm:mb-6">
+                  <a
+                    className="text-lg text-stone-400 no-underline
+                             hover:text-stone-400 sm:text-2xl md:text-3xl"
+                    href={day.popup.gameFlow}
                     target="_blank"
                     rel="noreferrer"
                   >
