@@ -32,7 +32,7 @@ const PreEvents = () => {
           <h1 className="font-inside-out text-white text-4xl md:text-5xl">Pre-Event</h1>
           {images.map((image, index) => {
             return (
-              <Television className="w-5/6 md:w-[40%] max-w-md flex">
+              <Television className="w-5/6 md:w-[40%] max-w-md flex" key={index}>
                 <div className="flex flex-column items-center justify-center absolute z-10 image-cover bg-black w-full h-full gap-2 md:gap-8">
                   <PedalBikeIcon
                     sx={{ width: 0.5, height: 0.5, color: "yellow" }}
