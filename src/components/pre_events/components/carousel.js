@@ -38,7 +38,6 @@ const Carousel = ({ className, images, onPageChange, style, open }) => {
 
   const sliderImageRef = useRef(null);
   const [state, dispatch] = useReducer(reducer, defaultState);
-  console.log(state);
 
   const nextPage = () => {
     dispatch({ type: "next" });
@@ -67,7 +66,7 @@ const Carousel = ({ className, images, onPageChange, style, open }) => {
     >
       <div
         className={`absolute flex flex-row w-[300%] h-64 ${
-          state.currentAction !== 0 ? "transition duration-500" : ""
+          state.currentAction !== 0 ? "transition duration-100 ease-in-out" : ""
         }`}
         style={{
           transform: `translateX(-${(100 + state.currentAction * 100) / 3}%)`,
@@ -78,16 +77,19 @@ const Carousel = ({ className, images, onPageChange, style, open }) => {
           className="w-2/6 h-full object-contain"
           height="100%"
           src={images[(state.currentPage - 1 + images.length) % images.length]}
+            alt="img-previous"
         />
         <img
           className="w-2/6 h-full object-contain"
           height="100% "
           src={images[state.currentPage % images.length]}
+          alt="img-cur"
         />
         <img
           className="w-2/6 h-full object-contain"
           height="100%"
           src={images[(state.currentPage + 1) % images.length]}
+          alt="img-next"
         />
       </div>
       <IconButton
