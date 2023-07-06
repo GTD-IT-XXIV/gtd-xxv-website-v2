@@ -7,6 +7,11 @@ import { Button } from "@mui/material";
 import images from "./images.json";
 import Modal from "./components/modal";
 
+const IconList = [
+    {Icon: PedalBikeIcon, color: "yellow"},
+    // isi icon" buat television disini
+]
+
 const PreEvents = () => {
   const [modalIndex, setModalIndex] = useState(null);
   // title
@@ -21,7 +26,9 @@ const PreEvents = () => {
       <div className={`navigationContainer`}>
         <Modal
           images={modalIndex !== null ? images[modalIndex].images : []}
-          description={modalIndex !==null ? images[modalIndex].description: []}
+          description={
+            modalIndex !== null ? images[modalIndex].description : []
+          }
           open={modalIndex !== null}
           onClickClose={() => setModalIndex(null)}
           title={modalIndex !== null ? images[modalIndex].title : ""}
@@ -29,15 +36,21 @@ const PreEvents = () => {
         />
 
         <div className="p-5 flex flex-column items-center gap-4">
-          <h1 className="font-inside-out text-white text-4xl md:text-5xl">Pre-Event</h1>
+          <h1 className="font-inside-out text-white text-4xl md:text-5xl">
+            Pre-Event
+          </h1>
           {images.map((image, index) => {
+            const Icon = IconList[index];
             return (
-              <Television className="w-5/6 md:w-[40%] max-w-md flex" key={index}>
+              <Television
+                className="w-5/6 md:w-[40%] max-w-md flex"
+                key={index}
+              >
                 <div className="flex flex-column items-center justify-center absolute z-10 image-cover bg-black w-full h-full gap-2 md:gap-8">
-                  <PedalBikeIcon
-                    sx={{ width: 0.5, height: 0.5, color: "yellow" }}
-                  /> 
-                  {/*^^^ To be replace later ^^^*/}
+                  {Icon && <Icon.Icon
+                    sx={{ width: 0.5, height: 0.5, color: Icon.color }}
+                  />}
+                  
                   <Button
                     variant="outlined"
                     sx={{
@@ -48,7 +61,10 @@ const PreEvents = () => {
                       borderWidth: "0.125rem",
                       borderRadius: "9999px",
                       paddingY: "1rem",
-                      "&:hover": { borderColor: "#FBA6CC" },
+                      "&:hover": {
+                        borderWidth: "0.125rem",
+                        borderColor: Icon ? Icon.color : "gray",
+                      },
                     }}
                     onClick={() => setModalIndex(index)}
                   >
@@ -67,7 +83,6 @@ const PreEvents = () => {
               </Television>
             );
           })}
-
         </div>
       </div>
     </div>
