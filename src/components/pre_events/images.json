@@ -1,37 +1,16 @@
 [
   {
-    "title": "Donald Trump",
-    "date": "25 February 2022",
-    "previewImage": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Donald_J._Trump%2C_45th_President_of_the_United_States_%2837521073921%29.jpg",
+    "title": "Night Cycling",
+    "date": "24-25 February 2023",
+    "previewImage": "/images/poster_nc.png",
     "description": "Donald Trump is a prominent figure in American politics who served as the 45th President of the United States from 2017 to 2021. His presidency was marked by a unique leadership style and significant impact on American politics.",
-    "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/330px-Donald_Trump_official_portrait.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Donald_Trump_NYMA.jpg/225px-Donald_Trump_NYMA.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Donald_Trump_and_Bill_Clinton.jpg/330px-Donald_Trump_and_Bill_Clinton.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Donald_Trump_by_Gage_Skidmore_5.jpg/330px-Donald_Trump_by_Gage_Skidmore_5.jpg",
-      "https://i.ytimg.com/vi/1e_7hZOdsxo/maxresdefault.jpg",
-      "https://www.politico.com/dims4/default/450b736/2147483647/strip/true/crop/984x492+0+0/resize/630x315!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fe8%2Fe5%2F2d3a968d41d2a4e7fdcdbb3f8f5c%2Fscreen-shot-2018-07-03-at-7.28.33_PM.png",
-      "https://i.etsystatic.com/6230905/r/il/86f5c7/3288513198/il_fullxfull.3288513198_3oq4.jpg",
-      "https://www.politico.com/dims4/default/652eaf0/2147483647/legacy_thumbnail/1200x650%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F66%2Fb4%2F06610fc74441a69bfc673667b5cc%2F180719-maga-ap-1160.jpg",
-      "https://imageio.forbes.com/blogs-images/danidiplacido/files/2019/01/donald_trump_family_guy_2000-1200x762.jpg?height=451&width=711&fit=bounds"
-    ]
+    "images": ["/images/nc1.jpg", "/images/nc2.jpg", "/images/nc3.jpg"]
   },
   {
-    "title": "Joe Biden",
-    "date": "25 February 2022",
-    "previewImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/640px-Joe_Biden_presidential_portrait.jpg",
+    "title": "Subcom Recruitment",
+    "date": "27 October 2022",
+    "previewImage": "/images/subcomrec.jpeg",
     "description": "Joe Biden is a prominent American politician who currently serves as the 46th President of the United States. He was born on November 20, 1942, in Scranton, Pennsylvania. Biden has had a long and distinguished career in politics.",
-    "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/7/7f/Joe_Biden_at_Archmere_Academy_%28cropped%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Biden_Obama_3b.jpg/1280px-Biden_Obama_3b.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/President_Ronald_Reagan_meeting_with_Senators_Joe_Biden_and_William_Cohen.jpg/1280px-President_Ronald_Reagan_meeting_with_Senators_Joe_Biden_and_William_Cohen.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Biden9_%2832932624647%29.jpg/1280px-Biden9_%2832932624647%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Beau_biden_funeral_wilminton.jpeg/1280px-Beau_biden_funeral_wilminton.jpeg",
-      "https://albanianpost.com/wp-content/uploads/2022/09/220918184106-joe-biden-60-minutes-interview-covid-pandemic-full-169.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/President_Biden_met_with_refugees_from_Ukraine_in_Warsaw.jpg/800px-President_Biden_met_with_refugees_from_Ukraine_in_Warsaw.jpg",
-      "https://insideclimatenews.org/wp-content/uploads/2021/01/biden-executive-orders_chip-somodevilla-getty-scaled.jpg",
-      "https://s.abcnews.com/images/Politics/biden-fall-2-gty-ps-230601_1685648991526_hpEmbed_3x2_992.jpg",
-      "https://pyxis.nymag.com/v1/imgs/2e5/63d/4062852d0fa25b6c5632e0dd161bc955cb-joe-biden-healthcare.jpg"
-    ]
+    "images": []
   }
 ]

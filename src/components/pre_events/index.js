@@ -47,10 +47,17 @@ const PreEvents = () => {
                 key={index}
               >
                 <div className="flex flex-column items-center justify-center absolute z-10 image-cover bg-black w-full h-full gap-2 md:gap-8">
+<<<<<<< Updated upstream
                   {Icon && <Icon.Icon
                     sx={{ width: 0.5, height: 0.5, color: Icon.color }}
                   />}
                   
+=======
+                  <PedalBikeIcon
+                    sx={{ width: 0.5, height: 0.5, color: "yellow" }}
+                  />
+                  {/*^^^ To be replace later ^^^*/}
+>>>>>>> Stashed changes
                   <Button
                     variant="outlined"
                     sx={{
