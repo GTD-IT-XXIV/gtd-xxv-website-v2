@@ -1,34 +1,34 @@
 [
   {
     "role": "Tops",
-    "team": "-",
+    "team": "TOPS",
     "nickname": "Kenzhi - President",
     "name": "Kenzhi Iskandar Wong",
-    "image": "sample_pic.png",
+    "image": "Kenzhi.JPG",
     "major": "MAE/4"
   },
   {
     "role": "Tops",
-    "team": "-",
+    "team": "TOPS",
     "nickname": "Jokel - VP POLOG",
     "name": "Jonathan Kelvin Santoso",
-    "image": "sample_pic.png",
+    "image": "Jokel.JPG",
     "major": "EEE/4"
   },
   {
     "role": "Tops",
-    "team": "-",
+    "team": "TOPS",
     "nickname": "Leo - VP BFM & WELF",
     "name": "Leonard Darmawan",
-    "image": "sample_pic.png",
+    "image": "Leo.JPG",
     "major": "CBE/4"
   },
   {
     "role": "Tops",
-    "team": "-",
+    "team": "TOPS",
     "nickname": "Dodo - VP CGL & PPIT",
     "name": "Rivaldo Billy",
-    "image": "sample_pic.png",
+    "image": "Rivaldo.JPG",
     "major": "MAS/4"
   },
   {
@@ -36,7 +36,7 @@
     "team": "POLOG",
     "nickname": "Hartawan",
     "name": "Hartawan Surya Santoso",
-    "image": "sample_pic.png",
+    "image": "Hartawan.JPG",
     "major": "CEE/4"
   },
   {
@@ -44,7 +44,7 @@
     "team": "POLOG",
     "nickname": "WCP",
     "name": "Wilsen Chandra Putra",
-    "image": "sample_pic.png",
+    "image": "WCP.JPG",
     "major": "MAE/3"
   },
   {
@@ -52,7 +52,7 @@
     "team": "POLOG",
     "nickname": "Elbert",
     "name": "Elbert Osvaldo Yen",
-    "image": "sample_pic.png",
+    "image": "Elbert.JPG",
     "major": "MAE/2"
   },
   {
@@ -60,7 +60,7 @@
     "team": "POLOG",
     "nickname": "Bernard",
     "name": "Bernard Lesley Efendy",
-    "image": "sample_pic.png",
+    "image": "Bernard.JPG",
     "major": "CSC/3"
   },
 
@@ -69,7 +69,7 @@
     "team": "POLOG",
     "nickname": "Celine",
     "name": "Celine Wijaya",
-    "image": "sample_pic.png",
+    "image": "Celine.JPG",
     "major": "BUS/3"
   },
   {
@@ -77,7 +77,7 @@
     "team": "POLOG",
     "nickname": "Pascal",
     "name": "Pascal Theodore Surya",
-    "image": "sample_pic.png",
+    "image": "Pascal.JPG",
     "major": "CBE/3"
   },
 
@@ -86,7 +86,7 @@
     "team": "POLOG",
     "nickname": "Holy",
     "name": "Holy Kristanti",
-    "image": "sample_pic.png",
+    "image": "Holy.JPG",
     "major": "BIE/2"
   },
   {
@@ -94,7 +94,7 @@
     "team": "POLOG",
     "nickname": "Brytista",
     "name": "Bryan Atista Kiely",
-    "image": "sample_pic.png",
+    "image": "Brytista.JPG",
     "major": "DSAI/2"
   },
   {
@@ -102,7 +102,7 @@
     "team": "POLOG",
     "nickname": "Alvinsen",
     "name": "Alvinsen Japutra",
-    "image": "sample_pic.png",
+    "image": "Alvinsen.JPG",
     "major": "BIE/2"
   },
   {
@@ -110,7 +110,7 @@
     "team": "POLOG",
     "nickname": "Marcel",
     "name": "Marcelino Sutanto",
-    "image": "sample_pic.png",
+    "image": "Marcel.JPG",
     "major": "DSAI/2"
   },
   {
@@ -118,7 +118,7 @@
     "team": "POLOG",
     "nickname": "Rafie",
     "name": "Rafie Hanania",
-    "image": "sample_pic.png",
+    "image": "Rafie.JPG",
     "major": "EEE/2"
   },
   {
@@ -126,15 +126,7 @@
     "team": "POLOG",
     "nickname": "Richard",
     "name": "Richard Fernando",
-    "image": "sample_pic.png",
-    "major": "MAE/2"
-  },
-  {
-    "role": "Sub",
-    "team": "POLOG",
-    "nickname": "Marco",
-    "name": "Marco Louis Rudyanto",
-    "image": "sample_pic.png",
+    "image": "Richard.JPG",
     "major": "MAE/2"
   },
   {
@@ -142,7 +134,7 @@
     "team": "POLOG",
     "nickname": "Theonie",
     "name": "Theonie Wijaya",
-    "image": "sample_pic.png",
+    "image": "Theonie.JPG",
     "major": "ECPS/2"
   },
   {
@@ -150,7 +142,7 @@
     "team": "POLOG",
     "nickname": "Neo",
     "name": "Neo Hwang",
-    "image": "sample_pic.png",
+    "image": "Neo.JPG",
     "major": "EEE/2"
   },
   {
@@ -158,7 +150,7 @@
     "team": "POLOG",
     "nickname": "Daniel",
     "name": "Daniel Paniroy Situmoran",
-    "image": "sample_pic.png",
+    "image": "Daniel.JPG",
     "major": "MSE/2"
   },
   {
@@ -166,7 +158,7 @@
     "team": "POLOG",
     "nickname": "Elvin",
     "name": "Elvin Sugianto",
-    "image": "sample_pic.png",
+    "image": "Elvin.JPG",
     "major": "IEM/2"
   },
   {
@@ -174,7 +166,7 @@
     "team": "POLOG",
     "nickname": "Samson",
     "name": "Yves Samson Li",
-    "image": "sample_pic.png",
+    "image": "Samson.JPG",
     "major": "CE/2"
   },
   {
@@ -182,7 +174,7 @@
     "team": "POLOG",
     "nickname": "Ruben",
     "name": "Ruben Manuel Sitorus",
-    "image": "sample_pic.png",
+    "image": "Ruben.JPG",
     "major": "AE/3"
   },
   {
@@ -190,7 +182,7 @@
     "team": "POLOG",
     "nickname": "Rena",
     "name": "Verena Regina Tirtajasa",
-    "image": "sample_pic.png",
+    "image": "Rena.JPG",
     "major": "MAE/3"
   },
   {
@@ -198,7 +190,7 @@
     "team": "POLOG",
     "nickname": "Geoff",
     "name": "Geoffvinc Ng",
-    "image": "sample_pic.png",
+    "image": "Geoff.JPG",
     "major": "PHY/3"
   },
   {
@@ -206,7 +198,7 @@
     "team": "POLOG",
     "nickname": "Matdin",
     "name": "Matthew Dinata",
-    "image": "sample_pic.png",
+    "image": "Matdin.JPG",
     "major": "EEE/3"
   },
   {
@@ -214,7 +206,7 @@
     "team": "POLOG",
     "nickname": "Gaby",
     "name": "Gabrielle Nicole Suharjono",
-    "image": "sample_pic.png",
+    "image": "Gaby.JPG",
     "major": "IEM/3"
   },
   {
@@ -222,7 +214,7 @@
     "team": "POLOG",
     "nickname": "Kevin",
     "name": "Kevin Lee Gunawan",
-    "image": "sample_pic.png",
+    "image": "Kevin.JPG",
     "major": "EEE/3"
   },
   {
@@ -230,7 +222,7 @@
     "team": "POLOG",
     "nickname": "Karina",
     "name": "Verena Karina Suharman",
-    "image": "sample_pic.png",
+    "image": "Karina.JPG",
     "major": "BIE/3"
   },
   {
@@ -238,7 +230,7 @@
     "team": "POLOG",
     "nickname": "Okky",
     "name": "Herbian Hokky Prabowo",
-    "image": "sample_pic.png",
+    "image": "Okky.JPG",
     "major": "MAE/3"
   },
   {
@@ -246,7 +238,7 @@
     "team": "POLOG",
     "nickname": "Jeen",
     "name": "Jason Nicholas",
-    "image": "sample_pic.png",
+    "image": "Jeen.JPG",
     "major": "CBE/4"
   },
   {
@@ -254,15 +246,15 @@
     "team": "POLOG",
     "nickname": "Stephanie",
     "name": "Stephanie Eliana Janong",
-    "image": "sample_pic.png",
+    "image": "Stephanie.JPG",
     "major": "MSE/4"
   },
   {
     "role": "Sub",
     "team": "POLOG",
-    "nickname": "Daniel",
+    "nickname": "DRC",
     "name": "Daniel Rahmatcipta",
-    "image": "sample_pic.png",
+    "image": "DRC.JPG",
     "major": "CEE/4"
   },
 
@@ -271,16 +263,15 @@
     "team": "POLOG",
     "nickname": "Abo",
     "name": "Rajendra Muhammad Alfarrel",
-    "image": "sample_pic.png",
+    "image": "Abo.JPG",
     "major": "CEE/4"
   },
-
   {
     "role": "Main",
     "team": "PPIT",
     "nickname": "Aji",
     "name": "Muhammad Rafi Adzikra Sujai",
-    "image": "sample_pic.png",
+    "image": "Aji.JPG",
     "major": "CSC/3"
   },
   {
@@ -288,7 +279,7 @@
     "team": "PPIT",
     "nickname": "Priscilla",
     "name": "Priscilla Celine Setiawan",
-    "image": "sample_pic.png",
+    "image": "Priscilla.JPG",
     "major": "CSC/3"
   },
   {
@@ -296,7 +287,7 @@
     "team": "PPIT",
     "nickname": "Seve",
     "name": "Severiano Steinar Rivandi",
-    "image": "sample_pic.png",
+    "image": "Seve.JPG",
     "major": "CBE/3"
   },
   {
@@ -304,16 +295,15 @@
     "team": "PPIT",
     "nickname": "George",
     "name": "Gregorius George Bunjamin",
-    "image": "sample_pic.png",
+    "image": "George.JPG",
     "major": "ECPP/3"
   },
-
   {
     "role": "Sub",
     "team": "PPIT",
     "nickname": "Kai",
     "name": "Muhammad Mikail Rais",
-    "image": "sample_pic.png",
+    "image": "Kai.JPG",
     "major": "EEE/2"
   },
   {
@@ -321,7 +311,7 @@
     "team": "PPIT",
     "nickname": "Joshua Adrian",
     "name": "Joshua Adrian Cahyono",
-    "image": "sample_pic.png",
+    "image": "Joshua Adrian.JPG",
     "major": "DSAI/2"
   },
   {
@@ -329,7 +319,7 @@
     "team": "PPIT",
     "nickname": "Gillbert",
     "name": "Gillbert Susilo Wong",
-    "image": "sample_pic.png",
+    "image": "Gillbert.JPG",
     "major": "CSC/2"
   },
 
@@ -338,7 +328,7 @@
     "team": "PPIT",
     "nickname": "Juan",
     "name": "Juan Frederick",
-    "image": "sample_pic.png",
+    "image": "Juan.JPG",
     "major": "CSC/2"
   },
   {
@@ -346,7 +336,7 @@
     "team": "PPIT",
     "nickname": "Kim",
     "name": "Kimberly Atmadja",
-    "image": "sample_pic.png",
+    "image": "Kim.JPG",
     "major": "MSE/2"
   },
   {
@@ -354,7 +344,7 @@
     "team": "PPIT",
     "nickname": "Kenneth",
     "name": "Kenneth Tanudjaja",
-    "image": "sample_pic.png",
+    "image": "Kenneth.JPG",
     "major": "EEE/2"
   },
 
@@ -363,7 +353,7 @@
     "team": "PPIT",
     "nickname": "Devlin",
     "name": "Karl Devlin Chau",
-    "image": "sample_pic.png",
+    "image": "Devlin.JPG",
     "major": "CSC/2"
   },
 
@@ -372,7 +362,7 @@
     "team": "PPIT",
     "nickname": " Joshua James",
     "name": "Joshua James",
-    "image": "sample_pic.png",
+    "image": "Joshua James.JPG",
     "major": "EEE/2"
   },
   {
@@ -380,7 +370,7 @@
     "team": "PPIT",
     "nickname": "Karin",
     "name": "Katarina Koesoemo",
-    "image": "sample_pic.png",
+    "image": "Karin.JPG",
     "major": "BSPY/2"
   },
   {
@@ -388,7 +378,7 @@
     "team": "PPIT",
     "nickname": "Clayton",
     "name": "Clayton Fernalo",
-    "image": "sample_pic.png",
+    "image": "Clayton.JPG",
     "major": "CSC/2"
   },
   {
@@ -396,7 +386,7 @@
     "team": "PPIT",
     "nickname": "Kristian",
     "name": "Kristian Hadinata Achwan",
-    "image": "sample_pic.png",
+    "image": "Kristian.JPG",
     "major": "MACS/3"
   },
 
@@ -405,7 +395,7 @@
     "team": "PPIT",
     "nickname": "Billy",
     "name": "Billy Muliorahardjo",
-    "image": "sample_pic.png",
+    "image": "Billy.JPG",
     "major": "MAE/3"
   },
   {
@@ -413,7 +403,7 @@
     "team": "PPIT",
     "nickname": "Joanne",
     "name": "Joanne Christina Salimin",
-    "image": "sample_pic.png",
+    "image": "Joanne.JPG",
     "major": "CSC/3"
   },
   {
@@ -421,15 +411,15 @@
     "team": "PPIT",
     "nickname": "Kenny",
     "name": "Kenny Lius",
-    "image": "sample_pic.png",
+    "image": "Kenny.JPG",
     "major": "EEE/3"
   },
   {
     "role": "Sub",
     "team": "PPIT",
-    "nickname": "Issac",
+    "nickname": "Isaac",
     "name": "Gregory Isaac Koesno",
-    "image": "sample_pic.png",
+    "image": "Isaac.JPG",
     "major": "EEE/3"
   },
   {
@@ -437,7 +427,7 @@
     "team": "PPIT",
     "nickname": "Fiona",
     "name": "Fiona Valentin Wironoto Susilo",
-    "image": "sample_pic.png",
+    "image": "Fiona.JPG",
     "major": "EEE/3"
   },
 
@@ -446,7 +436,7 @@
     "team": "PPIT",
     "nickname": "Ardi",
     "name": "Ardi Syahda Ahmad Hakim",
-    "image": "sample_pic.png",
+    "image": "Ardi.JPG",
     "major": "EEE/3"
   },
 
@@ -455,7 +445,7 @@
     "team": "PPIT",
     "nickname": "Alvin",
     "name": "Alvin Putera Budiman",
-    "image": "sample_pic.png",
+    "image": "Alvin.JPG",
     "major": "EEE/4"
   },
   {
@@ -463,7 +453,7 @@
     "team": "PPIT",
     "nickname": "Wesley",
     "name": "Wesley Susanto",
-    "image": "sample_pic.png",
+    "image": "Wesley.JPG",
     "major": "IEM/4"
   },
   {
@@ -471,7 +461,7 @@
     "team": "PPIT",
     "nickname": "Joce",
     "name": "Jocelyn Valencia Yoswara",
-    "image": "sample_pic.png",
+    "image": "Joce.JPG",
     "major": "IEM/4"
   },
   {
@@ -479,16 +469,15 @@
     "team": "PPIT",
     "nickname": "Vece",
     "name": "Vanessa Christy Chandra",
-    "image": "sample_pic.png",
+    "image": "Vece.JPG",
     "major": "IEM/4"
   },
-
   {
     "role": "Main",
     "team": "BFM",
     "nickname": "Rafpang",
     "name": "Rafi Bintang Pagi Pangestu",
-    "image": "sample_pic.png",
+    "image": "Rafpang.JPG",
     "major": "CBE/3"
   },
   {
@@ -496,15 +485,15 @@
     "team": "BFM",
     "nickname": "James",
     "name": "James Ryan Hendarto",
-    "image": "sample_pic.png",
+    "image": "James.JPG",
     "major": "EEE/3"
   },
   {
     "role": "Main",
     "team": "BFM",
-    "nickname": "Jennifer",
+    "nickname": "Jenpi",
     "name": "Josephine Jennifer Susanto",
-    "image": "sample_pic.png",
+    "image": "Jenpi.JPG",
     "major": "BUS/3"
   },
 
@@ -513,7 +502,7 @@
     "team": "BFM",
     "nickname": "Keiko",
     "name": "Keiko Renata Santoso",
-    "image": "sample_pic.png",
+    "image": "Keiko.JPG",
     "major": "ACC/2"
   },
   {
@@ -521,7 +510,7 @@
     "team": "BFM",
     "nickname": "Wildan",
     "name": "Muhammad Wildan Tamami",
-    "image": "sample_pic.png",
+    "image": "Wildan.JPG",
     "major": "ENG/2"
   },
   {
@@ -529,7 +518,7 @@
     "team": "BFM",
     "nickname": "Cindy",
     "name": "Cindy Octavia",
-    "image": "sample_pic.png",
+    "image": "Cindy.JPG",
     "major": "BUS/2"
   },
   {
@@ -537,7 +526,7 @@
     "team": "BFM",
     "nickname": "Jennifer",
     "name": "Jennifer Chenni Yoshuara",
-    "image": "sample_pic.png",
+    "image": "Jennifer.JPG",
     "major": "BUS/2"
   },
   {
@@ -545,7 +534,7 @@
     "team": "BFM",
     "nickname": "Bryan",
     "name": "Bryan Wijaya",
-    "image": "sample_pic.png",
+    "image": "Bryan.JPG",
     "major": "CBE/2"
   },
 
@@ -554,7 +543,7 @@
     "team": "BFM",
     "nickname": "Juan",
     "name": "Juannisa Putri Sunarya",
-    "image": "sample_pic.png",
+    "image": "Juan.JPG",
     "major": "DSAI/2"
   },
   {
@@ -562,7 +551,7 @@
     "team": "BFM",
     "nickname": "Hogan",
     "name": "Hogan Chang",
-    "image": "sample_pic.png",
+    "image": "Hogan.JPG",
     "major": "CBE/3"
   },
   {
@@ -570,7 +559,7 @@
     "team": "BFM",
     "nickname": "Vanessa",
     "name": "Vanessa Victoria Setiawan",
-    "image": "sample_pic.png",
+    "image": "Vanessa.JPG",
     "major": "NBS/3"
   },
   {
@@ -578,7 +567,7 @@
     "team": "BFM",
     "nickname": "Andrew (Ano)",
     "name": "Andrew Nycholas Ormand",
-    "image": "sample_pic.png",
+    "image": "Andrew.JPG",
     "major": "CEE/3"
   },
   {
@@ -586,7 +575,7 @@
     "team": "BFM",
     "nickname": "Rizky",
     "name": "Achmad Rizky Maulana",
-    "image": "sample_pic.png",
+    "image": "Rizky.JPG",
     "major": "CBE/3"
   },
   {
@@ -594,7 +583,7 @@
     "team": "BFM",
     "nickname": "Edmerson",
     "name": "Edmerson Low Soon Xiang",
-    "image": "sample_pic.png",
+    "image": "Edmerson.JPG",
     "major": "IEM/3"
   },
   {
@@ -602,7 +591,7 @@
     "team": "WELFARE",
     "nickname": "Hanson",
     "name": "Frederik Hanson",
-    "image": "sample_pic.png",
+    "image": "Hanson.JPG",
     "major": ""
   },
   {
@@ -610,7 +599,7 @@
     "team": "WELFARE",
     "nickname": "Bryno",
     "name": "Bryan Noel Salindeho",
-    "image": "sample_pic.png",
+    "image": "Bryno.JPG",
     "major": ""
   },
   {
@@ -618,7 +607,7 @@
     "team": "WELFARE",
     "nickname": "Jessica",
     "name": "Jessica Martin",
-    "image": "sample_pic.png",
+    "image": "Jessica.JPG",
     "major": ""
   },
   {
@@ -626,7 +615,7 @@
     "team": "WELFARE",
     "nickname": "Calista",
     "name": "Calista Priscilia Destyne",
-    "image": "sample_pic.png",
+    "image": "Calista.JPG",
     "major": "ENE/2"
   },
   {
@@ -634,7 +623,7 @@
     "team": "WELFARE",
     "nickname": "Abigail",
     "name": "Abigail Antonia Wijaya",
-    "image": "sample_pic.png",
+    "image": "Abigail.JPG",
     "major": "MAE/2"
   },
   {
@@ -642,7 +631,7 @@
     "team": "WELFARE",
     "nickname": "Afifuddin",
     "name": "Afifuddin Yunior",
-    "image": "sample_pic.png",
+    "image": "Afifuddin.JPG",
     "major": "MSE/2"
   },
   {
@@ -650,7 +639,7 @@
     "team": "WELFARE",
     "nickname": "Gregor",
     "name": "Gregorian Kusumah",
-    "image": "sample_pic.png",
+    "image": "Gregor.JPG",
     "major": "EEE/2"
   },
   {
@@ -658,7 +647,7 @@
     "team": "WELFARE",
     "nickname": "Puti",
     "name": "Puti Kinanti Nayla Rahmania",
-    "image": "sample_pic.png",
+    "image": "Puti.JPG",
     "major": "CBE/2"
   },
   {
@@ -666,7 +655,7 @@
     "team": "WELFARE",
     "nickname": "Nadia",
     "name": "Nadia Donita",
-    "image": "sample_pic.png",
+    "image": "Nadia.JPG",
     "major": "MAS/2"
   },
   {
@@ -674,7 +663,7 @@
     "team": "WELFARE",
     "nickname": "Adam",
     "name": "Muhammad Adam Nurkholis",
-    "image": "sample_pic.png",
+    "image": "Adam.JPG",
     "major": "CEE/2"
   },
   {
@@ -682,7 +671,7 @@
     "team": "WELFARE",
     "nickname": "Andrea",
     "name": "Andrea Adriana Prawono",
-    "image": "sample_pic.png",
+    "image": "Andrea.JPG",
     "major": "CBC/2"
   },
   {
@@ -690,7 +679,7 @@
     "team": "WELFARE",
     "nickname": "Rachel",
     "name": "Rachel Evelyn",
-    "image": "sample_pic.png",
+    "image": "Rachel.JPG",
     "major": "CBC/2"
   },
   {
@@ -698,7 +687,7 @@
     "team": "WELFARE",
     "nickname": "Elicia",
     "name": "Elicia Tanputraman",
-    "image": "sample_pic.png",
+    "image": "Elicia.JPG",
     "major": "MAE/2"
   },
   {
@@ -706,7 +695,7 @@
     "team": "WELFARE",
     "nickname": "Kemas",
     "name": "Kemas Muhammad Fatahillah",
-    "image": "sample_pic.png",
+    "image": "Kemas.JPG",
     "major": "IEM/2"
   },
   {
@@ -714,7 +703,7 @@
     "team": "WELFARE",
     "nickname": "Raja",
     "name": "Muhammad Raja Dzulhijjah",
-    "image": "sample_pic.png",
+    "image": "Raja.JPG",
     "major": "BIE/3"
   },
   {
@@ -722,7 +711,7 @@
     "team": "WELFARE",
     "nickname": "Mingkai",
     "name": "Gao Mingkai",
-    "image": "sample_pic.png",
+    "image": "Mingkai.JPG",
     "major": "CBE/3"
   },
   {
@@ -730,7 +719,7 @@
     "team": "WELFARE",
     "nickname": "Anson",
     "name": "Anson Douglas Hakim",
-    "image": "sample_pic.png",
+    "image": "Anson.JPG",
     "major": "MAE/3"
   },
   {
@@ -738,39 +727,40 @@
     "team": "WELFARE",
     "nickname": "Stephen",
     "name": "Stephen Edbert",
-    "image": "sample_pic.png",
+    "image": "Stephen.JPG",
     "major": "CEE/4"
   },
   {
     "role": "Sub",
     "team": "WELFARE",
-    "nickname": "Fernando",
+    "nickname": "Nando",
     "name": "Fernando",
-    "image": "sample_pic.png",
+    "image": "Nando.JPG",
     "major": "ASE/4"
-  },
-  {
-    "role": "Main",
-    "team": "GL",
-    "nickname": "Boi",
-    "name": "Aurelius Bryan",
-    "image": "sample_pic.png",
-    "major": "BUS/3"
   },
   {
     "role": "Main",
     "team": "GL",
     "nickname": "Christine",
     "name": "Christine Theresia",
-    "image": "sample_pic.png",
+    "image": "Christine.JPG",
     "major": "ACC/3"
   },
+  {
+    "role": "Main",
+    "team": "GL",
+    "nickname": "Boi",
+    "name": "Aurelius Bryan",
+    "image": "Boi.JPG",
+    "major": "BUS/3"
+  },
+
   {
     "role": "Sub",
     "team": "GL",
     "nickname": "Leonrich",
     "name": "Leonrich Chandra",
-    "image": "sample_pic.png",
+    "image": "Leonrich.jpg",
     "major": "ENG/2"
   },
   {
@@ -778,7 +768,7 @@
     "team": "GL",
     "nickname": "Dea",
     "name": "Deandra Devi Aravinda",
-    "image": "sample_pic.png",
+    "image": "Dea.jpg",
     "major": "CBE/2"
   },
   {
@@ -786,7 +776,7 @@
     "team": "GL",
     "nickname": "Metkep",
     "name": "Matthew Kevin Hardjopranoto",
-    "image": "sample_pic.png",
+    "image": "Matkep.jpg",
     "major": "CBE/2"
   },
   {
@@ -794,7 +784,7 @@
     "team": "GL",
     "nickname": "Cynthia",
     "name": "Cynthia Oktaviani Pantoro",
-    "image": "sample_pic.png",
+    "image": "Cynthia.jpg",
     "major": "CEE/2"
   },
   {
@@ -802,7 +792,7 @@
     "team": "GL",
     "nickname": "Hansen",
     "name": "Hansen Nathaniel Wijaya",
-    "image": "sample_pic.png",
+    "image": "Hansen.jpg",
     "major": "ENG/2"
   },
   {
@@ -810,7 +800,7 @@
     "team": "GL",
     "nickname": "Kezia",
     "name": "Kezia Aprilia Sanjaya",
-    "image": "sample_pic.png",
+    "image": "Kezia.jpg",
     "major": "ECDS/2"
   },
   {
@@ -818,7 +808,7 @@
     "team": "GL",
     "nickname": "Kenneth",
     "name": "Kenneth Anthony Wijaya",
-    "image": "sample_pic.png",
+    "image": "Kenneth.jpg",
     "major": "ENG/2"
   },
   {
@@ -826,7 +816,7 @@
     "team": "GL",
     "nickname": "Rachel",
     "name": "Rachel Sherafin Korompis",
-    "image": "sample_pic.png",
+    "image": "Rachel.jpg",
     "major": "BIE/2"
   },
   {
@@ -834,7 +824,7 @@
     "team": "GL",
     "nickname": "Alex",
     "name": "Alexander Sebastian Christianto",
-    "image": "sample_pic.png",
+    "image": "Alex.jpg",
     "major": "EEE/2"
   },
   {
@@ -842,7 +832,7 @@
     "team": "GL",
     "nickname": "Maggie",
     "name": "Margaretha Exaudi Siahaan",
-    "image": "sample_pic.png",
+    "image": "Maggie.jpg",
     "major": "CEE/2"
   },
   {
@@ -850,7 +840,7 @@
     "team": "GL",
     "nickname": "Wisnu",
     "name": "Muhammad Wisnu Darmawan",
-    "image": "sample_pic.png",
+    "image": "Wisnu.jpg",
     "major": "BCE/2"
   },
   {
@@ -858,7 +848,7 @@
     "team": "GL",
     "nickname": "Joanka",
     "name": "Joanka Devi Kalynda",
-    "image": "sample_pic.png",
+    "image": "Joanka.jpg",
     "major": "DSAI/2"
   },
   {
@@ -866,7 +856,7 @@
     "team": "GL",
     "nickname": "Vanness",
     "name": "Vanness Valentino",
-    "image": "sample_pic.png",
+    "image": "Vanness.jpg",
     "major": "MSE/2"
   },
   {
@@ -874,7 +864,7 @@
     "team": "GL",
     "nickname": "Shella",
     "name": "Marshella Angelin",
-    "image": "sample_pic.png",
+    "image": "Shella.jpg",
     "major": "MSE/2"
   },
   {
@@ -882,7 +872,7 @@
     "team": "GL",
     "nickname": "Wilfred",
     "name": "Wilfred Alexander Lee",
-    "image": "sample_pic.png",
+    "image": "Wilfred.jpg",
     "major": "CBE/2"
   },
   {
@@ -890,7 +880,7 @@
     "team": "GL",
     "nickname": "Miranda",
     "name": "Miranda Averina Razali",
-    "image": "sample_pic.png",
+    "image": "Miranda.jpg",
     "major": "PSY/2"
   }
 ]

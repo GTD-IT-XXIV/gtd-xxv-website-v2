@@ -23,7 +23,32 @@ const Card = ({ cardState, setCardState }) => {
         </button>
       </div>
       <div className="card-image">
-        <img src={require(`./img/${cardState.image}`)} alt={cardState.name} />
+        {/* <img
+          src={require(`../../../public/images/${cardState.image}`)}
+          alt={cardState.name}
+        /> */}
+        {/* <img
+          src={require(`../../../public/images/TOPS/${cardState.image}`)}
+          alt={cardState.name}
+        /> */}
+        <img
+          src={require(`../../../public/images/${
+            cardState.team === "POLOG"
+              ? "POLOG"
+              : cardState.team === "TOPS"
+              ? "TOPS"
+              : cardState.team === "WELFARE"
+              ? "WELFARE"
+              : cardState.team === "BFM"
+              ? "BFM"
+              : cardState.team === "PPIT"
+              ? "PPIT"
+              : cardState.team === "GL"
+              ? "GL"
+              : ""
+          }/${cardState.image}`)}
+          alt={cardState.name}
+        />
       </div>
       <div className="card-text">
         <div className="card-row">
