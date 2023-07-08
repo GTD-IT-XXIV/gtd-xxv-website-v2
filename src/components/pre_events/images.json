@@ -1,29 +1,48 @@
 [
   {
+    "title": "Exam Wishes",
+    "date": "12 April 2023",
+    "previewImage": "/images/pre_events/poster_ew.jpg",
+    "description": "Joe Biden is a prominent American politician who currently serves as the 46th President of the United States. He was born on November 20, 1942, in Scranton, Pennsylvania. Biden has had a long and distinguished career in politics.",
+    "images": []
+  },
+  {
     "title": "Night Cycling",
     "date": "24-25 February 2023",
-    "previewImage": "/images/poster_nc.png",
+    "previewImage": "/images/pre_events/poster_nc.png",
     "description": "Donald Trump is a prominent figure in American politics who served as the 45th President of the United States from 2017 to 2021. His presidency was marked by a unique leadership style and significant impact on American politics.",
-    "images": ["/images/nc1.jpg", "/images/nc2.jpg", "/images/nc3.jpg"]
+    "images": [
+      "/images/pre_events/nc1.jpg",
+      "/images/pre_events/nc2.jpg",
+      "/images/pre_events/nc3.jpg"
+    ]
   },
+
   {
-    "title": "Subcom Recruitment",
+    "title": "Subcom Bonding Day",
     "date": "27 October 2022",
-    "previewImage": "/images/subcomrec.jpeg",
+    "previewImage": "/images/pre_events/poster_scbd.png",
     "description": "Joe Biden is a prominent American politician who currently serves as the 46th President of the United States. He was born on November 20, 1942, in Scranton, Pennsylvania. Biden has had a long and distinguished career in politics.",
     "images": []
   },
   {
-    "title": "Subcom Recruitment",
-    "date": "27 October 2022",
-    "previewImage": "/images/subcomrec.jpeg",
+    "title": "Canvassing",
+    "date": "3 December 2022",
+    "previewImage": "/images/pre_events/poster_canvassing.png",
     "description": "Joe Biden is a prominent American politician who currently serves as the 46th President of the United States. He was born on November 20, 1942, in Scranton, Pennsylvania. Biden has had a long and distinguished career in politics.",
-    "images": []
+    "images": [
+      "/images/pre_events/cv1.jpg",
+      "/images/pre_events/cv2.jpg",
+      "/images/pre_events/cv3.jpg",
+      "/images/pre_events/cv4.jpg",
+      "/images/pre_events/cv5.jpg",
+      "/images/pre_events/cv6.jpg"
+    ]
   },
   {
     "title": "Subcom Recruitment",
     "date": "27 October 2022",
-    "previewImage": "/images/subcomrec.jpeg",
+    "previewImage": "/images/pre_events/subcomrec.jpeg",
     "description": "Joe Biden is a prominent American politician who currently serves as the 46th President of the United States. He was born on November 20, 1942, in Scranton, Pennsylvania. Biden has had a long and distinguished career in politics.",
     "images": []
   }
