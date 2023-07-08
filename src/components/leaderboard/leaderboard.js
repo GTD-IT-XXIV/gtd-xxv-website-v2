@@ -75,7 +75,7 @@ const LeaderboardTable = ({ data }) => {
 
 	return (
 		<div className="container-full">
-			<div className="container w-full min-h-screen mx-auto py-20">
+			<div className="container max-w-auto min-h-screen mx-auto py-20">
 				{/* <h1 class="text-center text-4xl text-[#FFF2D0] py-2">Leaderboard</h1> */}
 
 				<img
@@ -166,20 +166,19 @@ const LeaderboardTable = ({ data }) => {
 									</th>
 								</tr>
 							</thead>
-							<tbody
-								className="[&>*:nth-child(1)]:bg-[#F7D7C9]
-                                    [&>*:nth-child(2)]:bg-[#D9EDF6]
-                                    [&>*:nth-child(3)]:bg-[#F7D7C9]
-                                    [&>*:nth-child(4)]:bg-[#E2EDBA]
-                                    [&>*:nth-child(5)]:bg-[#D9EDF6]
-                                    [&>*:nth-child(6)]:bg-[#F4DFF7]
-                                    [&>*:nth-child(7)]:bg-[#E2EDBA]
-                                    [&>*:nth-child(8)]:bg-[#F4DFF7]"
-							>
+							<tbody>
+									{/* [#F7D7C9] #red	
+                                    [#D9EDF6] #blue
+                                    [#E2EDBA] #green
+                                    [#F4DFF7] #purple */}
+									
 								{displayedData.map((item, idx) => (
 									<tr
 										key={`${item.day1Point} ${item.day2Point} ${item.day3Point} ${item.house}`}
-                    className={`border-b-2 border-[#D2C2BB] ${["House A", "House B", "House C", "House D"].includes(item.house) ? "house-row": "og-row"}`}
+                    className={`border-b-2 border-[#D2C2BB] ${["Sadness", "Fear", "Disgust", "Anger"].includes(item.house) ? "house-row": "og-row"}`}
+					style={{
+						backgroundColor: item.house === "Sadness" ? "#D9EDF6" : item.house === "Anger" ? "#F7D7C9" : item.house === "Disgust" ? "#E2EDBA" : item.house === "Fear" ? "#F4DFF7" : ""
+					  }}
 									>
 										<td className="py-2">{idx + 1}</td>
 										<td className="py-2">
