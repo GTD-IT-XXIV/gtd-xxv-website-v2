@@ -16,7 +16,7 @@
   background-attachment: fixed;
 }
 
-h1 {
+.h1 {
   text-shadow: 3px 3px 0px #c13e3e;
   -webkit-text-stroke: 1px #c13e3e;
 }
