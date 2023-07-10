@@ -1,24 +1,24 @@
 .faq {
-    flex: 1;
+  flex: 1;
 }
 
 h1 {
-    font-family: "InsideOut";
+  font-family: "InsideOut";
 }
 
 .accordion-header {
-    position: relative;
+  position: relative;
 }
 
 .accordion-header.active .accordion-icon {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .accordion-content {
-    padding: 10px;
-    display: none;
+  padding: 10px;
+  display: none;
 }
 
 .accordion-content.active {
-    display: block;
+  display: block;
 }
