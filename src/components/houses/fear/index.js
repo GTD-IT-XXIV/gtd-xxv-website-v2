@@ -1,22 +1,8 @@
-import { useState } from "react";
-import "./fear.css";
+import House from "../House";
+import houses from "../houses";
 
 const Fear = () => {
-  const [visible, setVisible] = useState(false);
-
-  function handleClick() {
-    setVisible(visible ? false : true);
-  }
-
-  return (
-    <>
-      <div className="fear">
-        <div className="navigationContainer">
-          <p className="text-6xl text-red-500">Fear</p>
-        </div>
-      </div>
-    </>
-  );
+  return <House house={houses.fear} />;
 };
 
 export default Fear;

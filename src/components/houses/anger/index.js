@@ -1,22 +1,8 @@
-import { useState } from "react";
-import "./anger.css";
+import House from "../House";
+import houses from "../houses";
 
 const Anger = () => {
-  const [visible, setVisible] = useState(false);
-
-  function handleClick() {
-    setVisible(visible ? false : true);
-  }
-
-  return (
-    <>
-      <div className="anger">
-        <div className="navigationContainer">
-          <p className="text-6xl text-red-500">Anger</p>
-        </div>
-      </div>
-    </>
-  );
+  return <House house={houses.anger} />;
 };
 
 export default Anger;
