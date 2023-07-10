@@ -1,0 +1,29 @@
+.polaroid {
+  position: relative;
+  width: 30vw;
+  height: 36vw;
+  background-image: url("./img/gray_polaroid.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5vw 1.5vw 0vw 1.5vw;
+}
+
+.polaroid-name {
+  position: absolute;
+  font-family: "AlicesHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+  line-height: 6vw;
+  color: #686464;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%) rotate(-5deg);
+  white-space: nowrap;
+}
+
+.polaroid-image {
+  width: 100%;
+  height: 80%;
+}

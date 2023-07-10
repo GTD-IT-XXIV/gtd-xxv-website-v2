@@ -1,6 +1,6 @@
 import React from "react";
 
-import Orang from "./static_files/orang.png";
+import Orang from "./img/orang.png";
 
 import LinkedinIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -11,7 +11,7 @@ const Footer = () => {
       <div
         className="d-flex justify-content-between align-items-center p-3"
         style={{
-          "background-color": "#0C457A",
+          "backgroundColor": "#190F3E",
         }}
       >
         <img
@@ -35,19 +35,19 @@ const Footer = () => {
           style={{
             width: "100px",
           }}
-        >
-          <LinkedinIcon
-            sx={{ fontSize: 40 }}
-            onClick={(event) =>
-              (window.location.href =
-                "https://www.linkedin.com/company/pintu-gtd/about/")
-            }
-          />
+        >  
           <InstagramIcon
             sx={{ fontSize: 40 }}
             onClick={(event) =>
               (window.location.href =
                 "https://www.instagram.com/pintugtd/?hl=en")
+            }
+          />
+          <LinkedinIcon
+            sx={{ fontSize: 40 }}
+            onClick={(event) =>
+              (window.location.href =
+                "https://www.linkedin.com/company/pintu-gtd/about/")
             }
           />
         </div>
