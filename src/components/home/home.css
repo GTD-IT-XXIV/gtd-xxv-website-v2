@@ -1,19 +1,30 @@
-h1, h2, h3, p {
-    font-family: 'Lato-Black', sans-serif;
+h1,
+h2,
+h3,
+p {
+  font-family: "Lato-Black", sans-serif;
 }
 .home {
   flex: 1;
-  background: rgb(25,15,62);
-    background: linear-gradient(180deg, rgba(25,15,62,1) 0%, rgba(126,64,129,1) 50%, rgba(25,15,62,1) 100%);
+  background: rgb(25, 15, 62);
+  background: linear-gradient(
+    180deg,
+    rgba(25, 15, 62, 1) 0%,
+    rgba(126, 64, 129, 1) 50%,
+    rgba(25, 15, 62, 1) 100%
+  );
 }
 
 .screen-bg {
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 65%, rgba(137,132,157,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(137, 132, 157, 1) 100%
+  );
 }
 
-
-
 .opacity-trans {
-    transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
 }

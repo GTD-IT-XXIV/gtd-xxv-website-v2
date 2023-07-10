@@ -4,7 +4,7 @@ import linkedin from "./images/linkedin.svg";
 import "./about.css";
 const About = () => {
   return (
-    <div class="bg-gradient-to-b from-[#3F2E7C] to-[#7E4081]">
+    <div class="bg-gradient-to-b from-[#190F3E] to-[#7E4081]">
       <div className="navigationContainer">
         <div class="mx-auto py-10 flex-none">
           <p
