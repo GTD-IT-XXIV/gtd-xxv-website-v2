@@ -1,17 +1,17 @@
-.events {
+.pre_events {
   flex: 1;
 }
 
-h1,
-h2,
-h3,
-p {
+.h1,
+.h2,
+.h3,
+.p {
   font-family: "Lato-Black", sans-serif;
-  line-height: 1.375rem;
+  line-height: 1rem;
 }
 
-p {
-  font-weight: 200;
+.p {
+  font-weight: 400;
 }
 .home {
   flex: 1;
@@ -25,6 +25,9 @@ p {
 
 .text-modal {
   color: #6f0f2b;
+  font-weight: 400;
+  line-height: 1.3rem;
+  text-align: justify;
 }
 
 .image-cover {
