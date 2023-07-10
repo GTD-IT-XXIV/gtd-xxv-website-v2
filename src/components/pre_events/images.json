@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Subcom Bonding Day",
+    "date": "18 March 2023",
+    "previewImage": "/images/pre_events/poster_scbd.png",
+    "description": "",
+    "images": [
+      "/images/pre_events/scbd1.jpg",
+      "/images/pre_events/scbd2.jpg",
+      "/images/pre_events/scbd3.jpg",
+      "/images/pre_events/scbd4.jpg",
+      "/images/pre_events/scbd5.jpg",
+      "/images/pre_events/scbd6.jpg"
+    ]
+  },
+  {
+    "title": "Night Cycling",
+    "date": "24-25 February 2023",
+    "previewImage": "/images/pre_events/poster_nc.png",
+    "description": "",
+    "images": [
+      "/images/pre_events/nc1.jpg",
+      "/images/pre_events/nc2.jpg",
+      "/images/pre_events/nc3.jpg"
+    ]
+  },
+  {
+    "title": "Canvassing",
+    "date": "3 December 2022",
+    "previewImage": "/images/pre_events/poster_canvassing.png",
+    "description": "As a part of BFM's yearly event, all GTD committe members were invited to participate in Standard Chartered Marathon marathon as a means to secure sponsorships. During the event, the team was assigned to various stations where they distributed refreshments, medals, and certificates to the runners who successfully completed the race.",
+    "images": [
+      "/images/pre_events/cv1.jpg",
+      "/images/pre_events/cv2.jpg",
+      "/images/pre_events/cv3.jpg",
+      "/images/pre_events/cv4.jpg",
+      "/images/pre_events/cv5.jpg",
+      "/images/pre_events/cv6.jpg"
+    ]
+  },
+  {
+    "title": "Subcom Recruitment",
+    "date": "27 October 2022",
+    "previewImage": "/images/pre_events/subcomrec.jpeg",
+    "description": "The recruitment for the subcommittee of the Get Together Day committee was available to all current PINTU students who wished to contribute. The recruitment period spanned approximately four days from 24-27 October 2023. Prospective candidates had the opportunity to apply and participate in interviews based on their specific areas of interest or expertise.",
+    "images": [
+      "/images/pre_events/scr1.JPG",
+      "/images/pre_events/scr2.JPG",
+      "/images/pre_events/scr3.JPG",
+      "/images/pre_events/scr4.JPG",
+      "/images/pre_events/scr5.JPG",
+      "/images/pre_events/scr6.JPG",
+      "/images/pre_events/scr7.JPG"
+    ]
+  }
+]
