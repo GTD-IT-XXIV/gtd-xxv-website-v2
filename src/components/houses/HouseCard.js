@@ -20,7 +20,7 @@ const HouseCard = ({ house }) => {
                    md:gap-y-4"
       >
         <h2
-          className="mb-0 text-center text-2xl sm:text-4xl md:text-5xl
+          className="mb-0 text-center text-xl sm:text-4xl md:text-5xl
                      lg:text-6xl"
         >
           {house.card.label}
@@ -41,7 +41,7 @@ const HouseCard = ({ house }) => {
         >
           <ol
             className="z-0 mb-0 max-h-[100px] overflow-hidden px-2
-                       font-['Lato-Regular'] text-base font-semibold italic
+                       font-['Lato-Regular'] text-xs font-semibold italic
                        sm:max-h-[150px] sm:text-xl/8 md:max-h-[200px]
                        md:text-2xl/10 lg:text-3xl/[3rem]"
           >

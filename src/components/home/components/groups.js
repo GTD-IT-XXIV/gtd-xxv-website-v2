@@ -39,7 +39,7 @@ const Groups = () => {
           />
         </div>
       </Link>
-      <Link to={routes.disgust}>
+      <Link to={routes.fear}>
         <div
           className={`bottom-0 left-0 bg-[#E4CAE6] rounded-bl-xl hover:z-10 ${ButtonClass} outer-image`}
         >
@@ -49,7 +49,7 @@ const Groups = () => {
           />
         </div>
       </Link>
-      <Link to={routes.fear}>
+      <Link to={routes.disgust}>
         <div
           className={`bottom-0 right-0 bg-[#D0F29F] rounded-br-xl hover:z-10 ${ButtonClass} outer-image`}
         >

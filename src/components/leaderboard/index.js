@@ -80,9 +80,13 @@ const Leaderboard = () => {
   //   }, [])
 
   return (
-    <div className="faq">
+    <div className="leaderboard">
       <div className="navigationContainer">
-        <div className="App">
+        {/* First section */}
+        <div
+          className="w-full h-full relative bg-[#190F3E] overflow-hidden"
+          style={{ boxShadow: "0px 0px 100px rgba(255,255,255,0.30)" }}
+        >
           <LeaderboardTable data={leaderboardData} />
         </div>
       </div>

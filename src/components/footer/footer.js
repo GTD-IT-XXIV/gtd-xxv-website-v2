@@ -11,7 +11,7 @@ const Footer = () => {
       <div
         className="d-flex justify-content-between align-items-center p-3"
         style={{
-          "backgroundColor": "#190F3E",
+          backgroundColor: "#190F3E",
         }}
       >
         <img
@@ -23,11 +23,11 @@ const Footer = () => {
           }}
         />
         <div>
-          <p className="normalfont text-center text-white m-0">
-            Copyright © 2023 GTD XXV.
+          <p className=" text-center text-white m-0 text-xs smed:text-base md:text-xl">
+            Copyright © 2023 GTD XXV
           </p>
-          <p className="normalfont text-center text-white m-0">
-            All Rights Reserved.
+          <p className="text-center text-white m-0 text-xs smed:text-base md:text-xl">
+            All Rights Reserved
           </p>
         </div>
         <div
@@ -35,7 +35,7 @@ const Footer = () => {
           style={{
             width: "100px",
           }}
-        >  
+        >
           <InstagramIcon
             sx={{ fontSize: 40 }}
             onClick={(event) =>

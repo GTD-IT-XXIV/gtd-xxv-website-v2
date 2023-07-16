@@ -20,7 +20,7 @@ const accordionItems = [
   {
     question: "2. How can I to register?",
     content:
-      "You can register yourself by filling up the registration form attached in this page. If you have further questions feel free to DM us on instagram @pintugtd. To reach us via telegram, please refer to contact us section below",
+      "You can register yourself by filling up the registration form attached in this page. If you have further questions feel free to DM us on instagram @pintugtd. To reach us via telegram, please refer to contact us section below.",
   },
   {
     question: "3. Where, when, and how long will the programs be conducted?",
@@ -29,7 +29,7 @@ const accordionItems = [
   {
     question: "4. How much does it cost?",
     content:
-      "The pricing will be specified later prior to the date of the programs. It includes our exclusive annual GTD shirt merchandise, dinner on our last day, and buses!",
+      "You can see the pricing in the Registration Form attached on this page. The price includes our annual GTD shirt merchandise, dinner on our last day, and buses!",
   },
 ];
 

@@ -1,17 +1,24 @@
 .carousel {
-    transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 .current-page {
-    background-color: #B16FBF;
+  background-color: #b16fbf;
 }
 
 .carousel-border {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.75) 30%, rgba(0,0,0,0.4) 85%, rgba(0,0,0,0.3) 95%,rgba(0,0,0,0.0) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.75) 30%,
+    rgba(0, 0, 0, 0.4) 85%,
+    rgba(0, 0, 0, 0.3) 95%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
-p {
-    color: white;
-    font-family: 'Lato', sans-serif;
-}
+/* .p {
+  color: white;
+  font-family: "Lato", sans-serif;
+} */

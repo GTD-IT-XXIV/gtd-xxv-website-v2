@@ -27,7 +27,7 @@
     "role": "Tops",
     "team": "TOPS",
     "nickname": "Dodo - VP CGL & PPIT",
-    "name": "Rivaldo Billy",
+    "name": "Rivaldo Billy Sebastian",
     "image": "Rivaldo.JPG",
     "major": "MAS/4"
   },
@@ -117,7 +117,7 @@
     "role": "Sub",
     "team": "POLOG",
     "nickname": "Rafie",
-    "name": "Rafie Hanania",
+    "name": "Rafie Hanania Hertrian",
     "image": "Rafie.JPG",
     "major": "EEE/2"
   },
@@ -168,6 +168,14 @@
     "name": "Yves Samson Li",
     "image": "Samson.JPG",
     "major": "CE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Marco",
+    "name": "Marco Louis Rudyanto",
+    "image": "Marco.jpg",
+    "major": "MAE/2"
   },
   {
     "role": "Sub",
@@ -231,7 +239,7 @@
     "nickname": "Okky",
     "name": "Herbian Hokky Prabowo",
     "image": "Okky.JPG",
-    "major": "MAE/3"
+    "major": "EESS/3"
   },
   {
     "role": "Sub",
@@ -511,7 +519,7 @@
     "nickname": "Wildan",
     "name": "Muhammad Wildan Tamami",
     "image": "Wildan.JPG",
-    "major": "ENG/2"
+    "major": "MAE/2"
   },
   {
     "role": "Sub",
@@ -560,12 +568,12 @@
     "nickname": "Vanessa",
     "name": "Vanessa Victoria Setiawan",
     "image": "Vanessa.JPG",
-    "major": "NBS/3"
+    "major": "BUS/3"
   },
   {
     "role": "Sub",
     "team": "BFM",
-    "nickname": "Andrew (Ano)",
+    "nickname": "Ano",
     "name": "Andrew Nycholas Ormand",
     "image": "Andrew.JPG",
     "major": "CEE/3"
@@ -589,10 +597,10 @@
   {
     "role": "Main",
     "team": "WELFARE",
-    "nickname": "Hanson",
+    "nickname": "Frederik",
     "name": "Frederik Hanson",
     "image": "Hanson.JPG",
-    "major": ""
+    "major": "EEE/3"
   },
   {
     "role": "Main",
@@ -600,7 +608,7 @@
     "nickname": "Bryno",
     "name": "Bryan Noel Salindeho",
     "image": "Bryno.JPG",
-    "major": ""
+    "major": "IEM/3"
   },
   {
     "role": "Main",
@@ -608,7 +616,7 @@
     "nickname": "Jessica",
     "name": "Jessica Martin",
     "image": "Jessica.JPG",
-    "major": ""
+    "major": "CBE/3"
   },
   {
     "role": "Sub",
@@ -738,21 +746,22 @@
     "image": "Nando.JPG",
     "major": "ASE/4"
   },
-  {
-    "role": "Main",
-    "team": "GL",
-    "nickname": "Christine",
-    "name": "Christine Theresia",
-    "image": "Christine.JPG",
-    "major": "ACC/3"
-  },
+
   {
     "role": "Main",
     "team": "GL",
     "nickname": "Boi",
-    "name": "Aurelius Bryan",
+    "name": "Aurelius Bryan Andaria",
     "image": "Boi.JPG",
     "major": "BUS/3"
+  },
+  {
+    "role": "Main",
+    "team": "GL",
+    "nickname": "Tin",
+    "name": "Christine Theresia",
+    "image": "Christine.JPG",
+    "major": "ACC/3"
   },
 
   {
@@ -761,7 +770,7 @@
     "nickname": "Leonrich",
     "name": "Leonrich Chandra",
     "image": "Leonrich.jpg",
-    "major": "ENG/2"
+    "major": "EEE/2"
   },
   {
     "role": "Sub",
@@ -793,7 +802,7 @@
     "nickname": "Hansen",
     "name": "Hansen Nathaniel Wijaya",
     "image": "Hansen.jpg",
-    "major": "ENG/2"
+    "major": "EEE/2"
   },
   {
     "role": "Sub",
@@ -809,7 +818,7 @@
     "nickname": "Kenneth",
     "name": "Kenneth Anthony Wijaya",
     "image": "Kenneth.jpg",
-    "major": "ENG/2"
+    "major": "EEE/2"
   },
   {
     "role": "Sub",

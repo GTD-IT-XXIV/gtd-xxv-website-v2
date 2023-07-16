@@ -28,8 +28,16 @@ const PageIndicator = ({ page, className, maxPage, setPage }) => {
 
 const Text = ({ text, ...props }) => {
   return (
-    <div className="w-full flex flex-row items-center justify-center" {...props}>
-      <p className="w-5/6 md:w-3/6 font-white text-center">{text}</p>
+    <div
+      className="w-full flex flex-row items-center justify-center"
+      {...props}
+    >
+      <p
+        style={{ fontFamily: "Lato-Regular" }}
+        className="w-5/6 md:w-3/6 font-white text-center text-white text-base smed:text-xl md:text-2xl"
+      >
+        {text}
+      </p>
     </div>
   );
 };

@@ -3,6 +3,10 @@ import bg1 from "./img/day_1.svg";
 import bg2 from "./img/day_2.svg";
 import bg3 from "./img/day_3.svg";
 import bg4 from "./img/day_4.svg";
+import img1 from "./img/day1.JPG";
+import img2 from "./img/day2.JPG";
+import img3 from "./img/day3.JPG";
+import img4 from "./img/day4.JPG";
 
 const days = [
   {
@@ -33,7 +37,7 @@ const days = [
       },
       date: {
         text: "4 Aug",
-        datetime: "2023-07-06",
+        datetime: "2023-07-29",
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
@@ -42,13 +46,9 @@ const days = [
     popup: {
       twBackground:
         "bg-gradient-to-t from-[#233C55] from-[2.47%] to-[#8A90C9] to-[94.42%]",
-      video: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      video: img1,
       location: "NTU",
-      time: "19.45 - 23:00",
-      subOGLink:
-        "https://docs.google.com/spreadsheets/d/1lFU3fTgobrsfLuaYvEPs0u_MHMSNkR81nMPx23FsXa4/edit?usp=sharing#gid=2104104383",
-      gameFlow:
-        "https://docs.google.com/spreadsheets/d/1lFU3fTgobrsfLuaYvEPs0u_MHMSNkR81nMPx23FsXa4/edit?usp=sharing#gid=355745453",
+      time: "19.45 - 23:15",
     },
   },
   {
@@ -79,7 +79,7 @@ const days = [
       },
       date: {
         text: "5 Aug",
-        datetime: "2023-07-06",
+        datetime: "2023-07-29",
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
@@ -88,13 +88,10 @@ const days = [
     popup: {
       twBackground:
         "bg-gradient-to-b from-[#F9E6B5] from-[6.68%] to-[#328A7A] to-[93.32%]",
-      video: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      video: img2,
+
       location: "Siloso Beach",
-      time: "14:00 - 19:00",
-      subOGLink:
-        "https://docs.google.com/spreadsheets/d/1lFU3fTgobrsfLuaYvEPs0u_MHMSNkR81nMPx23FsXa4/edit?usp=sharing#gid=584683869",
-      gameFlow:
-        "https://docs.google.com/spreadsheets/d/1lFU3fTgobrsfLuaYvEPs0u_MHMSNkR81nMPx23FsXa4/edit?usp=sharing#gid=1911965395",
+      time: "13.45 - 19:30",
     },
   },
   {
@@ -125,7 +122,7 @@ const days = [
       },
       date: {
         text: "6 Aug",
-        datetime: "2023-07-06",
+        datetime: "2023-07-29",
         twRotate: "rotate-[0deg]",
       },
       twBorder:
@@ -134,13 +131,9 @@ const days = [
     popup: {
       twBackground:
         "bg-gradient-to-b from-[#DBFFD6] from-[0.39%] to-[#4C5F02] to-[92.62%]",
-      video: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      video: img3,
       location: "Around Singapore",
       time: "13:00 - 19:15",
-      subOGLink:
-        "https://docs.google.com/spreadsheets/d/1lFU3fTgobrsfLuaYvEPs0u_MHMSNkR81nMPx23FsXa4/edit?usp=sharing#gid=200808549",
-      gameFlow:
-        "https://docs.google.com/spreadsheets/d/1lFU3fTgobrsfLuaYvEPs0u_MHMSNkR81nMPx23FsXa4/edit?usp=sharing#gid=683757574",
     },
   },
   {
@@ -197,7 +190,7 @@ const days = [
       },
       date: {
         text: "7 Aug",
-        datetime: "2023-07-06",
+        datetime: "2023-07-29",
         twRotate:
           "rotate-[-15.85deg] -translate-x-4 -translate-y-9 sm:-translate-x-7 sm:-translate-y-14 md:-translate-x-8 md:-translate-y-[3.75rem] lg:-translate-x-11 lg:-translate-y-20",
       },
@@ -207,11 +200,9 @@ const days = [
     popup: {
       twBackground:
         "bg-gradient-to-b from-black from-[0.39%] to-[#674A00] to-[92.62%]",
-      video: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
-      location: "TBA",
-      time: "TBA",
-      subOGLink: "https://www.google.com/",
-      gameFlow: "",
+      video: img4,
+      location: "Scape",
+      time: "17:00-23:00",
     },
   },
 ];

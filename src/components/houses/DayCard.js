@@ -59,7 +59,7 @@ const DayCard = ({ house, day }) => {
 
   useEffect(() => {
     let releaseDate = new Date(`${day.card.date.datetime}T00:00+08:00`);
-    releaseDate.setUTCHours(releaseDate.getUTCHours() - 6);
+    releaseDate.setUTCHours(releaseDate.getUTCHours() - 12);
 
     if (Date.now() >= releaseDate.valueOf()) setAvailable(true);
   }, [day]);

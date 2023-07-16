@@ -50,9 +50,17 @@ const Events = () => {
                 class="h-full w-[90%] md:scale-[95%] md:py-5 mx-auto"
               ></img>
               <div class="absolute left-[43%] top-[42%] ssmed:top-[35%] smed:top-[33%] md:top-[35%] lg:left-[44%] lg:top-[30%] md:mr-[10%] flex mr-[7%]">
+                {/* <p className="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-white font-normal">
+                  Participants will gather at NTU for an evening filled with
+                  thrilling night games. This segment is designed to break the
+                  ice and create a lively and welcoming atmosphere. Freshmen can
+                  expect a range of exciting challenges and activities that
+                  promote interaction among their peers and seniors.
+                </p> */}
+
                 <p
                   style={{ fontFamily: "Lato-Regular" }}
-                  class="text-xxs text-white ssmed:text-sm smed:text-base  md:text-xl lg:text-2xl xl:text-3xl"
+                  className="event-paragraph  text-white"
                 >
                   Participants will gather at NTU for an evening filled with
                   thrilling night games. This segment is designed to break the
@@ -79,7 +87,7 @@ const Events = () => {
               <div class="absolute left-[43%] top-[42%] ssmed:top-[35%] smed:top-[33%] md:top-[35%] lg:left-[44%] lg:top-[30%] md:mr-[10%] flex mr-[7%]">
                 <p
                   style={{ fontFamily: "Lato-Regular" }}
-                  class="text-xxs text-[#2E5E50] ssmed:text-sm smed:text-base  md:text-xl lg:text-2xl xl:text-3xl"
+                  className="event-paragraph  text-[#2E5E50]"
                 >
                   Freshmen can look forward to a fun-filled afternoon of
                   team-building activities and friendly competition. The
@@ -108,7 +116,7 @@ const Events = () => {
               <div class="absolute left-[43%] top-[42%] ssmed:top-[35%] smed:top-[33%] md:top-[35%] lg:left-[44%] lg:top-[30%] md:mr-[10%] flex mr-[7%]">
                 <p
                   style={{ fontFamily: "Lato-Regular" }}
-                  class="text-xxs text-[#2E5E50] ssmed:text-sm smed:text-base  md:text-xl lg:text-2xl xl:text-3xl"
+                  className="event-paragraph  text-[#2E5E50]"
                 >
                   Freshmen will experience an adventurous exploration of
                   Singapore's diverse locations. We will take participants on a
@@ -133,10 +141,10 @@ const Events = () => {
                 src={day4}
                 class="h-full w-[90%] md:scale-[95%] md:py-5 mx-auto"
               ></img>
-              <div class="absolute left-[43%] top-[42%] ssmed:top-[35%] smed:top-[33%] md:top-[35%] lg:left-[44%] lg:top-[30%] md:mr-[10%] flex mr-[7%]">
+              <div class="absolute left-[43%] top-[40%] ssmed:top-[35%] smed:top-[33%] md:top-[35%] lg:left-[44%] lg:top-[25%] md:mr-[10%] flex mr-[7%]">
                 <p
                   style={{ fontFamily: "Lato-Regular" }}
-                  class="text-xxs text-white ssmed:text-sm smed:text-base  md:text-xl lg:text-2xl xl:text-3xl"
+                  className="event-paragraph  text-white"
                 >
                   Finally, we will end our program with an unforgettable Awards
                   Night held at Orchard. This evening event is a grand

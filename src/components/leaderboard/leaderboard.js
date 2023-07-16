@@ -82,18 +82,24 @@ const LeaderboardTable = ({ data }) => {
           alt="Leaderboard"
         />
         <div className="w-auto flex justify-center">
-          <img
+          {/* <img
             className="w-full object-scale-down h-14 sm:h-16 md:h-20 lg:h-24 mt-[24px] absolute right-[114px] top-32"
             src={leftStar}
             alt="star"
-          />
+          /> */}
           <img
-            className="w-full object-scale-down h-14 sm:h-16 md:h-20 lg:h-24 absolute top-32"
+            className="w-full object-scale-down h-14 sm:h-16 md:h-20 lg:h-24 mt-[24px] absolute right-[114px] top-20 sm:top-32"
+            src={leftStar}
+            alt="star"
+          />
+
+          <img
+            className="w-full object-scale-down h-14 sm:h-16 md:h-20 lg:h-24 absolute top-20 sm:top-32"
             src={midStar}
             alt="star"
           />
           <img
-            className="w-full object-scale-down h-16 sm:h-18 md:h-22 lg:h-24 mt-[24px] absolute left-[114px] top-32"
+            className="w-full object-scale-down h-16 sm:h-18 md:h-22 lg:h-24 mt-[24px] absolute left-[114px] top-20 sm:top-32"
             src={rightStar}
             alt="star"
           />

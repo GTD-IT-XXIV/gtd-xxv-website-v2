@@ -71,7 +71,7 @@ const About = () => {
               <a href="https://www.instagram.com/pintugtd/">
                 <img
                   src={instagram}
-                  class="h-full w-full mx-auto md:scale-[120%]"
+                  class="h-full w-75 md:w-full mx-auto md:scale-[120%]"
                 ></img>
               </a>
             </div>
@@ -80,7 +80,7 @@ const About = () => {
               <a href="https://www.linkedin.com/company/pintu-gtd/">
                 <img
                   src={linkedin}
-                  class="h-full w-full mx-auto md:scale-[120%]"
+                  class="h-full w-75 md:w-full mx-auto md:scale-[120%]"
                 ></img>
               </a>
             </div>

@@ -14,14 +14,12 @@ const FAQ = () => {
           <div className="w-full">
             <RegistrationForm />
           </div>
-
+          <div className="w-full">
+            <Contact />
+          </div>
           <div className="w-full">
             <h1 className="text-center text-white my-10">FAQ</h1>
             <AccordionGroup />
-          </div>
-
-          <div className="w-full">
-            <Contact />
           </div>
         </div>
 

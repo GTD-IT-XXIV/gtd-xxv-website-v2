@@ -37,7 +37,7 @@ const PreEvents = () => {
 
         <div className="p-5 flex flex-column items-center gap-4">
           <h1 className="font-inside-out text-white text-4xl md:text-5xl">
-            Pre-Event
+            Pre-Events
           </h1>
           {images.map((image, index) => {
             const Icon = IconList[index];

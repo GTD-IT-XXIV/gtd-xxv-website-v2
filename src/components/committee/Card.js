@@ -48,6 +48,7 @@ const Card = ({ cardState, setCardState }) => {
               : ""
           }/${cardState.image}`)}
           alt={cardState.name}
+          style={{ objectFit: "cover", width: "100%", height: "100%" }}
         />
       </div>
       <div className="card-text">
