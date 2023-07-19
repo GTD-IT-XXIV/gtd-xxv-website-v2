@@ -4,14 +4,11 @@ import Screen from "./components/screen";
 import Chair from "./components/chair";
 import Television from "./components/television";
 import Carousel from "./components/carousel";
-import Groups from './components/groups';
+import Groups from "./components/groups";
 
-import carouselImages from './carouseImages.json'
-
-
+import carouselImages from "./carouseImages.json";
 
 const Home = () => {
-
   return (
     <>
       <div className="home">
@@ -57,11 +54,14 @@ const Home = () => {
               >
                 Trailer
               </h1>
-              <Television videoLink="https://www.youtube.com/embed/bIaX8E-FCuk" />
+              <Television videoLink="https://www.youtube.com/embed/f8HRM_Tx7DU" />
             </div>
           </div>
           {/* Third section */}
-          <div className="w-full h-screen relative flex flex-column items-center justify-center" id="storyline">
+          <div
+            className="w-full h-screen relative flex flex-column items-center justify-center"
+            id="storyline"
+          >
             <h1
               className="text-center text-white text-4xl md:text-5xl md:text-5xl mb-5"
               style={{ fontFamily: "InsideOut" }}
@@ -71,7 +71,10 @@ const Home = () => {
             <Carousel images={carouselImages} />
           </div>
 
-          <div className="w-full h-screen relative flex flex-column items-center justify-center" id="og">
+          <div
+            className="w-full h-screen relative flex flex-column items-center justify-center"
+            id="og"
+          >
             <h1
               className="text-center text-white text-4xl md:text-5xl mb-5"
               style={{ fontFamily: "InsideOut" }}
@@ -79,12 +82,10 @@ const Home = () => {
               Orientation Groups
             </h1>
             <div className="flex flex-row w-full items-center justify-center">
-                <div className="w-3/4 md:w-1/2 lg:w-2/6">
-                <Groups/>
-                </div>
-                
+              <div className="w-3/4 md:w-1/2 lg:w-2/6">
+                <Groups />
+              </div>
             </div>
-            
           </div>
         </div>
       </div>

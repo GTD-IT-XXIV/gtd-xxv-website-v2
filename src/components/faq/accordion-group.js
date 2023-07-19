@@ -27,9 +27,9 @@ const accordionItems = [
     content: "Refer to the Event page section on our website!",
   },
   {
-    question: "4. How much does it cost?",
+    question: "4. How much does the orientation cost?",
     content:
-      "You can see the pricing in the Registration Form attached on this page. The price includes our annual GTD shirt merchandise, dinner on our last day, and buses!",
+      "It only costs $25. The price includes our annual GTD T-Shirt, dinner on and bus accommodation on 7 Aug, and many more!",
   },
 ];
 

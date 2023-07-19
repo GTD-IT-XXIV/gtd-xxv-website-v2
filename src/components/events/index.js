@@ -149,7 +149,7 @@ const Events = () => {
                   Finally, we will end our program with an unforgettable Awards
                   Night held at Orchard. This evening event is a grand
                   celebration of the achievements and experiences of the
-                  participants throughout the orientation camp.The Awards Night
+                  participants throughout the orientation camp. The Awards Night
                   offers a platform to honor outstanding performances, express
                   gratitude to the organizing committee, and bid farewell to GTD
                   with a sense of pride, unity, and anticipation for the journey
