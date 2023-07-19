@@ -1,22 +1,12 @@
-import { useState } from "react";
-import "./disgust.css";
+import { useEffect } from "react";
+import House from "../House";
+import houses from "../houses";
 
 const Disgust = () => {
-  const [visible, setVisible] = useState(false);
-
-  function handleClick() {
-    setVisible(visible ? false : true);
-  }
-
-  return (
-    <>
-      <div className="disgust">
-        <div className="navigationContainer">
-          <p className="text-6xl text-red-500">Disgust</p>
-        </div>
-      </div>
-    </>
-  );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return <House house={houses.disgust} />;
 };
 
 export default Disgust;

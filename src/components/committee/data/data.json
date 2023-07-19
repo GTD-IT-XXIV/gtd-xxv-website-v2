@@ -1,0 +1,895 @@
+[
+  {
+    "role": "Tops",
+    "team": "TOPS",
+    "nickname": "Kenzhi - President",
+    "name": "Kenzhi Iskandar Wong",
+    "image": "Kenzhi.JPG",
+    "major": "MAE/4"
+  },
+  {
+    "role": "Tops",
+    "team": "TOPS",
+    "nickname": "Jokel - VP POLOG",
+    "name": "Jonathan Kelvin Santoso",
+    "image": "Jokel.JPG",
+    "major": "EEE/4"
+  },
+  {
+    "role": "Tops",
+    "team": "TOPS",
+    "nickname": "Leo - VP BFM & WELF",
+    "name": "Leonard Darmawan",
+    "image": "Leo.JPG",
+    "major": "CBE/4"
+  },
+  {
+    "role": "Tops",
+    "team": "TOPS",
+    "nickname": "Dodo - VP CGL & PPIT",
+    "name": "Rivaldo Billy Sebastian",
+    "image": "Rivaldo.JPG",
+    "major": "MAS/4"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Hartawan",
+    "name": "Hartawan Surya Santoso",
+    "image": "Hartawan.JPG",
+    "major": "CEE/4"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "WCP",
+    "name": "Wilsen Chandra Putra",
+    "image": "WCP.JPG",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Elbert",
+    "name": "Elbert Osvaldo Yen",
+    "image": "Elbert.JPG",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Bernard",
+    "name": "Bernard Lesley Efendy",
+    "image": "Bernard.JPG",
+    "major": "CSC/3"
+  },
+
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Celine",
+    "name": "Celine Wijaya",
+    "image": "Celine.JPG",
+    "major": "BUS/3"
+  },
+  {
+    "role": "Main",
+    "team": "POLOG",
+    "nickname": "Pascal",
+    "name": "Pascal Theodore Surya",
+    "image": "Pascal.JPG",
+    "major": "CBE/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Holy",
+    "name": "Holy Kristanti",
+    "image": "Holy.JPG",
+    "major": "BIE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Brytista",
+    "name": "Bryan Atista Kiely",
+    "image": "Brytista.JPG",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Alvinsen",
+    "name": "Alvinsen Japutra",
+    "image": "Alvinsen.JPG",
+    "major": "BIE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Marcel",
+    "name": "Marcelino Sutanto",
+    "image": "Marcel.JPG",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Rafie",
+    "name": "Rafie Hanania Hertrian",
+    "image": "Rafie.JPG",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Richard",
+    "name": "Richard Fernando",
+    "image": "Richard.JPG",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Theonie",
+    "name": "Theonie Wijaya",
+    "image": "Theonie.JPG",
+    "major": "ECPS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Neo",
+    "name": "Neo Hwang",
+    "image": "Neo.JPG",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Daniel",
+    "name": "Daniel Paniroy Situmoran",
+    "image": "Daniel.JPG",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Elvin",
+    "name": "Elvin Sugianto",
+    "image": "Elvin.JPG",
+    "major": "IEM/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Samson",
+    "name": "Yves Samson Li",
+    "image": "Samson.JPG",
+    "major": "CE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Marco",
+    "name": "Marco Louis Rudyanto",
+    "image": "Marco.jpg",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Ruben",
+    "name": "Ruben Manuel Sitorus",
+    "image": "Ruben.JPG",
+    "major": "AE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Rena",
+    "name": "Verena Regina Tirtajasa",
+    "image": "Rena.JPG",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Geoff",
+    "name": "Geoffvinc Ng",
+    "image": "Geoff.JPG",
+    "major": "PHY/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Matdin",
+    "name": "Matthew Dinata",
+    "image": "Matdin.JPG",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Gaby",
+    "name": "Gabrielle Nicole Suharjono",
+    "image": "Gaby.JPG",
+    "major": "IEM/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Kevin",
+    "name": "Kevin Lee Gunawan",
+    "image": "Kevin.JPG",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Karina",
+    "name": "Verena Karina Suharman",
+    "image": "Karina.JPG",
+    "major": "BIE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Okky",
+    "name": "Herbian Hokky Prabowo",
+    "image": "Okky.JPG",
+    "major": "EESS/3"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Jeen",
+    "name": "Jason Nicholas",
+    "image": "Jeen.JPG",
+    "major": "CBE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Stephanie",
+    "name": "Stephanie Eliana Janong",
+    "image": "Stephanie.JPG",
+    "major": "MSE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "DRC",
+    "name": "Daniel Rahmatcipta",
+    "image": "DRC.JPG",
+    "major": "CEE/4"
+  },
+
+  {
+    "role": "Sub",
+    "team": "POLOG",
+    "nickname": "Abo",
+    "name": "Rajendra Muhammad Alfarrel",
+    "image": "Abo.JPG",
+    "major": "CEE/4"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "Aji",
+    "name": "Muhammad Rafi Adzikra Sujai",
+    "image": "Aji.JPG",
+    "major": "CSC/3"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "Priscilla",
+    "name": "Priscilla Celine Setiawan",
+    "image": "Priscilla.JPG",
+    "major": "CSC/3"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "Seve",
+    "name": "Severiano Steinar Rivandi",
+    "image": "Seve.JPG",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Main",
+    "team": "PPIT",
+    "nickname": "George",
+    "name": "Gregorius George Bunjamin",
+    "image": "George.JPG",
+    "major": "ECPP/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kai",
+    "name": "Muhammad Mikail Rais",
+    "image": "Kai.JPG",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Joshua Adrian",
+    "name": "Joshua Adrian Cahyono",
+    "image": "Joshua Adrian.JPG",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Gillbert",
+    "name": "Gillbert Susilo Wong",
+    "image": "Gillbert.JPG",
+    "major": "CSC/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Juan",
+    "name": "Juan Frederick",
+    "image": "Juan.JPG",
+    "major": "CSC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kim",
+    "name": "Kimberly Atmadja",
+    "image": "Kim.JPG",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kenneth",
+    "name": "Kenneth Tanudjaja",
+    "image": "Kenneth.JPG",
+    "major": "EEE/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Devlin",
+    "name": "Karl Devlin Chau",
+    "image": "Devlin.JPG",
+    "major": "CSC/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": " Joshua James",
+    "name": "Joshua James",
+    "image": "Joshua James.JPG",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Karin",
+    "name": "Katarina Koesoemo",
+    "image": "Karin.JPG",
+    "major": "BSPY/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Clayton",
+    "name": "Clayton Fernalo",
+    "image": "Clayton.JPG",
+    "major": "CSC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kristian",
+    "name": "Kristian Hadinata Achwan",
+    "image": "Kristian.JPG",
+    "major": "MACS/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Billy",
+    "name": "Billy Muliorahardjo",
+    "image": "Billy.JPG",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Joanne",
+    "name": "Joanne Christina Salimin",
+    "image": "Joanne.JPG",
+    "major": "CSC/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Kenny",
+    "name": "Kenny Lius",
+    "image": "Kenny.JPG",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Isaac",
+    "name": "Gregory Isaac Koesno",
+    "image": "Isaac.JPG",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Fiona",
+    "name": "Fiona Valentin Wironoto Susilo",
+    "image": "Fiona.JPG",
+    "major": "EEE/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Ardi",
+    "name": "Ardi Syahda Ahmad Hakim",
+    "image": "Ardi.JPG",
+    "major": "EEE/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Alvin",
+    "name": "Alvin Putera Budiman",
+    "image": "Alvin.JPG",
+    "major": "EEE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Wesley",
+    "name": "Wesley Susanto",
+    "image": "Wesley.JPG",
+    "major": "IEM/4"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Joce",
+    "name": "Jocelyn Valencia Yoswara",
+    "image": "Joce.JPG",
+    "major": "IEM/4"
+  },
+  {
+    "role": "Sub",
+    "team": "PPIT",
+    "nickname": "Vece",
+    "name": "Vanessa Christy Chandra",
+    "image": "Vece.JPG",
+    "major": "IEM/4"
+  },
+  {
+    "role": "Main",
+    "team": "BFM",
+    "nickname": "Rafpang",
+    "name": "Rafi Bintang Pagi Pangestu",
+    "image": "Rafpang.JPG",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Main",
+    "team": "BFM",
+    "nickname": "James",
+    "name": "James Ryan Hendarto",
+    "image": "James.JPG",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Main",
+    "team": "BFM",
+    "nickname": "Jenpi",
+    "name": "Josephine Jennifer Susanto",
+    "image": "Jenpi.JPG",
+    "major": "BUS/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Keiko",
+    "name": "Keiko Renata Santoso",
+    "image": "Keiko.JPG",
+    "major": "ACC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Wildan",
+    "name": "Muhammad Wildan Tamami",
+    "image": "Wildan.JPG",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Cindy",
+    "name": "Cindy Octavia",
+    "image": "Cindy.JPG",
+    "major": "BUS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Jennifer",
+    "name": "Jennifer Chenni Yoshuara",
+    "image": "Jennifer.JPG",
+    "major": "BUS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Bryan",
+    "name": "Bryan Wijaya",
+    "image": "Bryan.JPG",
+    "major": "CBE/2"
+  },
+
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Juan",
+    "name": "Juannisa Putri Sunarya",
+    "image": "Juan.JPG",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Hogan",
+    "name": "Hogan Chang",
+    "image": "Hogan.JPG",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Vanessa",
+    "name": "Vanessa Victoria Setiawan",
+    "image": "Vanessa.JPG",
+    "major": "BUS/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Ano",
+    "name": "Andrew Nycholas Ormand",
+    "image": "Andrew.JPG",
+    "major": "CEE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Rizky",
+    "name": "Achmad Rizky Maulana",
+    "image": "Rizky.JPG",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "BFM",
+    "nickname": "Edmerson",
+    "name": "Edmerson Low Soon Xiang",
+    "image": "Edmerson.JPG",
+    "major": "IEM/3"
+  },
+  {
+    "role": "Main",
+    "team": "WELFARE",
+    "nickname": "Frederik",
+    "name": "Frederik Hanson",
+    "image": "Hanson.JPG",
+    "major": "EEE/3"
+  },
+  {
+    "role": "Main",
+    "team": "WELFARE",
+    "nickname": "Bryno",
+    "name": "Bryan Noel Salindeho",
+    "image": "Bryno.JPG",
+    "major": "IEM/3"
+  },
+  {
+    "role": "Main",
+    "team": "WELFARE",
+    "nickname": "Jessica",
+    "name": "Jessica Martin",
+    "image": "Jessica.JPG",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Calista",
+    "name": "Calista Priscilia Destyne",
+    "image": "Calista.JPG",
+    "major": "ENE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Abigail",
+    "name": "Abigail Antonia Wijaya",
+    "image": "Abigail.JPG",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Afifuddin",
+    "name": "Afifuddin Yunior",
+    "image": "Afifuddin.JPG",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Gregor",
+    "name": "Gregorian Kusumah",
+    "image": "Gregor.JPG",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Puti",
+    "name": "Puti Kinanti Nayla Rahmania",
+    "image": "Puti.JPG",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Nadia",
+    "name": "Nadia Donita",
+    "image": "Nadia.JPG",
+    "major": "MAS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Adam",
+    "name": "Muhammad Adam Nurkholis",
+    "image": "Adam.JPG",
+    "major": "CEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Andrea",
+    "name": "Andrea Adriana Prawono",
+    "image": "Andrea.JPG",
+    "major": "CBC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Rachel",
+    "name": "Rachel Evelyn",
+    "image": "Rachel.JPG",
+    "major": "CBC/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Elicia",
+    "name": "Elicia Tanputraman",
+    "image": "Elicia.JPG",
+    "major": "MAE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Kemas",
+    "name": "Kemas Muhammad Fatahillah",
+    "image": "Kemas.JPG",
+    "major": "IEM/2"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Raja",
+    "name": "Muhammad Raja Dzulhijjah",
+    "image": "Raja.JPG",
+    "major": "BIE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Mingkai",
+    "name": "Gao Mingkai",
+    "image": "Mingkai.JPG",
+    "major": "CBE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Anson",
+    "name": "Anson Douglas Hakim",
+    "image": "Anson.JPG",
+    "major": "MAE/3"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Stephen",
+    "name": "Stephen Edbert",
+    "image": "Stephen.JPG",
+    "major": "CEE/4"
+  },
+  {
+    "role": "Sub",
+    "team": "WELFARE",
+    "nickname": "Nando",
+    "name": "Fernando",
+    "image": "Nando.JPG",
+    "major": "ASE/4"
+  },
+
+  {
+    "role": "Main",
+    "team": "GL",
+    "nickname": "Boi",
+    "name": "Aurelius Bryan Andaria",
+    "image": "Boi.JPG",
+    "major": "BUS/3"
+  },
+  {
+    "role": "Main",
+    "team": "GL",
+    "nickname": "Tin",
+    "name": "Christine Theresia",
+    "image": "Christine.JPG",
+    "major": "ACC/3"
+  },
+
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Leonrich",
+    "name": "Leonrich Chandra",
+    "image": "Leonrich.jpg",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Dea",
+    "name": "Deandra Devi Aravinda",
+    "image": "Dea.jpg",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Metkep",
+    "name": "Matthew Kevin Hardjopranoto",
+    "image": "Matkep.jpg",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Cynthia",
+    "name": "Cynthia Oktaviani Pantoro",
+    "image": "Cynthia.jpg",
+    "major": "CEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Hansen",
+    "name": "Hansen Nathaniel Wijaya",
+    "image": "Hansen.jpg",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Kezia",
+    "name": "Kezia Aprilia Sanjaya",
+    "image": "Kezia.jpg",
+    "major": "ECDS/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Kenneth",
+    "name": "Kenneth Anthony Wijaya",
+    "image": "Kenneth.jpg",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Rachel",
+    "name": "Rachel Sherafin Korompis",
+    "image": "Rachel.jpg",
+    "major": "BIE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Alex",
+    "name": "Alexander Sebastian Christianto",
+    "image": "Alex.jpg",
+    "major": "EEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Maggie",
+    "name": "Margaretha Exaudi Siahaan",
+    "image": "Maggie.jpg",
+    "major": "CEE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Wisnu",
+    "name": "Muhammad Wisnu Darmawan",
+    "image": "Wisnu.jpg",
+    "major": "BCE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Joanka",
+    "name": "Joanka Devi Kalynda",
+    "image": "Joanka.jpg",
+    "major": "DSAI/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Vanness",
+    "name": "Vanness Valentino",
+    "image": "Vanness.jpg",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Shella",
+    "name": "Marshella Angelin",
+    "image": "Shella.jpg",
+    "major": "MSE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Wilfred",
+    "name": "Wilfred Alexander Lee",
+    "image": "Wilfred.jpg",
+    "major": "CBE/2"
+  },
+  {
+    "role": "Sub",
+    "team": "GL",
+    "nickname": "Miranda",
+    "name": "Miranda Averina Razali",
+    "image": "Miranda.jpg",
+    "major": "PSY/2"
+  }
+]

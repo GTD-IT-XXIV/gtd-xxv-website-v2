@@ -1,0 +1,30 @@
+.nav-item {
+  font-family: "InsideOut";
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .nav-links {
+    display: none;
+  }
+
+  .navbar .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar .nav-links a {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .hamburger {
+    display: block;
+  }
+}

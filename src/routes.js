@@ -50,7 +50,7 @@ const routes = [
   {
     id: 7,
     name: "FAQ",
-    path: "/faq",
+    path: "/registration",
     component: <FAQ />,
   },
   {

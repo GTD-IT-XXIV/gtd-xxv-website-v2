@@ -1,22 +1,11 @@
-import { useState } from "react";
-import "./fear.css";
-
+import House from "../House";
+import houses from "../houses";
+import { useEffect } from "react";
 const Fear = () => {
-  const [visible, setVisible] = useState(false);
-
-  function handleClick() {
-    setVisible(visible ? false : true);
-  }
-
-  return (
-    <>
-      <div className="fear">
-        <div className="navigationContainer">
-          <p className="text-6xl text-red-500">Fear</p>
-        </div>
-      </div>
-    </>
-  );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return <House house={houses.fear} />;
 };
 
 export default Fear;

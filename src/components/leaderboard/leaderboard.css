@@ -1,3 +1,39 @@
+@import url(../../index.css);
+
 .leaderboard {
   flex: 1;
+  background: rgb(25, 15, 62);
+  background: linear-gradient(
+    180deg,
+    rgba(25, 15, 62, 1) 0%,
+    rgba(126, 64, 129, 1) 50%,
+    rgba(25, 15, 62, 1) 100%
+  );
+}
+.container {
+  font-family: InsideOut;
+}
+.container-full {
+  background: linear-gradient(#23174a, #743c7c);
+}
+
+.h1 {
+  text-shadow: 3px 3px 0px #c13e3e;
+  -webkit-text-stroke: 1px #c13e3e;
+}
+
+.button {
+  /* z-index: 100; */
+  position: relative;
+}
+
+.select {
+  z-index: 100;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .web-button-size {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
 }
