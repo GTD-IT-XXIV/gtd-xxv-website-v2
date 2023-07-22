@@ -20,16 +20,16 @@ const accordionItems = [
   {
     question: "2. How can I to register?",
     content:
-      "You can register yourself by filling up the registration form attached in this page. If you have further questions feel free to DM us on instagram @pintugtd. To reach us via telegram, please refer to contact us section below.",
+      "You can register yourself by filling up the registration form attached in this page. If you have further questions feel free to DM us on instagram @pintugtd. To reach us via telegram, please refer to Contact Us section on this page",
   },
   {
     question: "3. Where, when, and how long will the programs be conducted?",
-    content: "Refer to the Event page section on our website!",
+    content: "Refer to the Events page section on our website!",
   },
   {
     question: "4. How much does the orientation cost?",
     content:
-      "It only costs $25. The price includes our annual GTD T-Shirt, dinner on and bus accommodation on 7 Aug, and many more!",
+      "It only costs $25. The price includes our annual GTD T-Shirt, dinner and bus accommodation on 7 Aug, and many more!",
   },
 ];
 
