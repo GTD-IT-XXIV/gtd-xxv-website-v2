@@ -807,10 +807,10 @@
   {
     "role": "Sub",
     "team": "GL",
-    "nickname": "Kezia",
-    "name": "Kezia Aprilia Sanjaya",
-    "image": "Kezia.jpg",
-    "major": "ECDS/2"
+    "nickname": "Maggie",
+    "name": "Margaretha Exaudi Siahaan",
+    "image": "Maggie.jpg",
+    "major": "CEE/2"
   },
   {
     "role": "Sub",
@@ -839,11 +839,12 @@
   {
     "role": "Sub",
     "team": "GL",
-    "nickname": "Maggie",
-    "name": "Margaretha Exaudi Siahaan",
-    "image": "Maggie.jpg",
-    "major": "CEE/2"
+    "nickname": "Kezia",
+    "name": "Kezia Aprilia Sanjaya",
+    "image": "Kezia.jpg",
+    "major": "ECDS/2"
   },
+
   {
     "role": "Sub",
     "team": "GL",
