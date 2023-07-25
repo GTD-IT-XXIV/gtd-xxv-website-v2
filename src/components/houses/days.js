@@ -90,7 +90,7 @@ const days = [
         "bg-gradient-to-b from-[#F9E6B5] from-[6.68%] to-[#328A7A] to-[93.32%]",
       video: img2,
 
-      location: "Siloso Beach",
+      location: "Sentosa",
       time: "14.00 - 19:00",
     },
   },
