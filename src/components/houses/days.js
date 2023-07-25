@@ -201,7 +201,7 @@ const days = [
       twBackground:
         "bg-gradient-to-b from-black from-[0.39%] to-[#674A00] to-[92.62%]",
       video: img4,
-      location: "Scape",
+      location: "Orchard",
       time: "17:00-23:00",
     },
   },
