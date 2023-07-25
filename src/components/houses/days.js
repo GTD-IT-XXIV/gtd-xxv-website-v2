@@ -48,7 +48,7 @@ const days = [
         "bg-gradient-to-t from-[#233C55] from-[2.47%] to-[#8A90C9] to-[94.42%]",
       video: img1,
       location: "NTU",
-      time: "19.45 - 23:15",
+      time: "19.45 - 23:00",
     },
   },
   {
@@ -91,7 +91,7 @@ const days = [
       video: img2,
 
       location: "Siloso Beach",
-      time: "13.45 - 19:30",
+      time: "14.00 - 19:00",
     },
   },
   {
