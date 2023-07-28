@@ -1,6 +1,8 @@
 import "../../index.css";
 import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
+import sponsor1 from "./images/sponsor1.png";
+import sponsor2 from "./images/sponsor2.png";
 import "./about.css";
 const About = () => {
   return (
@@ -85,7 +87,26 @@ const About = () => {
               </a>
             </div>
           </div>
-
+          <div class="mx-auto py-10">
+            <p
+              style={{ fontFamily: "InsideOut" }}
+              class="text-3xl md:text-5xl text-white text-center"
+            >
+              Check out our sponsor
+            </p>
+            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-x mb-10">
+              <img
+                src={sponsor1}
+                class="h-full w-75 md:w-full mx-auto md:scale-[120%]"
+              ></img>
+            </div>
+            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-xl">
+              <img
+                src={sponsor2}
+                class="h-full w-75 md:w-full mx-auto md:scale-[120%]"
+              ></img>
+            </div>
+          </div>
           <div class="mx-auto py-20">
             <p
               style={{ fontFamily: "InsideOut" }}
