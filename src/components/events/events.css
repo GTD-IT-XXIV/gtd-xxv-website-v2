@@ -17,12 +17,23 @@
 }
 
 .event-paragraph {
-  font-size: 30px;
+  font-size: 25px;
 }
 
-/* Adjust font size for mobile view */
 @media only screen and (max-width: 767px) {
   .event-paragraph {
     font-size: 7px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .event-paragraph {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 766px) {
+  .event-paragraph {
+    font-size: 5.5px;
   }
 }
