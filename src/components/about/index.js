@@ -3,6 +3,7 @@ import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
 import sponsor1 from "./images/sponsor1.png";
 import sponsor2 from "./images/sponsor2.png";
+import sponsor3 from "./images/sponsor2.png";
 import "./about.css";
 const About = () => {
   return (
@@ -90,20 +91,26 @@ const About = () => {
           <div class="mx-auto py-10">
             <p
               style={{ fontFamily: "InsideOut" }}
-              class="text-3xl md:text-5xl text-white text-center"
+              class="text-3xl md:text-5xl text-white text-center mb-10"
             >
-              Check out our sponsor
+              Check Out Our Sponsors!
             </p>
             <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-x mb-10">
               <img
                 src={sponsor1}
-                class="h-full w-75 md:w-full mx-auto md:scale-[120%]"
+                class="h-full w-50 md:w-full mx-auto md:scale-[120%]"
               ></img>
             </div>
             <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-xl">
               <img
                 src={sponsor2}
-                class="h-full w-75 md:w-full mx-auto md:scale-[120%]"
+                class="h-full w-50 md:w-full mx-auto md:scale-[120%]"
+              ></img>
+            </div>
+            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-xl">
+              <img
+                src={sponsor2}
+                class="h-full w-50 md:w-full mx-auto md:scale-[120%]"
               ></img>
             </div>
           </div>

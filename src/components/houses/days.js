@@ -37,7 +37,7 @@ const days = [
       },
       date: {
         text: "4 Aug",
-        datetime: "2023-07-29",
+        datetime: "2023-07-28",
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
@@ -79,7 +79,7 @@ const days = [
       },
       date: {
         text: "5 Aug",
-        datetime: "2023-07-29",
+        datetime: "2023-07-28",
         twRotate: "rotate-[-7.49deg]",
       },
       twBorder:
@@ -122,7 +122,7 @@ const days = [
       },
       date: {
         text: "6 Aug",
-        datetime: "2023-07-29",
+        datetime: "2023-07-28",
         twRotate: "rotate-[0deg]",
       },
       twBorder:
@@ -190,7 +190,7 @@ const days = [
       },
       date: {
         text: "7 Aug",
-        datetime: "2023-07-29",
+        datetime: "2023-07-28",
         twRotate:
           "rotate-[-15.85deg] -translate-x-4 -translate-y-9 sm:-translate-x-7 sm:-translate-y-14 md:-translate-x-8 md:-translate-y-[3.75rem] lg:-translate-x-11 lg:-translate-y-20",
       },
