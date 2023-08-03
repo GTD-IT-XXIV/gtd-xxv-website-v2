@@ -95,13 +95,13 @@ const About = () => {
             >
               Check Out Our Sponsors!
             </p>
-            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-x mb-10">
+            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-x mb-8">
               <img
                 src={sponsor1}
                 class="h-full w-50 md:w-full mx-auto md:scale-[120%]"
               ></img>
             </div>
-            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-xl">
+            <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-xl mb-8">
               <img
                 src={sponsor2}
                 class="h-full w-50 md:w-full mx-auto md:scale-[120%]"
@@ -109,7 +109,7 @@ const About = () => {
             </div>
             <div class="mx-auto md:mb-[50px] md:mt-[30px] sm:max-md:w-4/5 md:w-[500px] rounded-xl">
               <img
-                src={sponsor2}
+                src={sponsor3}
                 class="h-full w-50 md:w-full mx-auto md:scale-[120%]"
               ></img>
             </div>
