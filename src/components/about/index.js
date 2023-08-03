@@ -3,7 +3,7 @@ import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
 import sponsor1 from "./images/sponsor1.png";
 import sponsor2 from "./images/sponsor2.png";
-import sponsor3 from "./images/sponsor2.png";
+import sponsor3 from "./images/sponsor3.png";
 import "./about.css";
 const About = () => {
   return (
